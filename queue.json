@@ -140,7 +140,18 @@
       "first_comment": "#watchdogs #aidenpearce #carchase #highspeedpursuit #speedreels #actionpacked #ubisoft #ubisoftgames #openworld #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #cyberpunk #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "visual_prompt": "Ultra-realistic cinematic 8k footage, night rainstorm. Aiden's black station wagon SUV spins violently out of control on wet asphalt highway after front tire blowout, sparks flying against concrete divider. Camera tracks in dynamic slow motion at 60fps as the car flips mid-air, rolling two full rotations, windshield shattering into thousands of rain-lit crystal shards. Interior flashes reveal Aiden shielding nephew Jackson while Lena's yellow coat tumbles in the rear seat. Photorealistic physics, volumetric spray, neon streetlight reflections.",
+      "camera_lighting": "Cinematic Slow-Mo Tracking 60fps, low-angle rotating around spinning car",
+      "dialogue_text": "एडेन: लीना! जैकसन! कसके पकड़ो!",
+      "sfx_description": "टायर फटने की तीखी आवाज़, धातु के घिसने की भयानक चीख, कांच के बिखरने का स्लो-मोशन साउंड, बैकग्राउंड में तेज़ बारिश की गर्जना।",
+      "scene_synopsis": "POV: Highway Crash & Car Flip",
+      "script_data": {
+        "bg_prompt": "Ultra-realistic cinematic 8k footage, night rainstorm. Aiden's black station wagon SUV spins violently out of control on wet asphalt highway after front tire blowout, sparks flying against concrete divider. Camera tracks in dynamic slow motion at 60fps as the car flips mid-air, rolling two full rotations, windshield shattering into thousands of rain-lit crystal shards. Interior flashes reveal Aiden shielding nephew Jackson while Lena's yellow coat tumbles in the rear seat. Photorealistic physics, volumetric spray, neon streetlight reflections.",
+        "camera_lighting": "Cinematic Slow-Mo Tracking 60fps, low-angle rotating around spinning car",
+        "dialogue_hi": "एडेन: लीना! जैकसन! कसके पकड़ो!",
+        "sfx": "टायर फटने की तीखी आवाज़, धातु के घिसने की भयानक चीख, कांच के बिखरने का स्लो-मोशन साउंड, बैकग्राउंड में तेज़ बारिश की गर्जना।"
+      }
     },
     {
       "id": "watchdogs_ep07",
@@ -171,7 +182,14 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "scene_synopsis": "POV: Aiden Pearce Crawling From The Wreckage",
+      "script_data": {
+        "bg_prompt": "Cinematic 8k, night, heavy downpour. Overturned black SUV resting in roadside concrete ditch, radiator steam hissing into the cold air. Aiden Pearce [Anchor: Aiden Pearce, bleeding forehead, torn charcoal coat sleeve, muddy hands] kicks open shattered driver door and painfully crawls out on muddy grass. Rain pours relentlessly on his bruised face as he coughs, frantic eyes widening in sudden realization. Camera pans rapidly to the crushed rear passenger window as he claws toward the back seat.",
+        "camera_lighting": "Ground Level Dutch Angle, zooming into Aiden's bruised face",
+        "dialogue_hi": "एडेन: लीना... मेरी बच्ची! लीना... क्या तुम मुझे सुन सकती हो?!",
+        "sfx": "जलते इंजन की सिसकारी, टूटे कांच पर हाथ के घिसने की आवाज़, मूसलाधार बारिश की थपथपाहट, एडेन की भारी सांस।"
+      }
     },
     {
       "id": "watchdogs_ep08",
@@ -202,7 +220,14 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "scene_synopsis": "POV: Fatal Rain, Lena's Pulse & Maurice's Escape",
+      "script_data": {
+        "bg_prompt": "Deep cinematic wide shot, neo-noir lighting. Aiden Pearce kneeling in pouring rain on the grass beside the flipped car, desperately cradling limp 6-year-old Lena Pearce [Anchor: Lena Pearce, yellow raincoat soaked, peaceful unconscious pale face, clutching muddy toy rabbit]. Aiden presses his hand to her pulse, tears mixing with rainwater on his cheeks. High angle pulls back to reveal distant highway overpass where Maurice Vega [Anchor: Maurice Vega, dark hooded windbreaker] lowers binoculars, slips his suppressed gun into coat, and walks into shadows of an awaiting sedan.",
+        "camera_lighting": "High-angle Crane Pull-back transitioning to highway overpass cut",
+        "dialogue_hi": "एडेन: नहीं... नहीं, नहीं! लीना आँख खोलो बेटा... अंकल को छोड़कर मत जाओ!",
+        "sfx": "एडेन की रुलाई, दिल की धड़कन का धीमा होता धक-धक, दूर से आती एम्बुलेंस और पुलिस सायरन की गूंज।"
+      }
     },
     {
       "id": "watchdogs_ep09",
@@ -233,7 +258,14 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "scene_synopsis": "POV: Hospital Flatline & Nicole's Grief",
+      "script_data": {
+        "bg_prompt": "Cinematic photorealistic 8k, interior Chicago Memorial hospital emergency wing. Aiden Pearce [Anchor: Aiden Pearce, head bandaged, bruised jaw, wet clothes] stands frozen against cold grey hospital wall. His sister Nicole is collapsed on waiting room chairs sobbing hysterically into doctor's chest. In the background through double glass doors, medical team unhooks defibrillator paddles as a cardiac monitor displays a continuous flatline. Harsh cold lighting, atmospheric depth of field, devastating grief.",
+        "camera_lighting": "Cold Hospital Corridor Dolly Shot, stark fluorescent lighting",
+        "dialogue_hi": "डॉक्टर: हम बहुत शर्मिंदा हैं... हमने बच्ची को बचाने की पूरी कोशिश की, लेकिन बहुत देर हो चुकी थी। निकोल: एडेन... यह सब तुम्हारी वजह से हुआ है! तुमने मेरी बच्ची छीन ली!",
+        "sfx": "ईसीजी मॉनिटर की फ्लैटलाइन बीप, निकोल की दर्दनाक चीख, वेंटिलेटर की धीमी हवा।"
+      }
     },
     {
       "id": "watchdogs_ep10",
@@ -264,7 +296,14 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "scene_synopsis": "POV: Graveyard & The Vigilante's Oath",
+      "script_data": {
+        "bg_prompt": "Cinematic master shot, gloomy Chicago cemetery under slate-grey overcast sky. Aiden Pearce standing in front of fresh white marble headstone engraved 'Lena Pearce 2006-2012'. Aiden places a small white flower on the gravestone. He reaches into his trenchcoat pocket, pulls out a black iconic baseball cap with fox insignia, firmly puts it on, and pulls up a black half-face neoprene mask covering his mouth. He draws a custom smartphone with glowing ctOS interface. Camera closes into his cold, vengeful eyes. Masterpiece neo-noir.",
+        "camera_lighting": "Slow Dramatic Push-in from Lena's marble headstone to Aiden's face",
+        "dialogue_hi": "एडेन: लीना, मैं तुम्हें वापस नहीं ला सकता... लेकिन जिसने भी यह करवाया है, वो इस शहर में ज़िंदा नहीं बचेगा। मैं कानून नहीं बनूँगा... मैं उनका काल बनूँगा।",
+        "sfx": "हवा की सरसराहट, पत्तों की खड़खड़ाहट, कपड़े की ज़िप खींचने की आवाज़, स्मार्टफोन के ctOS बूट-अप की इलेक्ट्रॉनिक डिजिटल चाइम आवाज़।"
+      }
     },
     {
       "id": "watchdogs_ep11",
@@ -295,7 +334,14 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "scene_synopsis": "POV: The First Live ctOS City Hack",
+      "script_data": {
+        "bg_prompt": "Cinematic 8k, rainy night downtown Chicago Loop. Aiden Pearce in full Vigilante attire [Anchor: Aiden Pearce, cap, face mask, grey trenchcoat billowing in wind] stands on a fire escape overlooking crowded illuminated intersection. He taps his smartphone screen; dynamic AR overlay lines (Augmented Reality ctOS network nodes) illuminate across the street, traffic lights turn green in all four directions simultaneously, causing a dramatic cross-junction police cruiser crash. Steam vents explode in the street. Aiden turns and walks silently into the rooftop shadow.",
+        "camera_lighting": "Third-person Over-The-Shoulder Dynamic cityscape pan",
+        "dialogue_hi": "एडेन: पूरा शहर एक कोड है... और इस कोड की चाबी अब मेरे हाथ में है।",
+        "sfx": "स्मार्टफोन का हैक बीप, ट्रैफिक सिग्नल का बदलना, कारों की टक्कर का मेटल क्रैश, स्टीम पाइप का सीटी मारता विस्फोट।"
+      }
     },
     {
       "id": "watchdogs_ep12",
@@ -326,7 +372,14 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "scene_synopsis": "POV: Cornering Maurice Vega At May Stadium",
+      "script_data": {
+        "bg_prompt": "Cinematic 8k, moody high-contrast lighting, underground tunnel of May Stadium during baseball game. Distant crowd roar muffled. Maurice Vega [Anchor: Maurice Vega, nervous, bruised, hoodie on] counting roll of cash under a flickering fluorescent tube. Suddenly, shadows bend; Aiden Pearce steps out of the darkness holding a black tactical baton. Before Maurice can draw his pistol, Aiden strikes the gun from his hand, slams Maurice violently against a metal locker, pressing his forearm against Maurice's throat.",
+        "camera_lighting": "Chiaroscuro Silhouette Entrance, deep shadows and flickering tube lights",
+        "dialogue_hi": "मौरिस: तू... तू तो उस दिन मर गया था! एडेन: मुझे सिर्फ एक नाम चाहिए मौरिस... उस दिन उस टनल में गोली चलाने का हुक्म किसने दिया था?!",
+        "sfx": "धातु के लॉकर पर जोरदार टक्कर का धमाका, रिवॉल्वर का फर्श पर फिसलना, ऊपर स्टेडियम में हज़ारों दर्शकों के शोर की गूंज।"
+      }
     },
     {
       "id": "series_1793626924_ep01",
@@ -767,10 +820,15 @@
       "scheduled_for": "2026-11-05 19:30",
       "date_str": "05 Nov (Thu)",
       "title": "पीओवी: डेयरी के गोदाम में रात का छापा",
-      "scene_synopsis": "हीरो सबूत ढूंढने के लिए चुपके से विलेन के गोदाम में घुसता है, लेकिन तभी विलेन टॉर्च लेकर सामने आ जाता है।",
+      "scene_synopsis": "POV: Highway Crash & Car Flip",
       "language": "hi",
       "status": "scheduled",
-      "script_data": {},
+      "script_data": {
+        "bg_prompt": "Ultra-realistic cinematic 8k footage, night rainstorm. Aiden's black station wagon SUV spins violently out of control on wet asphalt highway after front tire blowout, sparks flying against concrete divider. Camera tracks in dynamic slow motion at 60fps as the car flips mid-air, rolling two full rotations, windshield shattering into thousands of rain-lit crystal shards. Interior flashes reveal Aiden shielding nephew Jackson while Lena's yellow coat tumbles in the rear seat. Photorealistic physics, volumetric spray, neon streetlight reflections.",
+        "camera_lighting": "Cinematic Slow-Mo Tracking 60fps, low-angle rotating around spinning car",
+        "dialogue_hi": "एडेन: लीना! जैकसन! कसके पकड़ो!",
+        "sfx": "टायर फटने की तीखी आवाज़, धातु के घिसने की भयानक चीख, कांच के बिखरने का स्लो-मोशन साउंड, बैकग्राउंड में तेज़ बारिश की गर्जना।"
+      },
       "video_file": null,
       "caption": "⚡ पीओवी: डेयरी के गोदाम में रात का छापा\n\nEpisode 6 of the #GaonFunnyStoryOnMilkman saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#gaonfunnystoryonmilkman #movie #reels #explorepage #viralreels",
       "first_comment": "#gaonfunnystoryonmilkman #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
@@ -779,7 +837,11 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "visual_prompt": "Ultra-realistic cinematic 8k footage, night rainstorm. Aiden's black station wagon SUV spins violently out of control on wet asphalt highway after front tire blowout, sparks flying against concrete divider. Camera tracks in dynamic slow motion at 60fps as the car flips mid-air, rolling two full rotations, windshield shattering into thousands of rain-lit crystal shards. Interior flashes reveal Aiden shielding nephew Jackson while Lena's yellow coat tumbles in the rear seat. Photorealistic physics, volumetric spray, neon streetlight reflections.",
+      "camera_lighting": "Cinematic Slow-Mo Tracking 60fps, low-angle rotating around spinning car",
+      "dialogue_text": "एडेन: लीना! जैकसन! कसके पकड़ो!",
+      "sfx_description": "टायर फटने की तीखी आवाज़, धातु के घिसने की भयानक चीख, कांच के बिखरने का स्लो-मोशन साउंड, बैकग्राउंड में तेज़ बारिश की गर्जना।"
     },
     {
       "id": "series_1793626924_ep07",
@@ -792,10 +854,15 @@
       "scheduled_for": "2026-11-06 09:00",
       "date_str": "06 Nov (Fri)",
       "title": "पीओवी: चोरी का झूठा इल्जाम और पंचायत का फैसला",
-      "scene_synopsis": "विलेन उल्टे हीरो पर ही गोदाम में चोरी करने का केस ठोक देता है, पंचायत हीरो को दोषी मान लेती है।",
+      "scene_synopsis": "POV: Aiden Pearce Crawling From The Wreckage",
       "language": "hi",
       "status": "scheduled",
-      "script_data": {},
+      "script_data": {
+        "bg_prompt": "Cinematic 8k, night, heavy downpour. Overturned black SUV resting in roadside concrete ditch, radiator steam hissing into the cold air. Aiden Pearce [Anchor: Aiden Pearce, bleeding forehead, torn charcoal coat sleeve, muddy hands] kicks open shattered driver door and painfully crawls out on muddy grass. Rain pours relentlessly on his bruised face as he coughs, frantic eyes widening in sudden realization. Camera pans rapidly to the crushed rear passenger window as he claws toward the back seat.",
+        "camera_lighting": "Ground Level Dutch Angle, zooming into Aiden's bruised face",
+        "dialogue_hi": "एडेन: लीना... मेरी बच्ची! लीना... क्या तुम मुझे सुन सकती हो?!",
+        "sfx": "जलते इंजन की सिसकारी, टूटे कांच पर हाथ के घिसने की आवाज़, मूसलाधार बारिश की थपथपाहट, एडेन की भारी सांस।"
+      },
       "video_file": null,
       "caption": "⚡ पीओवी: चोरी का झूठा इल्जाम और पंचायत का फैसला\n\nEpisode 7 of the #GaonFunnyStoryOnMilkman saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#gaonfunnystoryonmilkman #movie #reels #explorepage #viralreels",
       "first_comment": "#gaonfunnystoryonmilkman #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
@@ -804,7 +871,11 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "visual_prompt": "Cinematic 8k, night, heavy downpour. Overturned black SUV resting in roadside concrete ditch, radiator steam hissing into the cold air. Aiden Pearce [Anchor: Aiden Pearce, bleeding forehead, torn charcoal coat sleeve, muddy hands] kicks open shattered driver door and painfully crawls out on muddy grass. Rain pours relentlessly on his bruised face as he coughs, frantic eyes widening in sudden realization. Camera pans rapidly to the crushed rear passenger window as he claws toward the back seat.",
+      "camera_lighting": "Ground Level Dutch Angle, zooming into Aiden's bruised face",
+      "dialogue_text": "एडेन: लीना... मेरी बच्ची! लीना... क्या तुम मुझे सुन सकती हो?!",
+      "sfx_description": "जलते इंजन की सिसकारी, टूटे कांच पर हाथ के घिसने की आवाज़, मूसलाधार बारिश की थपथपाहट, एडेन की भारी सांस।"
     },
     {
       "id": "series_1793626924_ep08",
@@ -817,10 +888,15 @@
       "scheduled_for": "2026-11-06 19:30",
       "date_str": "06 Nov (Fri)",
       "title": "पीओवी: सबसे करीबी दोस्त का बड़ा धोखा",
-      "scene_synopsis": "हीरो का पक्का मददगार दोस्त ही विलेन से पैसे लेते हुए रंगे हाथों पकड़ा जाता है।",
+      "scene_synopsis": "POV: Fatal Rain, Lena's Pulse & Maurice's Escape",
       "language": "hi",
       "status": "scheduled",
-      "script_data": {},
+      "script_data": {
+        "bg_prompt": "Deep cinematic wide shot, neo-noir lighting. Aiden Pearce kneeling in pouring rain on the grass beside the flipped car, desperately cradling limp 6-year-old Lena Pearce [Anchor: Lena Pearce, yellow raincoat soaked, peaceful unconscious pale face, clutching muddy toy rabbit]. Aiden presses his hand to her pulse, tears mixing with rainwater on his cheeks. High angle pulls back to reveal distant highway overpass where Maurice Vega [Anchor: Maurice Vega, dark hooded windbreaker] lowers binoculars, slips his suppressed gun into coat, and walks into shadows of an awaiting sedan.",
+        "camera_lighting": "High-angle Crane Pull-back transitioning to highway overpass cut",
+        "dialogue_hi": "एडेन: नहीं... नहीं, नहीं! लीना आँख खोलो बेटा... अंकल को छोड़कर मत जाओ!",
+        "sfx": "एडेन की रुलाई, दिल की धड़कन का धीमा होता धक-धक, दूर से आती एम्बुलेंस और पुलिस सायरन की गूंज।"
+      },
       "video_file": null,
       "caption": "⚡ पीओवी: सबसे करीबी दोस्त का बड़ा धोखा\n\nEpisode 8 of the #GaonFunnyStoryOnMilkman saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#gaonfunnystoryonmilkman #movie #reels #explorepage #viralreels",
       "first_comment": "#gaonfunnystoryonmilkman #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
@@ -829,7 +905,11 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "visual_prompt": "Deep cinematic wide shot, neo-noir lighting. Aiden Pearce kneeling in pouring rain on the grass beside the flipped car, desperately cradling limp 6-year-old Lena Pearce [Anchor: Lena Pearce, yellow raincoat soaked, peaceful unconscious pale face, clutching muddy toy rabbit]. Aiden presses his hand to her pulse, tears mixing with rainwater on his cheeks. High angle pulls back to reveal distant highway overpass where Maurice Vega [Anchor: Maurice Vega, dark hooded windbreaker] lowers binoculars, slips his suppressed gun into coat, and walks into shadows of an awaiting sedan.",
+      "camera_lighting": "High-angle Crane Pull-back transitioning to highway overpass cut",
+      "dialogue_text": "एडेन: नहीं... नहीं, नहीं! लीना आँख खोलो बेटा... अंकल को छोड़कर मत जाओ!",
+      "sfx_description": "एडेन की रुलाई, दिल की धड़कन का धीमा होता धक-धक, दूर से आती एम्बुलेंस और पुलिस सायरन की गूंज।"
     },
     {
       "id": "series_1793626924_ep09",
@@ -842,10 +922,15 @@
       "scheduled_for": "2026-11-07 09:00",
       "date_str": "07 Nov (Sat)",
       "title": "पीओवी: टूट चुका हीरो और उसकी आखिरी उम्मीद",
-      "scene_synopsis": "सब कुछ हारने के बाद हीरो सुबह अकेले अपनी साइकिल लेकर फिर से दूध बेचने निकलता है, संकल्प के साथ।",
+      "scene_synopsis": "POV: Hospital Flatline & Nicole's Grief",
       "language": "hi",
       "status": "scheduled",
-      "script_data": {},
+      "script_data": {
+        "bg_prompt": "Cinematic photorealistic 8k, interior Chicago Memorial hospital emergency wing. Aiden Pearce [Anchor: Aiden Pearce, head bandaged, bruised jaw, wet clothes] stands frozen against cold grey hospital wall. His sister Nicole is collapsed on waiting room chairs sobbing hysterically into doctor's chest. In the background through double glass doors, medical team unhooks defibrillator paddles as a cardiac monitor displays a continuous flatline. Harsh cold lighting, atmospheric depth of field, devastating grief.",
+        "camera_lighting": "Cold Hospital Corridor Dolly Shot, stark fluorescent lighting",
+        "dialogue_hi": "डॉक्टर: हम बहुत शर्मिंदा हैं... हमने बच्ची को बचाने की पूरी कोशिश की, लेकिन बहुत देर हो चुकी थी। निकोल: एडेन... यह सब तुम्हारी वजह से हुआ है! तुमने मेरी बच्ची छीन ली!",
+        "sfx": "ईसीजी मॉनिटर की फ्लैटलाइन बीप, निकोल की दर्दनाक चीख, वेंटिलेटर की धीमी हवा।"
+      },
       "video_file": null,
       "caption": "⚡ पीओवी: टूट चुका हीरो और उसकी आखिरी उम्मीद\n\nEpisode 9 of the #GaonFunnyStoryOnMilkman saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#gaonfunnystoryonmilkman #movie #reels #explorepage #viralreels",
       "first_comment": "#gaonfunnystoryonmilkman #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
@@ -854,7 +939,11 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "visual_prompt": "Cinematic photorealistic 8k, interior Chicago Memorial hospital emergency wing. Aiden Pearce [Anchor: Aiden Pearce, head bandaged, bruised jaw, wet clothes] stands frozen against cold grey hospital wall. His sister Nicole is collapsed on waiting room chairs sobbing hysterically into doctor's chest. In the background through double glass doors, medical team unhooks defibrillator paddles as a cardiac monitor displays a continuous flatline. Harsh cold lighting, atmospheric depth of field, devastating grief.",
+      "camera_lighting": "Cold Hospital Corridor Dolly Shot, stark fluorescent lighting",
+      "dialogue_text": "डॉक्टर: हम बहुत शर्मिंदा हैं... हमने बच्ची को बचाने की पूरी कोशिश की, लेकिन बहुत देर हो चुकी थी। निकोल: एडेन... यह सब तुम्हारी वजह से हुआ है! तुमने मेरी बच्ची छीन ली!",
+      "sfx_description": "ईसीजी मॉनिटर की फ्लैटलाइन बीप, निकोल की दर्दनाक चीख, वेंटिलेटर की धीमी हवा।"
     },
     {
       "id": "series_1793626924_ep10",
@@ -867,10 +956,15 @@
       "scheduled_for": "2026-11-07 19:30",
       "date_str": "07 Nov (Sat)",
       "title": "पीओवी: गाँव की महिलाओं का ऐतिहासिक पलटाव",
-      "scene_synopsis": "गाँव की औरतें विलेन के नकली दूध का पर्दाफाश करती हैं और हीरो के समर्थन में खड़ी हो जाती हैं।",
+      "scene_synopsis": "POV: Graveyard & The Vigilante's Oath",
       "language": "hi",
       "status": "scheduled",
-      "script_data": {},
+      "script_data": {
+        "bg_prompt": "Cinematic master shot, gloomy Chicago cemetery under slate-grey overcast sky. Aiden Pearce standing in front of fresh white marble headstone engraved 'Lena Pearce 2006-2012'. Aiden places a small white flower on the gravestone. He reaches into his trenchcoat pocket, pulls out a black iconic baseball cap with fox insignia, firmly puts it on, and pulls up a black half-face neoprene mask covering his mouth. He draws a custom smartphone with glowing ctOS interface. Camera closes into his cold, vengeful eyes. Masterpiece neo-noir.",
+        "camera_lighting": "Slow Dramatic Push-in from Lena's marble headstone to Aiden's face",
+        "dialogue_hi": "एडेन: लीना, मैं तुम्हें वापस नहीं ला सकता... लेकिन जिसने भी यह करवाया है, वो इस शहर में ज़िंदा नहीं बचेगा। मैं कानून नहीं बनूँगा... मैं उनका काल बनूँगा।",
+        "sfx": "हवा की सरसराहट, पत्तों की खड़खड़ाहट, कपड़े की ज़िप खींचने की आवाज़, स्मार्टफोन के ctOS बूट-अप की इलेक्ट्रॉनिक डिजिटल चाइम आवाज़।"
+      },
       "video_file": null,
       "caption": "⚡ पीओवी: गाँव की महिलाओं का ऐतिहासिक पलटाव\n\nEpisode 10 of the #GaonFunnyStoryOnMilkman saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#gaonfunnystoryonmilkman #movie #reels #explorepage #viralreels",
       "first_comment": "#gaonfunnystoryonmilkman #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
@@ -879,7 +973,11 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "visual_prompt": "Cinematic master shot, gloomy Chicago cemetery under slate-grey overcast sky. Aiden Pearce standing in front of fresh white marble headstone engraved 'Lena Pearce 2006-2012'. Aiden places a small white flower on the gravestone. He reaches into his trenchcoat pocket, pulls out a black iconic baseball cap with fox insignia, firmly puts it on, and pulls up a black half-face neoprene mask covering his mouth. He draws a custom smartphone with glowing ctOS interface. Camera closes into his cold, vengeful eyes. Masterpiece neo-noir.",
+      "camera_lighting": "Slow Dramatic Push-in from Lena's marble headstone to Aiden's face",
+      "dialogue_text": "एडेन: लीना, मैं तुम्हें वापस नहीं ला सकता... लेकिन जिसने भी यह करवाया है, वो इस शहर में ज़िंदा नहीं बचेगा। मैं कानून नहीं बनूँगा... मैं उनका काल बनूँगा।",
+      "sfx_description": "हवा की सरसराहट, पत्तों की खड़खड़ाहट, कपड़े की ज़िप खींचने की आवाज़, स्मार्टफोन के ctOS बूट-अप की इलेक्ट्रॉनिक डिजिटल चाइम आवाज़।"
     },
     {
       "id": "series_1793626924_ep11",
@@ -892,10 +990,15 @@
       "scheduled_for": "2026-11-08 09:00",
       "date_str": "08 Nov (Sun)",
       "title": "पीओवी: विलेन के कारखाने की तरफ अंतिम मार्च",
-      "scene_synopsis": "हीरो और पूरा गाँव मिलकर विलेन के अवैध मिलावटी कारखाने की तरफ धावा बोलने निकलते हैं।",
+      "scene_synopsis": "POV: The First Live ctOS City Hack",
       "language": "hi",
       "status": "scheduled",
-      "script_data": {},
+      "script_data": {
+        "bg_prompt": "Cinematic 8k, rainy night downtown Chicago Loop. Aiden Pearce in full Vigilante attire [Anchor: Aiden Pearce, cap, face mask, grey trenchcoat billowing in wind] stands on a fire escape overlooking crowded illuminated intersection. He taps his smartphone screen; dynamic AR overlay lines (Augmented Reality ctOS network nodes) illuminate across the street, traffic lights turn green in all four directions simultaneously, causing a dramatic cross-junction police cruiser crash. Steam vents explode in the street. Aiden turns and walks silently into the rooftop shadow.",
+        "camera_lighting": "Third-person Over-The-Shoulder Dynamic cityscape pan",
+        "dialogue_hi": "एडेन: पूरा शहर एक कोड है... और इस कोड की चाबी अब मेरे हाथ में है।",
+        "sfx": "स्मार्टफोन का हैक बीप, ट्रैफिक सिग्नल का बदलना, कारों की टक्कर का मेटल क्रैश, स्टीम पाइप का सीटी मारता विस्फोट।"
+      },
       "video_file": null,
       "caption": "⚡ पीओवी: विलेन के कारखाने की तरफ अंतिम मार्च\n\nEpisode 11 of the #GaonFunnyStoryOnMilkman saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#gaonfunnystoryonmilkman #movie #reels #explorepage #viralreels",
       "first_comment": "#gaonfunnystoryonmilkman #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
@@ -904,7 +1007,11 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "visual_prompt": "Cinematic 8k, rainy night downtown Chicago Loop. Aiden Pearce in full Vigilante attire [Anchor: Aiden Pearce, cap, face mask, grey trenchcoat billowing in wind] stands on a fire escape overlooking crowded illuminated intersection. He taps his smartphone screen; dynamic AR overlay lines (Augmented Reality ctOS network nodes) illuminate across the street, traffic lights turn green in all four directions simultaneously, causing a dramatic cross-junction police cruiser crash. Steam vents explode in the street. Aiden turns and walks silently into the rooftop shadow.",
+      "camera_lighting": "Third-person Over-The-Shoulder Dynamic cityscape pan",
+      "dialogue_text": "एडेन: पूरा शहर एक कोड है... और इस कोड की चाबी अब मेरे हाथ में है।",
+      "sfx_description": "स्मार्टफोन का हैक बीप, ट्रैफिक सिग्नल का बदलना, कारों की टक्कर का मेटल क्रैश, स्टीम पाइप का सीटी मारता विस्फोट।"
     },
     {
       "id": "series_1793626924_ep12",
@@ -917,10 +1024,15 @@
       "scheduled_for": "2026-11-08 19:30",
       "date_str": "08 Nov (Sun)",
       "title": "पीओवी: मिलावट के सारे सबूत कैमरे में कैद",
-      "scene_synopsis": "हीरो खतरनाक केमिकल से दूध बनते हुए का लाइव वीडियो बना लेता है, विलेन उसे रोकने की कोशिश करता है।",
+      "scene_synopsis": "POV: Cornering Maurice Vega At May Stadium",
       "language": "hi",
       "status": "scheduled",
-      "script_data": {},
+      "script_data": {
+        "bg_prompt": "Cinematic 8k, moody high-contrast lighting, underground tunnel of May Stadium during baseball game. Distant crowd roar muffled. Maurice Vega [Anchor: Maurice Vega, nervous, bruised, hoodie on] counting roll of cash under a flickering fluorescent tube. Suddenly, shadows bend; Aiden Pearce steps out of the darkness holding a black tactical baton. Before Maurice can draw his pistol, Aiden strikes the gun from his hand, slams Maurice violently against a metal locker, pressing his forearm against Maurice's throat.",
+        "camera_lighting": "Chiaroscuro Silhouette Entrance, deep shadows and flickering tube lights",
+        "dialogue_hi": "मौरिस: तू... तू तो उस दिन मर गया था! एडेन: मुझे सिर्फ एक नाम चाहिए मौरिस... उस दिन उस टनल में गोली चलाने का हुक्म किसने दिया था?!",
+        "sfx": "धातु के लॉकर पर जोरदार टक्कर का धमाका, रिवॉल्वर का फर्श पर फिसलना, ऊपर स्टेडियम में हज़ारों दर्शकों के शोर की गूंज।"
+      },
       "video_file": null,
       "caption": "⚡ पीओवी: मिलावट के सारे सबूत कैमरे में कैद\n\nEpisode 12 of the #GaonFunnyStoryOnMilkman saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#gaonfunnystoryonmilkman #movie #reels #explorepage #viralreels",
       "first_comment": "#gaonfunnystoryonmilkman #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
@@ -929,7 +1041,11 @@
       "posted_at": null,
       "instagram_media_id": null,
       "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy"
+      "cta_handle": "@lucknowlostboy",
+      "visual_prompt": "Cinematic 8k, moody high-contrast lighting, underground tunnel of May Stadium during baseball game. Distant crowd roar muffled. Maurice Vega [Anchor: Maurice Vega, nervous, bruised, hoodie on] counting roll of cash under a flickering fluorescent tube. Suddenly, shadows bend; Aiden Pearce steps out of the darkness holding a black tactical baton. Before Maurice can draw his pistol, Aiden strikes the gun from his hand, slams Maurice violently against a metal locker, pressing his forearm against Maurice's throat.",
+      "camera_lighting": "Chiaroscuro Silhouette Entrance, deep shadows and flickering tube lights",
+      "dialogue_text": "मौरिस: तू... तू तो उस दिन मर गया था! एडेन: मुझे सिर्फ एक नाम चाहिए मौरिस... उस दिन उस टनल में गोली चलाने का हुक्म किसने दिया था?!",
+      "sfx_description": "धातु के लॉकर पर जोरदार टक्कर का धमाका, रिवॉल्वर का फर्श पर फिसलना, ऊपर स्टेडियम में हज़ारों दर्शकों के शोर की गूंज।"
     },
     {
       "id": "series_1793626924_ep13",
