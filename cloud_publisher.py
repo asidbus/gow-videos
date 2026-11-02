@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, sys, json, time, datetime, subprocess
+import os, sys, json, time, datetime, subprocess, re
 import requests
 
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
@@ -13,21 +13,40 @@ QUEUE_PATH = os.path.join(SCRIPT_DIR, "queue.json")
 def log(*args):
     print(time.strftime("%d %b %H:%M:%S"), "[CloudPublisher]", *args, flush=True)
 
-def get_ig_token() -> str:
-    # 1. Environment variable (from GitHub Actions secret)
-    token = os.environ.get("IG_TOKEN", "").strip()
-    if token:
-        return token
-    # 2. Local config file fallback
+def get_ig_token(account: str = None) -> str:
+    acc = (account or "").lower().strip().lstrip("@")
+    clean_acc = re.sub(r"[^A-Za-z0-9]", "_", acc).upper()
+
+    # 1. Check account-specific env var (e.g. IG_TOKEN_APNAAWADH, IG_TOKEN_LUCKNOWLOSTBOY)
+    if clean_acc:
+        tok = os.environ.get(f"IG_TOKEN_{clean_acc}", "").strip()
+        if tok:
+            return tok
+
+    # 2. Check general IG_TOKEN env var (matches default or single account setup)
+    default_tok = os.environ.get("IG_TOKEN", "").strip()
+    if acc in ("", "lucknowlostboy") and default_tok:
+        return default_tok
+
+    # 3. Check config.json fallback if present
     cfg_path = os.path.join(SCRIPT_DIR, "config.json")
     if os.path.exists(cfg_path):
         try:
             with open(cfg_path, "r", encoding="utf-8") as f:
                 c = json.load(f)
-                return c.get("IG_TOKEN", "").strip()
+                accs = c.get("ACCOUNTS", {})
+                if acc and acc in accs:
+                    return accs[acc].get("ig_token", "").strip()
+                if not acc:
+                    return c.get("IG_TOKEN", "").strip()
         except Exception:
             pass
-    # 3. Local token file fallback
+
+    # 4. If nothing else matched, use default_tok as last resort
+    if default_tok:
+        return default_tok
+
+    # 5. Local token file fallback
     tok_file = os.path.join(SCRIPT_DIR, "ig_token.txt")
     if os.path.exists(tok_file):
         try:
@@ -148,14 +167,17 @@ def main():
         log(f"No reels currently due for publishing. (Upcoming: {len([it for it in items if it.get('status') == 'ready'])})")
         return
 
-    token = get_ig_token()
-    if not token:
-        log("ERROR: No Instagram Access Token (IG_TOKEN) available. Please set IG_TOKEN secret!")
-        sys.exit(1)
-
     published_count = 0
     for item in due_items:
-        log(f"Processing due reel: Ep #{item.get('ep_num')} '{item.get('title')}' (Scheduled: {item.get('scheduled_for')})")
+        acc_name = item.get("account") or "lucknowlostboy"
+        token = get_ig_token(acc_name)
+        if not token:
+            log(f"ERROR: No Instagram Access Token found for account @{acc_name}! Please configure IG_TOKEN or IG_TOKEN_{acc_name.upper()}.")
+            item["status"] = "failed"
+            item["error"] = f"Missing token for @{acc_name}"
+            continue
+
+        log(f"Processing due reel: Ep #{item.get('ep_num')} '{item.get('title')}' for @{acc_name} (Scheduled: {item.get('scheduled_for')})")
         video_filename = item.get("video_filename") or f"{item.get('id')}.mp4"
         cdn_url = f"https://raw.githubusercontent.com/{GH_USER}/{GH_REPO}/main/{video_filename}"
 
@@ -188,10 +210,10 @@ def main():
             send_telegram_alert(
                 f"🎉 <b>Cloud Publisher: Reel Published to Instagram!</b>\n\n"
                 f"• <b>Title:</b> {item.get('title')}\n"
+                f"• <b>Account:</b> @{acc_name}\n"
                 f"• <b>Media ID:</b> <code>{media_id}</code>\n"
                 f"• <b>First Comment ID:</b> <code>{comment_id}</code>\n"
-                f"• <b>Published At:</b> {now_str} IST\n"
-                f"• <b>Account:</b> @lucknowlostboy"
+                f"• <b>Published At:</b> {now_str} IST"
             )
 
         except Exception as e:
