@@ -1670,31 +1670,93 @@
       "c1_name": "Aiden Pearce",
       "c2_name": "Maurice Vega",
       "language": "hi",
-      "status": "scheduled",
+      "status": "ready",
       "account": "lucknowlostboy",
       "cta_handle": "@lucknowlostboy",
       "scene_synopsis": "POV: Aiden Pearce Rainy Stakeout On Chicago Overpass",
-      "caption": "⚡ POV: Aiden Pearce Rainy Stakeout On Chicago Overpass\n\nEpisode 5 of the #WatchDogs saga! In a connected city, nobody can hide for long... 🎬💻\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #aidenpearce #ctos #dedsec #gamingreels #viralreels #explorepage #fyp",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "caption": "⚡ POV: Aiden Pearce Rainy Stakeout On Chicago Overpass\n\nEpisode 5 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #web #reels #explorepage #viralreels",
+      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "created_at": "2026-11-05T07:53:26.402016+05:30",
       "script_data": {
         "title": "POV: Aiden Pearce Rainy Stakeout On Chicago Overpass",
-        "ep_num": 5,
         "language": "hi",
-        "scheduled_for": "2026-11-07 09:00",
-        "visual_prompt": "Cinematic 8k, pouring rainstorm downtown Chicago overpass. Aiden Pearce standing hooded in dark raincoat, leaning on concrete barrier holding silenced pistol, intense eyes scanning oncoming highway traffic. Cold green highway signs and blurred headlights below.",
-        "bg_prompt": "Cinematic 8k, pouring rainstorm downtown Chicago overpass. Aiden Pearce standing hooded in dark raincoat, leaning on concrete barrier holding silenced pistol, intense eyes scanning oncoming highway traffic. Cold green highway signs and blurred headlights below.",
-        "camera_lighting": "Low-angle telephoto tracking zoom, anamorphic rain reflections",
-        "dialogue_text": "एडेन: शिकागो की इस बारिश में कोई छिप नहीं सकता... मैं उस शूटर का चेहरा कभी नहीं भूलूंगा।",
-        "sfx_description": "मूसलाधार बारिश की गूंज, दूर से आते भारी ट्रकों का हॉर्न, हवा की सरसराहट।",
+        "sfx_type": "traffic_siren",
+        "bg_prompt": "2D cartoon comic illustration of a rainy Chicago overpass at night, neon reflections on wet asphalt, blurry city lights in background, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty bridge without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a smartphone screen flashing a glowing red system blackout warning, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "hacker",
+            "hat": "cap",
+            "hair": "none",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
         "lines": [
           {
             "speaker": "c1",
-            "text": "एडेन: शिकागो की इस बारिश में कोई छिप नहीं सकता... मैं उस शूटर का चेहरा कभी नहीं भूलूंगा।"
+            "text": "इस पुल पर बारिश जितनी तेज़ है, पूरे शहर का डेटा भी उतना ही साफ़ दिख रहा है।",
+            "c1_mood": "smug",
+            "c2_mood": "neutral",
+            "c1_gesture": "typing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "तुम बेवकूफ़ों की तरह ऊपर खड़े हो! पूरी पुलिस तुम्हारे पीछे आ रही है!",
+            "c1_mood": "neutral",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "हर ट्रैफिक लाइट और सुरक्षा कैमरा मेरी उंगलियों पर काम करता है।",
+            "c1_mood": "suspicious",
+            "c2_mood": "shocked",
+            "c1_gesture": "talking",
+            "c2_gesture": "hands_on_hips",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "लेकिन तुम्हारा अपना फोन हैक हो चुका है! अब क्या करोगे?",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "वो फ़ोन तो बस एक झांसा था... असली हैक से पूरे शहर में सन्नाटा छाने वाला है!",
+            "c1_mood": "angry",
+            "c2_mood": "shocked",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": true
           }
         ],
-        "account": "lucknowlostboy"
+        "caption": "⚡ POV: Aiden Pearce Rainy Stakeout On Chicago Overpass\n\nEpisode 5 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #web #reels #explorepage #viralreels",
+        "total_words": 72,
+        "ep_num": 5,
+        "scheduled_for": "2026-11-07 09:00",
+        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep05_1793871006.mp4"
       },
+      "video_file": "/root/gow/out/ep05_1793871006.mp4",
       "video_filename": "watchdogs_ep05.mp4"
     },
     {
