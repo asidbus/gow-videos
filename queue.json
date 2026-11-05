@@ -1544,31 +1544,84 @@
       "c1_name": "Aiden Pearce",
       "c2_name": "Maurice Vega",
       "language": "hi",
-      "status": "scheduled",
+      "status": "ready",
       "account": "lucknowlostboy",
       "cta_handle": "@lucknowlostboy",
       "scene_synopsis": "POV: Fatal Rain, Lena's Pulse & Maurice's Escape",
-      "caption": "⚡ POV: Fatal Rain, Lena's Pulse & Maurice's Escape\n\nEpisode 8 of the #WatchDogs saga! In a connected city, nobody can hide for long... 🎬💻\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #aidenpearce #ctos #dedsec #gamingreels #viralreels #explorepage #fyp",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "caption": "⚡ POV: Fatal Rain, Lena's Pulse & Maurice's Escape\n\nEpisode 8 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #movie #reels #explorepage #viralreels",
+      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "created_at": "2026-11-05T07:53:26.402194+05:30",
       "script_data": {
         "title": "POV: Fatal Rain, Lena's Pulse & Maurice's Escape",
-        "ep_num": 8,
         "language": "hi",
-        "scheduled_for": "2026-11-08 19:30",
-        "visual_prompt": "Deep cinematic wide shot, neo-noir lighting. Aiden Pearce kneeling in pouring rain on the grass beside the flipped car, desperately cradling limp 6-year-old Lena Pearce [Anchor: Lena Pearce, yellow raincoat soaked, peaceful unconscious pale face, clutching muddy toy rabbit]. Aiden presses his hand to her pulse, tears mixing with rainwater on his cheeks. High angle pulls back to reveal distant highway overpass where Maurice Vega [Anchor: Maurice Vega, dark hooded windbreaker] lowers binoculars, slips his suppressed gun into coat, and walks into shadows of an awaiting sedan.",
-        "bg_prompt": "Deep cinematic wide shot, neo-noir lighting. Aiden Pearce kneeling in pouring rain on the grass beside the flipped car, desperately cradling limp 6-year-old Lena Pearce [Anchor: Lena Pearce, yellow raincoat soaked, peaceful unconscious pale face, clutching muddy toy rabbit]. Aiden presses his hand to her pulse, tears mixing with rainwater on his cheeks. High angle pulls back to reveal distant highway overpass where Maurice Vega [Anchor: Maurice Vega, dark hooded windbreaker] lowers binoculars, slips his suppressed gun into coat, and walks into shadows of an awaiting sedan.",
-        "camera_lighting": "High-angle Crane Pull-back transitioning to highway overpass cut",
-        "dialogue_text": "एडेन: नहीं... नहीं, नहीं! लीना आँख खोलो बेटा... अंकल को छोड़कर मत जाओ!",
-        "sfx_description": "एडेन की रुलाई, दिल की धड़कन का धीमा होता धक-धक, दूर से आती एम्बुलेंस और पुलिस सायरन की गूंज।",
+        "sfx_type": "traffic_siren",
+        "bg_prompt": "2D cartoon comic illustration of a dark rain-slicked bridge in Chicago, vertical 9:16, empty room without people, atmospheric cinematic lighting, neon lights reflecting on wet asphalt",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a flickering digital tablet screen showing a flatline pulse, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "cap",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "none",
+            "position": "right"
+          }
+        },
         "lines": [
           {
             "speaker": "c1",
-            "text": "एडेन: नहीं... नहीं, नहीं! लीना आँख खोलो बेटा... अंकल को छोड़कर मत जाओ!"
+            "text": "बारिश थम नहीं रही, मॉरिस। तुमने लीना के साथ जो किया, उसका हिसाब अब देना होगा।",
+            "c1_mood": "angry",
+            "c2_mood": "suspicious",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "हिसाब? मैं तो बस एक मोहरा था। शहर की धड़कनें किसी और के हाथ में हैं, दोस्त।",
+            "c1_mood": "angry",
+            "c2_mood": "smug",
+            "c1_gesture": "talking",
+            "c2_gesture": "shrug",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "उसकी नब्ज रुक रही है। क्या तुम्हें ज़रा भी पछतावा नहीं है?",
+            "c1_mood": "shocked",
+            "c2_mood": "neutral",
+            "c1_gesture": "idle",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "पछतावा? देखो, सिस्टम ने अपना काम कर दिया है। अब भागने का वक्त आ गया है।",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": true
           }
         ],
-        "account": "lucknowlostboy"
+        "caption": "⚡ POV: Fatal Rain, Lena's Pulse & Maurice's Escape\n\nEpisode 8 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #movie #reels #explorepage #viralreels",
+        "total_words": 61,
+        "ep_num": 8,
+        "scheduled_for": "2026-11-08 19:30",
+        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep08_1793881529.mp4"
       },
+      "video_file": "/root/gow/out/ep08_1793881529.mp4",
       "video_filename": "watchdogs_ep08.mp4"
     },
     {
