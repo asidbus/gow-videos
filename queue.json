@@ -3078,11 +3078,80 @@
       "title": "POV: You hit Super Saiyan 1 point-blank with an Unforgivable Curse",
       "scene_synopsis": "Pushed to his absolute limit, Harry casts a desperate full-powered curse point-blank into Goku's chest. Goku goes Super Saiyan; the sheer kinetic wave of his transformation blows the entire Quidditch stands away into toothpick splinters.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: You hit Super Saiyan 1 point-blank with an Unforgivable Curse\n\nEpisode 7 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @heyltu for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervsgokutheultimatemismatch #super #saiyan #point #blank #with #unforgivable #curse #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: You hit Super Saiyan 1 point-blank with an Unforgivable Curse",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a destroyed Quidditch stadium with splintered wooden stands and floating debris, vertical 9:16, clean line art, high-contrast cinematic lighting, empty arena without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing golden aura erupting from the center of a crater, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "AVADA KEDAVRA! It's over, Goku!",
+            "c1_mood": "angry",
+            "c2_mood": "neutral",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Is that supposed to tickle? My turn.",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Wait—why is the sky turning gold?",
+            "c1_mood": "shocked",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Because you just made me angry. Now, watch the stands vanish.",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: You hit Super Saiyan 1 point-blank with an Unforgivable Curse\n\nEpisode 7 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+        "total_words": 29,
+        "ep_num": 7,
+        "scheduled_for": "2026-11-09 09:00",
+        "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #super #saiyan #point #blank #with #unforgivable #curse #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
+        "account": "heyltu",
+        "video_file": "/root/gow/out/ep07_1793883924.mp4"
+      },
+      "video_file": "/root/gow/out/ep07_1793883924.mp4",
+      "caption": "⚡ POV: You hit Super Saiyan 1 point-blank with an Unforgivable Curse\n\nEpisode 7 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #super #saiyan #point #blank #with #unforgivable #curse #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
       "first_comment_id": null,
       "created_at": "2026-11-05T15:02:34.566232+05:30",
       "posted_at": null,
