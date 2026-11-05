@@ -4226,11 +4226,80 @@
       "title": "POV: You defeat a planet-destroying god using a Hogwarts feast drop",
       "scene_synopsis": "Instead of casting an offensive spell, Harry yells 'Accio Hogwarts Roast Beef Grand Buffet!'. A mountain of steaks, pies, and turkey legs rains down onto Goku. Goku instantly drops to his knees, stuffed and overjoyed, forfeiting the battle to eat.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: You defeat a planet-destroying god using a Hogwarts feast drop\n\nEpisode 14 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @heyltu for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervsgokutheultimatemismatch #defeat #planet #destroying #using #hogwarts #feast #drop #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: You defeat a planet-destroying god using a Hogwarts feast drop",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a desolate, rocky wasteland planet under a dark purple sky, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a massive, steaming pile of roast beef and pies burying a pair of glowing orange boots, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c2",
+            "text": "Give it up, Potter! Your pathetic wands can't stop a Super Saiyan!",
+            "c1_mood": "neutral",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "You're right. I don't need a spell. I need a catering service.",
+            "c1_mood": "smug",
+            "c2_mood": "suspicious",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "ACCIO HOGWARTS ROAST BEEF GRAND BUFFET!",
+            "c1_mood": "angry",
+            "c2_mood": "shocked",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Wait... is that gravy? Forget the fight, pass me a turkey leg!",
+            "c1_mood": "neutral",
+            "c2_mood": "happy",
+            "c1_gesture": "shrug",
+            "c2_gesture": "talking",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: You defeat a planet-destroying god using a Hogwarts feast drop\n\nEpisode 14 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+        "total_words": 42,
+        "ep_num": 14,
+        "scheduled_for": "2026-11-12 19:30",
+        "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #defeat #planet #destroying #using #hogwarts #feast #drop #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
+        "account": "heyltu",
+        "video_file": "/root/gow/out/ep14_1793903467.mp4"
+      },
+      "video_file": "/root/gow/out/ep14_1793903467.mp4",
+      "caption": "⚡ POV: You defeat a planet-destroying god using a Hogwarts feast drop\n\nEpisode 14 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #defeat #planet #destroying #using #hogwarts #feast #drop #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
       "first_comment_id": null,
       "created_at": "2026-11-05T15:02:34.568544+05:30",
       "posted_at": null,
