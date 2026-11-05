@@ -1445,31 +1445,84 @@
       "c1_name": "Aiden Pearce",
       "c2_name": "Lena Pearce",
       "language": "hi",
-      "status": "scheduled",
+      "status": "ready",
       "account": "lucknowlostboy",
       "cta_handle": "@lucknowlostboy",
       "scene_synopsis": "POV: Aiden Pearce Crawling From The Wreckage",
-      "caption": "⚡ POV: Aiden Pearce Crawling From The Wreckage\n\nEpisode 7 of the #WatchDogs saga! In a connected city, nobody can hide for long... 🎬💻\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #aidenpearce #ctos #dedsec #gamingreels #viralreels #explorepage #fyp",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "caption": "⚡ POV: Aiden Pearce Crawling From The Wreckage\n\nEpisode 7 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #movie #reels #explorepage #viralreels",
+      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "created_at": "2026-11-05T07:53:26.402129+05:30",
       "script_data": {
         "title": "POV: Aiden Pearce Crawling From The Wreckage",
-        "ep_num": 7,
         "language": "hi",
-        "scheduled_for": "2026-11-08 09:00",
-        "visual_prompt": "Cinematic 8k, night, heavy downpour. Overturned black SUV resting in roadside concrete ditch, radiator steam hissing into the cold air. Aiden Pearce [Anchor: Aiden Pearce, bleeding forehead, torn charcoal coat sleeve, muddy hands] kicks open shattered driver door and painfully crawls out on muddy grass. Rain pours relentlessly on his bruised face as he coughs, frantic eyes widening in sudden realization. Camera pans rapidly to the crushed rear passenger window as he claws toward the back seat.",
-        "bg_prompt": "Cinematic 8k, night, heavy downpour. Overturned black SUV resting in roadside concrete ditch, radiator steam hissing into the cold air. Aiden Pearce [Anchor: Aiden Pearce, bleeding forehead, torn charcoal coat sleeve, muddy hands] kicks open shattered driver door and painfully crawls out on muddy grass. Rain pours relentlessly on his bruised face as he coughs, frantic eyes widening in sudden realization. Camera pans rapidly to the crushed rear passenger window as he claws toward the back seat.",
-        "camera_lighting": "Ground Level Dutch Angle, zooming into Aiden's bruised face",
-        "dialogue_text": "एडेन: लीना... मेरी बच्ची! लीना... क्या तुम मुझे सुन सकती हो?!",
-        "sfx_description": "जलते इंजन की सिसकारी, टूटे कांच पर हाथ के घिसने की आवाज़, मूसलाधार बारिश की थपथपाहट, एडेन की भारी सांस।",
+        "sfx_type": "traffic_siren",
+        "bg_prompt": "2D cartoon comic illustration of a burning car wreck in a rainy Chicago street at night, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty street without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing smartphone screen reflecting in a puddle, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "bobby_cap",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "none",
+            "position": "right"
+          }
+        },
         "lines": [
           {
             "speaker": "c1",
-            "text": "एडेन: लीना... मेरी बच्ची! लीना... क्या तुम मुझे सुन सकती हो?!"
+            "text": "मेरी साँसें उखड़ रही हैं, लेकिन खेल अभी खत्म नहीं हुआ है।",
+            "c1_mood": "neutral",
+            "c2_mood": "neutral",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "तुमने सोचा था कि तुम बच जाओगे? सब कुछ राख हो चुका है!",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "राख से ही तो नया तूफान पैदा होता है।",
+            "c1_mood": "angry",
+            "c2_mood": "suspicious",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "ज़रा अपनी जेब में देखो, तुम्हारा आखिरी सिस्टम भी हैक हो चुका है।",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": true
           }
         ],
-        "account": "lucknowlostboy"
+        "caption": "⚡ POV: Aiden Pearce Crawling From The Wreckage\n\nEpisode 7 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #movie #reels #explorepage #viralreels",
+        "total_words": 47,
+        "ep_num": 7,
+        "scheduled_for": "2026-11-08 09:00",
+        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep07_1793879964.mp4"
       },
+      "video_file": "/root/gow/out/ep07_1793879964.mp4",
       "video_filename": "watchdogs_ep07.mp4"
     },
     {
