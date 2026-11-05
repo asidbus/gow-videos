@@ -1935,11 +1935,80 @@
       "title": "POV: The Headmaster Realizes Magic Is Completely Outclassed",
       "scene_synopsis": "Dumbledore establishes telepathic contact with King Kai, who frantically warns the wizard headmaster that Goku might accidentally vaporize the moon if he sneezes during training.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: The Headmaster Realizes Magic Is Completely Outclassed\n\nEpisode 5 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #headmaster #realizes #magic #completely #outclassed #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: The Headmaster Realizes Magic Is Completely Outclassed",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of Dumbledore's office, vertical 9:16, empty room without people, atmospheric cinematic lighting, floating candles, ancient scrolls, magical artifacts, clean line art",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a cracked magical crystal ball showing a blurry image of a golden-haired warrior, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "none",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "King Kai, report! Is this 'Goku' individual a threat to Hogwarts?",
+            "c1_mood": "neutral",
+            "c2_mood": "neutral",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Threat? Albus, the guy is currently doing push-ups on a planet with ten times gravity!",
+            "c1_mood": "shocked",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Surely a well-placed Stupefy charm can handle a mere martial artist?",
+            "c1_mood": "suspicious",
+            "c2_mood": "suspicious",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Stupefy? He sneezed during training yesterday and vaporized the moon. Good luck with your wand.",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: The Headmaster Realizes Magic Is Completely Outclassed\n\nEpisode 5 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+        "total_words": 52,
+        "ep_num": 5,
+        "scheduled_for": "2026-11-08 09:00",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #headmaster #realizes #magic #completely #outclassed #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep05_1793880141.mp4"
+      },
+      "video_file": "/root/gow/out/ep05_1793880141.mp4",
+      "caption": "⚡ POV: The Headmaster Realizes Magic Is Completely Outclassed\n\nEpisode 5 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #headmaster #realizes #magic #completely #outclassed #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.801313+05:30",
       "posted_at": null,
