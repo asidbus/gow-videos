@@ -2644,11 +2644,80 @@
       "title": "POV: A telepathic deity tries explaining power levels to a teenage wizard",
       "scene_synopsis": "King Kai contacts Ron telepathically from the afterlife to explain that Goku can blow up solar systems with a sneeze. Ron assumes King Kai is just a talking chocolate frog that got stuck in his ear.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: A telepathic deity tries explaining power levels to a teenage wizard\n\nEpisode 5 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @heyltu for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervsgokutheultimatemismatch #telepathic #deity #tries #explaining #power #levels #teenage #wizard #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: A telepathic deity tries explaining power levels to a teenage wizard",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a dusty, cluttered Hogwarts dormitory, vertical 9:16, empty room without people, warm flickering candlelight, cinematic shadows, clean line art",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a half-eaten chocolate frog box on a wooden desk, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "none",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "Listen closely, wizard. Goku doesn't cast spells; he destroys solar systems with a single sneeze.",
+            "c1_mood": "neutral",
+            "c2_mood": "suspicious",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Wait, are you a ghost? Or did I eat too much sugar before Potions class?",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "I am King Kai! I am trying to warn you that your wand is a glorified toothpick against a Super Saiyan!",
+            "c1_mood": "angry",
+            "c2_mood": "suspicious",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Nice try, Mr. Talking Chocolate Frog, but you're definitely stuck in my ear canal.",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: A telepathic deity tries explaining power levels to a teenage wizard\n\nEpisode 5 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+        "total_words": 65,
+        "ep_num": 5,
+        "scheduled_for": "2026-11-08 09:00",
+        "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #telepathic #deity #tries #explaining #power #levels #teenage #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
+        "account": "heyltu",
+        "video_file": "/root/gow/out/ep05_1793881338.mp4"
+      },
+      "video_file": "/root/gow/out/ep05_1793881338.mp4",
+      "caption": "⚡ POV: A telepathic deity tries explaining power levels to a teenage wizard\n\nEpisode 5 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #telepathic #deity #tries #explaining #power #levels #teenage #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
       "first_comment_id": null,
       "created_at": "2026-11-05T15:02:34.565728+05:30",
       "posted_at": null,
