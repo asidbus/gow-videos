@@ -1787,11 +1787,80 @@
       "title": "POV: You Realize The Saiyan Thinks Death Eaters Are Snacks",
       "scene_synopsis": "Vegeta arrives via Instant Transmission looking for Goku, instantly obliterating a swarm of attacking Dementors by simply powering up and flexing his aura.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: You Realize The Saiyan Thinks Death Eaters Are Snacks\n\nEpisode 4 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #realize #saiyan #thinks #death #eaters #snacks #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: You Realize The Saiyan Thinks Death Eaters Are Snacks",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of the dark, stone-walled corridors of Hogwarts with flickering torches, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing Saiyan energy aura vaporizing a Dementor into golden sparkles, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "bobby_cap",
+            "hair": "black_bun",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "The Dementors are closing in, Potter. Where is your savior?",
+            "c1_mood": "neutral",
+            "c2_mood": "neutral",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "I think he just landed. But why is he charging up at a ghost?",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "That's not a ghost. That's a soul-sucking nightmare!",
+            "c1_mood": "angry",
+            "c2_mood": "suspicious",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Wait—he just licked his lips and called them 'spicy cotton candy'?",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: You Realize The Saiyan Thinks Death Eaters Are Snacks\n\nEpisode 4 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+        "total_words": 43,
+        "ep_num": 4,
+        "scheduled_for": "2026-11-07 19:30",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #realize #saiyan #thinks #death #eaters #snacks #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep04_1793877784.mp4"
+      },
+      "video_file": "/root/gow/out/ep04_1793877784.mp4",
+      "caption": "⚡ POV: You Realize The Saiyan Thinks Death Eaters Are Snacks\n\nEpisode 4 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #realize #saiyan #thinks #death #eaters #snacks #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.801189+05:30",
       "posted_at": null,
