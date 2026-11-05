@@ -3898,11 +3898,80 @@
       "title": "POV: A teenage wizard team infiltrates the World Martial Arts Arena",
       "scene_synopsis": "Ron tries to sneak onto the main stage wearing full wizard robes while Vegeta glares down at him from the fighter balcony. Ron attempts to use a memory charm on the ring referee to declare wizards the default winners.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: A teenage wizard team infiltrates the World Martial Arts Arena\n\nEpisode 12 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @heyltu for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervsgokutheultimatemismatch #teenage #wizard #team #infiltrates #world #martial #arts #arena #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: A teenage wizard team infiltrates the World Martial Arts Arena",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of the World Martial Arts Arena tournament ring, vertical 9:16, empty room without people, high contrast, cinematic lighting, vibrant colors",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing wooden wand tip sparking with chaotic purple energy, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "black_bun",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "The referee is under my spell. Wizards are the default champions now.",
+            "c1_mood": "smug",
+            "c2_mood": "suspicious",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "You think a parlor trick works on a guy who dodges lightning for breakfast?",
+            "c1_mood": "neutral",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "It's not a trick, it's ancient magic. Watch him sign the forfeit papers.",
+            "c1_mood": "smug",
+            "c2_mood": "suspicious",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "That's not a pen in his hand, genius... that's a Senzu bean.",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: A teenage wizard team infiltrates the World Martial Arts Arena\n\nEpisode 12 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+        "total_words": 51,
+        "ep_num": 12,
+        "scheduled_for": "2026-11-11 19:30",
+        "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #teenage #wizard #team #infiltrates #world #martial #arts #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
+        "account": "heyltu",
+        "video_file": "/root/gow/out/ep12_1793903037.mp4"
+      },
+      "video_file": "/root/gow/out/ep12_1793903037.mp4",
+      "caption": "⚡ POV: A teenage wizard team infiltrates the World Martial Arts Arena\n\nEpisode 12 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #teenage #wizard #team #infiltrates #world #martial #arts #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
       "first_comment_id": null,
       "created_at": "2026-11-05T15:02:34.567788+05:30",
       "posted_at": null,
