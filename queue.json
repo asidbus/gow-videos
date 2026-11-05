@@ -1346,31 +1346,84 @@
       "c1_name": "Aiden Pearce",
       "c2_name": "Damien Brenks",
       "language": "hi",
-      "status": "scheduled",
+      "status": "ready",
       "account": "lucknowlostboy",
       "cta_handle": "@lucknowlostboy",
       "scene_synopsis": "POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail",
-      "caption": "⚡ POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail\n\nEpisode 2 of the #WatchDogs saga! In a connected city, nobody can hide for long... 🎬💻\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #aidenpearce #ctos #dedsec #gamingreels #viralreels #explorepage #fyp",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "caption": "⚡ POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail\n\nEpisode 2 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
+      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "created_at": "2026-11-05T07:53:26.401791+05:30",
       "script_data": {
         "title": "POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail",
-        "ep_num": 2,
         "language": "hi",
-        "scheduled_for": "2026-11-05 19:30",
-        "visual_prompt": "Cinematic 8k, close-up interior. Aiden Pearce and Damien Brenks staring intently into laptop screen displaying secret black-and-white surveillance footage of Mayor Rushmore. Intense tense expressions, dramatic high-contrast lighting, neo-noir shadows.",
-        "bg_prompt": "Cinematic 8k, close-up interior. Aiden Pearce and Damien Brenks staring intently into laptop screen displaying secret black-and-white surveillance footage of Mayor Rushmore. Intense tense expressions, dramatic high-contrast lighting, neo-noir shadows.",
-        "camera_lighting": "Dutch angle close-up zooming into shocked facial expressions",
-        "dialogue_text": "डेमियन: यह देखो एडेन... यह सिर्फ पैसे नहीं हैं, यह पूरा शिकागो शहर हमारी मुट्ठी में करने का मौका है!",
-        "sfx_description": "रहस्यमयी लो-फ़्रीक्वेंसी सब-बास ड्रोन, लैपटॉप फैन की धीमी आवाज़, तनावपूर्ण पल्स।",
+        "sfx_type": "office",
+        "bg_prompt": "2D cartoon comic illustration of a dark, high-tech server room inside the Mayor's office in Chicago, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, glowing blue ctOS data streams, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a digital tablet screen showing a blackmail list with the Mayor's signature, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "hacker",
+            "hat": "cap",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "none",
+            "position": "right"
+          }
+        },
         "lines": [
           {
             "speaker": "c1",
-            "text": "डेमियन: यह देखो एडेन... यह सिर्फ पैसे नहीं हैं, यह पूरा शिकागो शहर हमारी मुट्ठी में करने का मौका है!"
+            "text": "मेयर रशमोर, शहर की सुरक्षा के नाम पर आप सिर्फ लोगों को ब्लैकमेल कर रहे हैं।",
+            "c1_mood": "suspicious",
+            "c2_mood": "neutral",
+            "c1_gesture": "typing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "तुम क्या जानते हो? सीटीओएस का असली काम शांति बनाए रखना है, सवाल पूछना नहीं।",
+            "c1_mood": "suspicious",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "शांति? ये पच्चीस फाइलें क्या हैं? इनमें तो शहर के हर बड़े अधिकारी का काला चिट्ठा है।",
+            "c1_mood": "angry",
+            "c2_mood": "shocked",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "उन्हें बंद करो! अगर वो फाइलें बाहर निकलीं, तो यह पूरा शहर राख हो जाएगा।",
+            "c1_mood": "shocked",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": true
           }
         ],
-        "account": "lucknowlostboy"
+        "caption": "⚡ POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail\n\nEpisode 2 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
+        "total_words": 63,
+        "ep_num": 2,
+        "scheduled_for": "2026-11-05 19:30",
+        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep02_1793870234.mp4"
       },
+      "video_file": "/root/gow/out/ep02_1793870234.mp4",
       "video_filename": "watchdogs_ep02.mp4"
     },
     {
@@ -1832,105 +1885,6 @@
         "account": "lucknowlostboy"
       },
       "video_filename": "watchdogs_ep12.mp4"
-    },
-    {
-      "id": "batch_1793869313_ep01",
-      "series_id": "batch_1793869313",
-      "series_title": "Test Prompt Batch",
-      "universe": "Test Prompt Batch",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "ep_num": 1,
-      "day_num": 1,
-      "slot": "morning",
-      "scheduled_for": "2026-11-06 09:00",
-      "date_str": "06 Nov (Morning)",
-      "title": "Episode 1: Aiden Pearce hacking ctOS terminal at Me",
-      "prompt": "Aiden Pearce hacking ctOS terminal at Merlaut Hotel",
-      "scene_synopsis": "Aiden Pearce hacking ctOS terminal at Merlaut Hotel",
-      "language": "hi",
-      "status": "scheduled",
-      "script_data": {
-        "title": "Episode 1: Aiden Pearce hacking ctOS terminal at Me",
-        "visual_prompt": "Aiden Pearce hacking ctOS terminal at Merlaut Hotel",
-        "dialogue_text": "Aiden Pearce hacking ctOS terminal at Merlaut Hotel",
-        "language": "hi",
-        "account": "lucknowlostboy"
-      },
-      "video_file": null,
-      "caption": "⚡ Aiden Pearce hacking ctOS terminal at Merlaut Hotel...\n\nEpisode 1 of Test Prompt Batch!\n\n👉 Follow @lucknowlostboy for daily updates!\n#viralreels #cinematic #fyp",
-      "first_comment": "#reels #trending #explorepage #cinema #story #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-05T14:31:53.267695+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "batch_1793869313_ep01.mp4"
-    },
-    {
-      "id": "batch_1793869313_ep02",
-      "series_id": "batch_1793869313",
-      "series_title": "Test Prompt Batch",
-      "universe": "Test Prompt Batch",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "ep_num": 2,
-      "day_num": 1,
-      "slot": "evening",
-      "scheduled_for": "2026-11-06 19:30",
-      "date_str": "06 Nov (Evening)",
-      "title": "Episode 2: Aiden interrogating corrupt official in ",
-      "prompt": "Aiden interrogating corrupt official in alleyway",
-      "scene_synopsis": "Aiden interrogating corrupt official in alleyway",
-      "language": "hi",
-      "status": "scheduled",
-      "script_data": {
-        "title": "Episode 2: Aiden interrogating corrupt official in ",
-        "visual_prompt": "Aiden interrogating corrupt official in alleyway",
-        "dialogue_text": "Aiden interrogating corrupt official in alleyway",
-        "language": "hi",
-        "account": "lucknowlostboy"
-      },
-      "video_file": null,
-      "caption": "⚡ Aiden interrogating corrupt official in alleyway...\n\nEpisode 2 of Test Prompt Batch!\n\n👉 Follow @lucknowlostboy for daily updates!\n#viralreels #cinematic #fyp",
-      "first_comment": "#reels #trending #explorepage #cinema #story #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-05T14:31:53.267909+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "batch_1793869313_ep02.mp4"
-    },
-    {
-      "id": "batch_1793869313_ep03",
-      "series_id": "batch_1793869313",
-      "series_title": "Test Prompt Batch",
-      "universe": "Test Prompt Batch",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "ep_num": 3,
-      "day_num": 2,
-      "slot": "morning",
-      "scheduled_for": "2026-11-07 09:00",
-      "date_str": "07 Nov (Morning)",
-      "title": "Episode 3: Aiden evading police pursuit through fog",
-      "prompt": "Aiden evading police pursuit through foggy Chicago highway",
-      "scene_synopsis": "Aiden evading police pursuit through foggy Chicago highway",
-      "language": "hi",
-      "status": "scheduled",
-      "script_data": {
-        "title": "Episode 3: Aiden evading police pursuit through fog",
-        "visual_prompt": "Aiden evading police pursuit through foggy Chicago highway",
-        "dialogue_text": "Aiden evading police pursuit through foggy Chicago highway",
-        "language": "hi",
-        "account": "lucknowlostboy"
-      },
-      "video_file": null,
-      "caption": "⚡ Aiden evading police pursuit through foggy Chicago highway...\n\nEpisode 3 of Test Prompt Batch!\n\n👉 Follow @lucknowlostboy for daily updates!\n#viralreels #cinematic #fyp",
-      "first_comment": "#reels #trending #explorepage #cinema #story #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-05T14:31:53.268023+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "batch_1793869313_ep03.mp4"
     }
   ]
 }
