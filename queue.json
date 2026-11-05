@@ -2421,11 +2421,80 @@
       "title": "POV: You Realize You're Useless In Your Own Prophecy",
       "scene_synopsis": "Harry undergoes an existential crisis realizing seven years of wand training mean nothing against a spiky-haired alien, while Hermione devises a ridiculous plan to bribe Goku with food.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: You Realize You're Useless In Your Own Prophecy\n\nEpisode 9 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #realize #useless #your #prophecy #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: You Realize You're Useless In Your Own Prophecy",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of the Hogwarts Great Hall interior, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a giant steaming bowl of ramen sitting on a Gryffindor table, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "bobby_cap",
+            "hair": "black_bun",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "Seven years of wand-waving, and this spiky-haired guy just punched a hole through my prophecy.",
+            "c1_mood": "droopy_eyes",
+            "c2_mood": "neutral",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Magic is cool, Harry, but have you tried just hitting things really, really hard?",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "That's not how the wizarding world works! What do we even do now?",
+            "c1_mood": "angry",
+            "c2_mood": "neutral",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Hermione says if we bribe him with enough food, he might just go home.",
+            "c1_mood": "shocked",
+            "c2_mood": "happy",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: You Realize You're Useless In Your Own Prophecy\n\nEpisode 9 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+        "total_words": 56,
+        "ep_num": 9,
+        "scheduled_for": "2026-11-10 09:00",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #realize #useless #your #prophecy #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep09_1793889923.mp4"
+      },
+      "video_file": "/root/gow/out/ep09_1793889923.mp4",
+      "caption": "⚡ POV: You Realize You're Useless In Your Own Prophecy\n\nEpisode 9 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #realize #useless #your #prophecy #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.801617+05:30",
       "posted_at": null,
