@@ -1328,438 +1328,6 @@
       "video_filename": "watchdogs_ep01.mp4"
     },
     {
-      "id": "watchdogs_ep02",
-      "series_id": "series_watchdogs_cinematic",
-      "series_title": "Watch Dogs: The Vigilante Saga (Cinematic)",
-      "universe": "Watch Dogs",
-      "ep_num": 2,
-      "day_num": 1,
-      "slot": "evening",
-      "scheduled_for": "2026-11-05 19:30",
-      "date_str": "05 Nov (Today Evening)",
-      "title": "POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail",
-      "title_hi": "पीओवी: मेयर रशमोर का गुप्त ctOS ब्लैकमेल",
-      "visual_prompt": "Cinematic 8k, close-up interior. Aiden Pearce and Damien Brenks staring intently into laptop screen displaying secret black-and-white surveillance footage of Mayor Rushmore. Intense tense expressions, dramatic high-contrast lighting, neo-noir shadows.",
-      "camera_lighting": "Dutch angle close-up zooming into shocked facial expressions",
-      "dialogue_text": "डेमियन: यह देखो एडेन... यह सिर्फ पैसे नहीं हैं, यह पूरा शिकागो शहर हमारी मुट्ठी में करने का मौका है!",
-      "sfx_description": "रहस्यमयी लो-फ़्रीक्वेंसी सब-बास ड्रोन, लैपटॉप फैन की धीमी आवाज़, तनावपूर्ण पल्स।",
-      "c1_name": "Aiden Pearce",
-      "c2_name": "Damien Brenks",
-      "language": "hi",
-      "status": "ready",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "scene_synopsis": "POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail",
-      "caption": "⚡ POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail\n\nEpisode 2 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-      "created_at": "2026-11-05T07:53:26.401791+05:30",
-      "script_data": {
-        "title": "POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail",
-        "language": "hi",
-        "sfx_type": "office",
-        "bg_prompt": "2D cartoon comic illustration of a dark, high-tech server room inside the Mayor's office in Chicago, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, glowing blue ctOS data streams, empty room without people",
-        "punchline_prompt": "Close-up 2D cartoon comic shot of a digital tablet screen showing a blackmail list with the Mayor's signature, vertical 9:16",
-        "characters": {
-          "c1": {
-            "role": "Hero",
-            "gender": "m",
-            "outfit": "hacker",
-            "hat": "cap",
-            "hair": "shaggy_brown",
-            "position": "left"
-          },
-          "c2": {
-            "role": "Antagonist",
-            "gender": "m",
-            "outfit": "suit",
-            "hat": "none",
-            "hair": "none",
-            "position": "right"
-          }
-        },
-        "lines": [
-          {
-            "speaker": "c1",
-            "text": "मेयर रशमोर, शहर की सुरक्षा के नाम पर आप सिर्फ लोगों को ब्लैकमेल कर रहे हैं।",
-            "c1_mood": "suspicious",
-            "c2_mood": "neutral",
-            "c1_gesture": "typing",
-            "c2_gesture": "idle",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "तुम क्या जानते हो? सीटीओएस का असली काम शांति बनाए रखना है, सवाल पूछना नहीं।",
-            "c1_mood": "suspicious",
-            "c2_mood": "smug",
-            "c1_gesture": "idle",
-            "c2_gesture": "talking",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "शांति? ये पच्चीस फाइलें क्या हैं? इनमें तो शहर के हर बड़े अधिकारी का काला चिट्ठा है।",
-            "c1_mood": "angry",
-            "c2_mood": "shocked",
-            "c1_gesture": "pointing",
-            "c2_gesture": "idle",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "उन्हें बंद करो! अगर वो फाइलें बाहर निकलीं, तो यह पूरा शहर राख हो जाएगा।",
-            "c1_mood": "shocked",
-            "c2_mood": "angry",
-            "c1_gesture": "idle",
-            "c2_gesture": "pointing",
-            "is_punchline": true
-          }
-        ],
-        "caption": "⚡ POV: Uncovering Mayor Rushmore's Secret ctOS Blackmail\n\nEpisode 2 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
-        "total_words": 63,
-        "ep_num": 2,
-        "scheduled_for": "2026-11-05 19:30",
-        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-        "account": "lucknowlostboy",
-        "video_file": "/root/gow/out/ep02_1793870234.mp4"
-      },
-      "video_file": "/root/gow/out/ep02_1793870234.mp4",
-      "video_filename": "watchdogs_ep02.mp4"
-    },
-    {
-      "id": "watchdogs_ep03",
-      "series_id": "series_watchdogs_cinematic",
-      "series_title": "Watch Dogs: The Vigilante Saga (Cinematic)",
-      "universe": "Watch Dogs",
-      "ep_num": 3,
-      "day_num": 2,
-      "slot": "morning",
-      "scheduled_for": "2026-11-06 09:00",
-      "date_str": "06 Nov (Tomorrow Morning)",
-      "title": "POV: Red Alert! ctOS Counter-Hack In Progress",
-      "title_hi": "पीओवी: ctOS का काउंटर-हैक अलर्ट",
-      "visual_prompt": "Cinematic 8k, Merlaut hotel suite. Red flashing alarm glow. Aiden Pearce violently grabbing Damien Brenks by his navy blazer collar. Damien's face pale with panic. Screens in background displaying RED ALERT intrusion warnings and security traces.",
-      "camera_lighting": "Handheld dynamic tracking, high kinetic tension",
-      "dialogue_text": "एडेन: कोई हमें ट्रैक कर रहा है डेमियन! कनेक्शन काटो, अभी के अभी! डेमियन: रुको एडेन, बस कुछ सेकंड और!",
-      "sfx_description": "तीव्र चेतावनी सायरन, कुर्सियों के गिरने की आवाज़, कपड़े के खिंचने की सरसराहट।",
-      "c1_name": "Aiden Pearce",
-      "c2_name": "Damien Brenks",
-      "language": "hi",
-      "status": "ready",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "scene_synopsis": "POV: Red Alert! ctOS Counter-Hack In Progress",
-      "caption": "⚡ POV: Red Alert! ctOS Counter-Hack In Progress\n\nEpisode 3 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-      "created_at": "2026-11-05T07:53:26.401891+05:30",
-      "script_data": {
-        "title": "POV: Red Alert! ctOS Counter-Hack In Progress",
-        "language": "hi",
-        "sfx_type": "room_ambience",
-        "bg_prompt": "2D cartoon comic illustration of dark high-tech control room with red flashing emergency lights and glowing server racks inspired by Watch Dogs, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
-        "punchline_prompt": "Close-up 2D cartoon comic shot of a futuristic smartphone showing a complete citywide blackout command success icon with glowing glitch effects, vertical 9:16 composition",
-        "characters": {
-          "c1": {
-            "role": "Hero",
-            "gender": "m",
-            "outfit": "hacker",
-            "hat": "cap",
-            "hair": "none",
-            "position": "left"
-          },
-          "c2": {
-            "role": "Antagonist",
-            "gender": "m",
-            "outfit": "bobby_hoodie",
-            "hat": "none",
-            "hair": "shaggy_brown",
-            "position": "right"
-          }
-        },
-        "lines": [
-          {
-            "speaker": "c1",
-            "text": "मुख्य सर्वर अब पूरी तरह से मेरे नियंत्रण में है।",
-            "c1_mood": "neutral",
-            "c2_mood": "suspicious",
-            "c1_gesture": "typing",
-            "c2_gesture": "idle",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "रुको! लाल चेतावनी बज रही है! काउंटर-हैक शुरू हो चुका है!",
-            "c1_mood": "neutral",
-            "c2_mood": "shocked",
-            "c1_gesture": "idle",
-            "c2_gesture": "pointing",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "तुम्हारी सुरक्षा प्रणाली मेरे सामने बहुत धीमी है, दोस्त।",
-            "c1_mood": "smug",
-            "c2_mood": "angry",
-            "c1_gesture": "talking",
-            "c2_gesture": "idle",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "गलतफहमी में मत रहो! तुम्हारा सिग्नल पूरी तरह ट्रैप हो चुका है!",
-            "c1_mood": "smug",
-            "c2_mood": "angry",
-            "c1_gesture": "idle",
-            "c2_gesture": "hands_on_hips",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "सिग्नल नहीं, मैंने तो तुम्हारे पूरे शहर का ही ब्लैकआउट कर दिया!",
-            "c1_mood": "smug",
-            "c2_mood": "shocked",
-            "c1_gesture": "pointing",
-            "c2_gesture": "shrug",
-            "is_punchline": true
-          }
-        ],
-        "caption": "⚡ POV: Red Alert! ctOS Counter-Hack In Progress\n\nEpisode 3 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
-        "total_words": 54,
-        "ep_num": 3,
-        "scheduled_for": "2026-11-06 09:00",
-        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-        "account": "lucknowlostboy",
-        "video_file": "/root/gow/out/ep03_1793870442.mp4"
-      },
-      "video_file": "/root/gow/out/ep03_1793870442.mp4",
-      "video_filename": "watchdogs_ep03.mp4"
-    },
-    {
-      "id": "watchdogs_ep04",
-      "series_id": "series_watchdogs_cinematic",
-      "series_title": "Watch Dogs: The Vigilante Saga (Cinematic)",
-      "universe": "Watch Dogs",
-      "ep_num": 4,
-      "day_num": 2,
-      "slot": "evening",
-      "scheduled_for": "2026-11-06 19:30",
-      "date_str": "06 Nov (Tomorrow Evening)",
-      "title": "POV: Aiden Pearce In The Getaway Car Controlling Chicago",
-      "title_hi": "पीओवी: गेटअवे कार और शिकागो ट्रैफिक का नियंत्रण",
-      "visual_prompt": "Cinematic 8k, interior black station wagon SUV driving through rainy Chicago streets at night. Aiden at the wheel, looking back warmly at little niece Lena in yellow coat clutching her toy bunny. Neon city lights reflecting on rain-soaked windshield.",
-      "camera_lighting": "Interior front windshield angle, warm cabin ambient glow",
-      "dialogue_text": "एडेन: घबराओ मत लीना, हम बस घर पहुँचने वाले हैं। लीना: अंकल एडेन, क्या वो बुरे लोग अब चले गए?",
-      "sfx_description": "कार इंजन की धीमी घरघराहट, वाइपर की आवाज़, बाहर मूसलाधार बारिश की थपथपाहट।",
-      "c1_name": "Aiden Pearce",
-      "c2_name": "Lena Pearce",
-      "language": "hi",
-      "status": "ready",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "scene_synopsis": "POV: Aiden Pearce In The Getaway Car Controlling Chicago",
-      "caption": "⚡ POV: Aiden Pearce In The Getaway Car Controlling Chicago\n\nEpisode 4 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-      "created_at": "2026-11-05T07:53:26.401957+05:30",
-      "script_data": {
-        "title": "POV: Aiden Pearce In The Getaway Car Controlling Chicago",
-        "language": "hi",
-        "sfx_type": "traffic_siren",
-        "bg_prompt": "2D cartoon comic illustration of inside a getaway sports car during rainy night in Chicago with glowing green digital grid signals on futuristic windshield, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
-        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing smartphone screen displaying city infrastructure access granted in red, vertical 9:16",
-        "characters": {
-          "c1": {
-            "role": "Hero",
-            "gender": "m",
-            "outfit": "hacker",
-            "hat": "cap",
-            "hair": "shaggy_brown",
-            "position": "left"
-          },
-          "c2": {
-            "role": "Antagonist",
-            "gender": "m",
-            "outfit": "police",
-            "hat": "police_cap",
-            "hair": "none",
-            "position": "right"
-          }
-        },
-        "lines": [
-          {
-            "speaker": "c2",
-            "text": "तुम चारों तरफ से घिरे हुए हो! अपनी गाड़ी तुरंत रोको!",
-            "c1_mood": "neutral",
-            "c2_mood": "angry",
-            "c1_gesture": "typing",
-            "c2_gesture": "pointing",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "यह पूरा शहर मेरी उंगलियों पर चलता है, अफ़सर।",
-            "c1_mood": "smug",
-            "c2_mood": "suspicious",
-            "c1_gesture": "typing",
-            "c2_gesture": "idle",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "क्या बकवास है! सामने का सिग्नल लाल है, तुम कहीं नहीं जाओगे!",
-            "c1_mood": "neutral",
-            "c2_mood": "angry",
-            "c1_gesture": "idle",
-            "c2_gesture": "pointing",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "सिग्नल अब हरा हो चुका है... और तुम्हारी सड़क बंद होने वाली है।",
-            "c1_mood": "smug",
-            "c2_mood": "shocked",
-            "c1_gesture": "talking",
-            "c2_gesture": "idle",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "क्या? तुमने पूरे शिकागो का कंट्रोल हैक कर लिया?!",
-            "c1_mood": "neutral",
-            "c2_mood": "shocked",
-            "c1_gesture": "idle",
-            "c2_gesture": "shrug",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "पूरा शहर नहीं... सिर्फ तुम्हारा रास्ता।",
-            "c1_mood": "smug",
-            "c2_mood": "angry",
-            "c1_gesture": "typing",
-            "c2_gesture": "idle",
-            "is_punchline": true
-          }
-        ],
-        "caption": "⚡ POV: Aiden Pearce In The Getaway Car Controlling Chicago\n\nEpisode 4 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
-        "total_words": 60,
-        "ep_num": 4,
-        "scheduled_for": "2026-11-06 19:30",
-        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-        "account": "lucknowlostboy",
-        "video_file": "/root/gow/out/ep04_1793870703.mp4"
-      },
-      "video_file": "/root/gow/out/ep04_1793870703.mp4",
-      "video_filename": "watchdogs_ep04.mp4"
-    },
-    {
-      "id": "watchdogs_ep05",
-      "series_id": "series_watchdogs_cinematic",
-      "series_title": "Watch Dogs: The Vigilante Saga (Cinematic)",
-      "universe": "Watch Dogs",
-      "ep_num": 5,
-      "day_num": 3,
-      "slot": "morning",
-      "scheduled_for": "2026-11-07 09:00",
-      "date_str": "07 Nov (Sat Morning)",
-      "title": "POV: Aiden Pearce Rainy Stakeout On Chicago Overpass",
-      "title_hi": "पीओवी: शिकागो ओवरपास पर बारिश में पहरा",
-      "visual_prompt": "Cinematic 8k, pouring rainstorm downtown Chicago overpass. Aiden Pearce standing hooded in dark raincoat, leaning on concrete barrier holding silenced pistol, intense eyes scanning oncoming highway traffic. Cold green highway signs and blurred headlights below.",
-      "camera_lighting": "Low-angle telephoto tracking zoom, anamorphic rain reflections",
-      "dialogue_text": "एडेन: शिकागो की इस बारिश में कोई छिप नहीं सकता... मैं उस शूटर का चेहरा कभी नहीं भूलूंगा।",
-      "sfx_description": "मूसलाधार बारिश की गूंज, दूर से आते भारी ट्रकों का हॉर्न, हवा की सरसराहट।",
-      "c1_name": "Aiden Pearce",
-      "c2_name": "Maurice Vega",
-      "language": "hi",
-      "status": "ready",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "scene_synopsis": "POV: Aiden Pearce Rainy Stakeout On Chicago Overpass",
-      "caption": "⚡ POV: Aiden Pearce Rainy Stakeout On Chicago Overpass\n\nEpisode 5 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #web #reels #explorepage #viralreels",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-      "created_at": "2026-11-05T07:53:26.402016+05:30",
-      "script_data": {
-        "title": "POV: Aiden Pearce Rainy Stakeout On Chicago Overpass",
-        "language": "hi",
-        "sfx_type": "traffic_siren",
-        "bg_prompt": "2D cartoon comic illustration of a rainy Chicago overpass at night, neon reflections on wet asphalt, blurry city lights in background, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty bridge without people",
-        "punchline_prompt": "Close-up 2D cartoon comic shot of a smartphone screen flashing a glowing red system blackout warning, vertical 9:16",
-        "characters": {
-          "c1": {
-            "role": "Hero",
-            "gender": "m",
-            "outfit": "hacker",
-            "hat": "cap",
-            "hair": "none",
-            "position": "left"
-          },
-          "c2": {
-            "role": "Antagonist",
-            "gender": "m",
-            "outfit": "bobby_hoodie",
-            "hat": "none",
-            "hair": "shaggy_brown",
-            "position": "right"
-          }
-        },
-        "lines": [
-          {
-            "speaker": "c1",
-            "text": "इस पुल पर बारिश जितनी तेज़ है, पूरे शहर का डेटा भी उतना ही साफ़ दिख रहा है।",
-            "c1_mood": "smug",
-            "c2_mood": "neutral",
-            "c1_gesture": "typing",
-            "c2_gesture": "idle",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "तुम बेवकूफ़ों की तरह ऊपर खड़े हो! पूरी पुलिस तुम्हारे पीछे आ रही है!",
-            "c1_mood": "neutral",
-            "c2_mood": "angry",
-            "c1_gesture": "idle",
-            "c2_gesture": "pointing",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "हर ट्रैफिक लाइट और सुरक्षा कैमरा मेरी उंगलियों पर काम करता है।",
-            "c1_mood": "suspicious",
-            "c2_mood": "shocked",
-            "c1_gesture": "talking",
-            "c2_gesture": "hands_on_hips",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "लेकिन तुम्हारा अपना फोन हैक हो चुका है! अब क्या करोगे?",
-            "c1_mood": "shocked",
-            "c2_mood": "smug",
-            "c1_gesture": "idle",
-            "c2_gesture": "shrug",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "वो फ़ोन तो बस एक झांसा था... असली हैक से पूरे शहर में सन्नाटा छाने वाला है!",
-            "c1_mood": "angry",
-            "c2_mood": "shocked",
-            "c1_gesture": "pointing",
-            "c2_gesture": "idle",
-            "is_punchline": true
-          }
-        ],
-        "caption": "⚡ POV: Aiden Pearce Rainy Stakeout On Chicago Overpass\n\nEpisode 5 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #web #reels #explorepage #viralreels",
-        "total_words": 72,
-        "ep_num": 5,
-        "scheduled_for": "2026-11-07 09:00",
-        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-        "account": "lucknowlostboy",
-        "video_file": "/root/gow/out/ep05_1793871006.mp4"
-      },
-      "video_file": "/root/gow/out/ep05_1793871006.mp4",
-      "video_filename": "watchdogs_ep05.mp4"
-    },
-    {
       "id": "watchdogs_ep06",
       "series_id": "series_watchdogs_cinematic",
       "series_title": "Watch Dogs: The Vigilante Saga (Cinematic)",
@@ -1942,257 +1510,6 @@
         "account": "lucknowlostboy"
       },
       "video_filename": "watchdogs_ep09.mp4"
-    },
-    {
-      "id": "watchdogs_ep10",
-      "series_id": "series_watchdogs_cinematic",
-      "series_title": "Watch Dogs: The Vigilante Saga (Cinematic)",
-      "universe": "Watch Dogs",
-      "ep_num": 10,
-      "day_num": 5,
-      "slot": "evening",
-      "scheduled_for": "2026-11-09 19:30",
-      "date_str": "09 Nov (Mon Evening)",
-      "title": "POV: Graveyard & The Vigilante's Oath",
-      "title_hi": "पीओवी: कब्रिस्तान और विजिलांटे का पुनर्जन्म",
-      "visual_prompt": "Cinematic master shot, gloomy Chicago cemetery under slate-grey overcast sky. Aiden Pearce standing in front of fresh white marble headstone engraved 'Lena Pearce 2006-2012'. Aiden places a small white flower on the gravestone. He reaches into his trenchcoat pocket, pulls out a black iconic baseball cap with fox insignia, firmly puts it on, and pulls up a black half-face neoprene mask covering his mouth. He draws a custom smartphone with glowing ctOS interface. Camera closes into his cold, vengeful eyes. Masterpiece neo-noir.",
-      "camera_lighting": "Slow Dramatic Push-in from Lena's marble headstone to Aiden's face",
-      "dialogue_text": "एडेन: लीना, मैं तुम्हें वापस नहीं ला सकता... लेकिन जिसने भी यह करवाया है, वो इस शहर में ज़िंदा नहीं बचेगा। मैं कानून नहीं बनूँगा... मैं उनका काल बनूँगा।",
-      "sfx_description": "हवा की सरसराहट, पत्तों की खड़खड़ाहट, कपड़े की ज़िप खींचने की आवाज़, स्मार्टफोन के ctOS बूट-अप की इलेक्ट्रॉनिक डिजिटल चाइम आवाज़।",
-      "c1_name": "Aiden Pearce",
-      "c2_name": "Lena Pearce",
-      "language": "hi",
-      "status": "scheduled",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "scene_synopsis": "POV: Graveyard & The Vigilante's Oath",
-      "caption": "⚡ POV: Graveyard & The Vigilante's Oath\n\nEpisode 10 of the #WatchDogs saga! In a connected city, nobody can hide for long... 🎬💻\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #aidenpearce #ctos #dedsec #gamingreels #viralreels #explorepage #fyp",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-      "created_at": "2026-11-05T07:53:26.402299+05:30",
-      "script_data": {
-        "title": "POV: Graveyard & The Vigilante's Oath",
-        "ep_num": 10,
-        "language": "hi",
-        "scheduled_for": "2026-11-09 19:30",
-        "visual_prompt": "Cinematic master shot, gloomy Chicago cemetery under slate-grey overcast sky. Aiden Pearce standing in front of fresh white marble headstone engraved 'Lena Pearce 2006-2012'. Aiden places a small white flower on the gravestone. He reaches into his trenchcoat pocket, pulls out a black iconic baseball cap with fox insignia, firmly puts it on, and pulls up a black half-face neoprene mask covering his mouth. He draws a custom smartphone with glowing ctOS interface. Camera closes into his cold, vengeful eyes. Masterpiece neo-noir.",
-        "bg_prompt": "Cinematic master shot, gloomy Chicago cemetery under slate-grey overcast sky. Aiden Pearce standing in front of fresh white marble headstone engraved 'Lena Pearce 2006-2012'. Aiden places a small white flower on the gravestone. He reaches into his trenchcoat pocket, pulls out a black iconic baseball cap with fox insignia, firmly puts it on, and pulls up a black half-face neoprene mask covering his mouth. He draws a custom smartphone with glowing ctOS interface. Camera closes into his cold, vengeful eyes. Masterpiece neo-noir.",
-        "camera_lighting": "Slow Dramatic Push-in from Lena's marble headstone to Aiden's face",
-        "dialogue_text": "एडेन: लीना, मैं तुम्हें वापस नहीं ला सकता... लेकिन जिसने भी यह करवाया है, वो इस शहर में ज़िंदा नहीं बचेगा। मैं कानून नहीं बनूँगा... मैं उनका काल बनूँगा।",
-        "sfx_description": "हवा की सरसराहट, पत्तों की खड़खड़ाहट, कपड़े की ज़िप खींचने की आवाज़, स्मार्टफोन के ctOS बूट-अप की इलेक्ट्रॉनिक डिजिटल चाइम आवाज़।",
-        "lines": [
-          {
-            "speaker": "c1",
-            "text": "एडेन: लीना, मैं तुम्हें वापस नहीं ला सकता... लेकिन जिसने भी यह करवाया है, वो इस शहर में ज़िंदा नहीं बचेगा। मैं कानून नहीं बनूँगा... मैं उनका काल बनूँगा।"
-          }
-        ],
-        "account": "lucknowlostboy"
-      },
-      "video_filename": "watchdogs_ep10.mp4"
-    },
-    {
-      "id": "watchdogs_ep11",
-      "series_id": "series_watchdogs_cinematic",
-      "series_title": "Watch Dogs: The Vigilante Saga (Cinematic)",
-      "universe": "Watch Dogs",
-      "ep_num": 11,
-      "day_num": 6,
-      "slot": "morning",
-      "scheduled_for": "2026-11-10 09:00",
-      "date_str": "10 Nov (Tue Morning)",
-      "title": "POV: The First Live ctOS City Hack",
-      "title_hi": "पीओवी: ctOS का पहला लाइव हैक",
-      "visual_prompt": "Cinematic 8k, rainy night downtown Chicago Loop. Aiden Pearce in full Vigilante attire [Anchor: Aiden Pearce, cap, face mask, grey trenchcoat billowing in wind] stands on a fire escape overlooking crowded illuminated intersection. He taps his smartphone screen; dynamic AR overlay lines (Augmented Reality ctOS network nodes) illuminate across the street, traffic lights turn green in all four directions simultaneously, causing a dramatic cross-junction police cruiser crash. Steam vents explode in the street. Aiden turns and walks silently into the rooftop shadow.",
-      "camera_lighting": "Third-person Over-The-Shoulder Dynamic cityscape pan",
-      "dialogue_text": "एडेन: पूरा शहर एक कोड है... और इस कोड की चाबी अब मेरे हाथ में है।",
-      "sfx_description": "स्मार्टफोन का हैक बीप, ट्रैफिक सिग्नल का बदलना, कारों की टक्कर का मेटल क्रैश, स्टीम पाइप का सीटी मारता विस्फोट।",
-      "c1_name": "Aiden Pearce",
-      "c2_name": "ctOS System",
-      "language": "hi",
-      "status": "scheduled",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "scene_synopsis": "POV: The First Live ctOS City Hack",
-      "caption": "⚡ POV: The First Live ctOS City Hack\n\nEpisode 11 of the #WatchDogs saga! In a connected city, nobody can hide for long... 🎬💻\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #aidenpearce #ctos #dedsec #gamingreels #viralreels #explorepage #fyp",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-      "created_at": "2026-11-05T07:53:26.402343+05:30",
-      "script_data": {
-        "title": "POV: The First Live ctOS City Hack",
-        "ep_num": 11,
-        "language": "hi",
-        "scheduled_for": "2026-11-10 09:00",
-        "visual_prompt": "Cinematic 8k, rainy night downtown Chicago Loop. Aiden Pearce in full Vigilante attire [Anchor: Aiden Pearce, cap, face mask, grey trenchcoat billowing in wind] stands on a fire escape overlooking crowded illuminated intersection. He taps his smartphone screen; dynamic AR overlay lines (Augmented Reality ctOS network nodes) illuminate across the street, traffic lights turn green in all four directions simultaneously, causing a dramatic cross-junction police cruiser crash. Steam vents explode in the street. Aiden turns and walks silently into the rooftop shadow.",
-        "bg_prompt": "Cinematic 8k, rainy night downtown Chicago Loop. Aiden Pearce in full Vigilante attire [Anchor: Aiden Pearce, cap, face mask, grey trenchcoat billowing in wind] stands on a fire escape overlooking crowded illuminated intersection. He taps his smartphone screen; dynamic AR overlay lines (Augmented Reality ctOS network nodes) illuminate across the street, traffic lights turn green in all four directions simultaneously, causing a dramatic cross-junction police cruiser crash. Steam vents explode in the street. Aiden turns and walks silently into the rooftop shadow.",
-        "camera_lighting": "Third-person Over-The-Shoulder Dynamic cityscape pan",
-        "dialogue_text": "एडेन: पूरा शहर एक कोड है... और इस कोड की चाबी अब मेरे हाथ में है।",
-        "sfx_description": "स्मार्टफोन का हैक बीप, ट्रैफिक सिग्नल का बदलना, कारों की टक्कर का मेटल क्रैश, स्टीम पाइप का सीटी मारता विस्फोट।",
-        "lines": [
-          {
-            "speaker": "c1",
-            "text": "एडेन: पूरा शहर एक कोड है... और इस कोड की चाबी अब मेरे हाथ में है।"
-          }
-        ],
-        "account": "lucknowlostboy"
-      },
-      "video_filename": "watchdogs_ep11.mp4"
-    },
-    {
-      "id": "watchdogs_ep12",
-      "series_id": "series_watchdogs_cinematic",
-      "series_title": "Watch Dogs: The Vigilante Saga (Cinematic)",
-      "universe": "Watch Dogs",
-      "ep_num": 12,
-      "day_num": 6,
-      "slot": "evening",
-      "scheduled_for": "2026-11-10 19:30",
-      "date_str": "10 Nov (Tue Evening)",
-      "title": "POV: Cornering Maurice Vega At May Stadium",
-      "title_hi": "पीओवी: मौरिस वेगा की घेराबंदी — मे स्टेडियम",
-      "visual_prompt": "Cinematic 8k, moody high-contrast lighting, underground tunnel of May Stadium during baseball game. Distant crowd roar muffled. Maurice Vega [Anchor: Maurice Vega, nervous, bruised, hoodie on] counting roll of cash under a flickering fluorescent tube. Suddenly, shadows bend; Aiden Pearce steps out of the darkness holding a black tactical baton. Before Maurice can draw his pistol, Aiden strikes the gun from his hand, slams Maurice violently against a metal locker, pressing his forearm against Maurice's throat.",
-      "camera_lighting": "Chiaroscuro Silhouette Entrance, deep shadows and flickering tube lights",
-      "dialogue_text": "मौरिस: तू... तू तो उस दिन मर गया था! एडेन: मुझे सिर्फ एक नाम चाहिए मौरिस... उस दिन उस टनल में गोली चलाने का हुक्म किसने दिया था?!",
-      "sfx_description": "धातु के लॉकर पर जोरदार टक्कर का धमाका, रिवॉल्वर का फर्श पर फिसलना, ऊपर स्टेडियम में हज़ारों दर्शकों के शोर की गूंज।",
-      "c1_name": "Aiden Pearce",
-      "c2_name": "Maurice Vega",
-      "language": "hi",
-      "status": "scheduled",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "scene_synopsis": "POV: Cornering Maurice Vega At May Stadium",
-      "caption": "⚡ POV: Cornering Maurice Vega At May Stadium\n\nEpisode 12 of the #WatchDogs saga! In a connected city, nobody can hide for long... 🎬💻\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #aidenpearce #ctos #dedsec #gamingreels #viralreels #explorepage #fyp",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-      "created_at": "2026-11-05T07:53:26.402394+05:30",
-      "script_data": {
-        "title": "POV: Cornering Maurice Vega At May Stadium",
-        "ep_num": 12,
-        "language": "hi",
-        "scheduled_for": "2026-11-10 19:30",
-        "visual_prompt": "Cinematic 8k, moody high-contrast lighting, underground tunnel of May Stadium during baseball game. Distant crowd roar muffled. Maurice Vega [Anchor: Maurice Vega, nervous, bruised, hoodie on] counting roll of cash under a flickering fluorescent tube. Suddenly, shadows bend; Aiden Pearce steps out of the darkness holding a black tactical baton. Before Maurice can draw his pistol, Aiden strikes the gun from his hand, slams Maurice violently against a metal locker, pressing his forearm against Maurice's throat.",
-        "bg_prompt": "Cinematic 8k, moody high-contrast lighting, underground tunnel of May Stadium during baseball game. Distant crowd roar muffled. Maurice Vega [Anchor: Maurice Vega, nervous, bruised, hoodie on] counting roll of cash under a flickering fluorescent tube. Suddenly, shadows bend; Aiden Pearce steps out of the darkness holding a black tactical baton. Before Maurice can draw his pistol, Aiden strikes the gun from his hand, slams Maurice violently against a metal locker, pressing his forearm against Maurice's throat.",
-        "camera_lighting": "Chiaroscuro Silhouette Entrance, deep shadows and flickering tube lights",
-        "dialogue_text": "मौरिस: तू... तू तो उस दिन मर गया था! एडेन: मुझे सिर्फ एक नाम चाहिए मौरिस... उस दिन उस टनल में गोली चलाने का हुक्म किसने दिया था?!",
-        "sfx_description": "धातु के लॉकर पर जोरदार टक्कर का धमाका, रिवॉल्वर का फर्श पर फिसलना, ऊपर स्टेडियम में हज़ारों दर्शकों के शोर की गूंज।",
-        "lines": [
-          {
-            "speaker": "c1",
-            "text": "मौरिस: तू... तू तो उस दिन मर गया था! एडेन: मुझे सिर्फ एक नाम चाहिए मौरिस... उस दिन उस टनल में गोली चलाने का हुक्म किसने दिया था?!"
-          }
-        ],
-        "account": "lucknowlostboy"
-      },
-      "video_filename": "watchdogs_ep12.mp4"
-    },
-    {
-      "id": "series_1793870819_ep01",
-      "series_id": "series_1793870819",
-      "series_title": "Harry Potter vs. Son Goku (Humorous Crossover): The Weekly Saga",
-      "universe": "Harry Potter vs. Son Goku (Humorous Crossover)",
-      "account": "lucknowlostboy",
-      "cta_handle": "@lucknowlostboy",
-      "ep_num": 1,
-      "day_num": 1,
-      "slot": "morning",
-      "scheduled_for": "2026-11-06 09:00",
-      "date_str": "06 Nov (Fri)",
-      "title": "POV: You Summoned A God To The Triwizard Tournament",
-      "scene_synopsis": "Harry accidentally mispronounces an ancient summoning spell meant to fetch a broomstick, opening a dimensional rift that drops Son Goku right onto the Gryffindor table mid-bite into a giant roasted turkey leg.",
-      "language": "en",
-      "status": "ready",
-      "script_data": {
-        "title": "POV: You Summoned A God To The Triwizard Tournament",
-        "language": "en",
-        "sfx_type": "room_ambience",
-        "bg_prompt": "2D cartoon comic illustration of Hogwarts Great Hall with long Gryffindor wooden tables and floating candles, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
-        "punchline_prompt": "Close-up 2D cartoon comic shot of a fluttering Golden Snitch floating close to a magical glowing rift, vertical 9:16",
-        "characters": {
-          "c1": {
-            "role": "Harry Potter",
-            "gender": "m",
-            "outfit": "suit",
-            "hat": "none",
-            "hair": "shaggy_brown",
-            "position": "left"
-          },
-          "c2": {
-            "role": "Son Goku",
-            "gender": "m",
-            "outfit": "casual_polo",
-            "hat": "none",
-            "hair": "shaggy_brown",
-            "position": "right"
-          }
-        },
-        "lines": [
-          {
-            "speaker": "c1",
-            "text": "Accio Broomstick! Wait... that was supposed to fetch my broom, not a guy eating a turkey leg!",
-            "c1_mood": "shocked",
-            "c2_mood": "happy",
-            "c1_gesture": "pointing",
-            "c2_gesture": "talking",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "Whoa! Where am I? Did King Kai upgrade his kitchen? This poultry is amazing!",
-            "c1_mood": "neutral",
-            "c2_mood": "happy",
-            "c1_gesture": "idle",
-            "c2_gesture": "shrug",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "Listen mate! A massive fire-breathing Hungarian Horntail dragon is waiting to obliterate me!",
-            "c1_mood": "angry",
-            "c2_mood": "shocked",
-            "c1_gesture": "hands_on_hips",
-            "c2_gesture": "idle",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "A giant dragon?! Awesome! Is it super strong? Can I fight it right after dessert?!",
-            "c1_mood": "droopy_eyes",
-            "c2_mood": "smug",
-            "c1_gesture": "idle",
-            "c2_gesture": "pointing",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c1",
-            "text": "No! Just help me catch the Golden Snitch so I don't fail this task!",
-            "c1_mood": "angry",
-            "c2_mood": "suspicious",
-            "c1_gesture": "talking",
-            "c2_gesture": "idle",
-            "is_punchline": false
-          },
-          {
-            "speaker": "c2",
-            "text": "Hold on... a tiny golden Dragon Ball with wings?! Shenron's getting creative!",
-            "c1_mood": "shocked",
-            "c2_mood": "smug",
-            "c1_gesture": "pointing",
-            "c2_gesture": "talking",
-            "is_punchline": true
-          }
-        ],
-        "caption": "⚡ POV: You Summoned A God To The Triwizard Tournament\n\nEpisode 1 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-        "total_words": 85,
-        "ep_num": 1,
-        "scheduled_for": "2026-11-06 09:00",
-        "first_comment": "#harrypottervssongokuhumorouscrossover #harrypotter #songoku #summoned #triwizard #tournament #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-        "account": "lucknowlostboy",
-        "video_file": "/root/gow/out/ep01_1793870753.mp4"
-      },
-      "video_file": "/root/gow/out/ep01_1793870753.mp4",
-      "caption": "⚡ POV: You Summoned A God To The Triwizard Tournament\n\nEpisode 1 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #harrypotter #songoku #summoned #triwizard #tournament #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-05T14:56:59.800266+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1793870819_ep01.mp4"
     },
     {
       "id": "series_1793870819_ep02",
@@ -2893,11 +2210,80 @@
       "title": "POV: The Prince of Saiyans inspects a school headmaster's wooden stick",
       "scene_synopsis": "Vegeta appears via instant transmission following Goku's energy signature. Dumbledore calmly offers lemon drops and points the Elder Wand at him. Vegeta uses his Scouter, which immediately explodes from reading Dumbledore's power level—only to realize it read a pathetic 5.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: The Prince of Saiyans inspects a school headmaster's wooden stick\n\nEpisode 3 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @heyltu for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervsgokutheultimatemismatch #prince #saiyans #inspects #school #headmaster #wooden #stick #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: The Prince of Saiyans inspects a school headmaster's wooden stick",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of Hogwarts Headmaster office, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a shattered scouter lying on a stone floor, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "none",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "A lemon drop, Prince? It’s quite refreshing before a duel.",
+            "c1_mood": "neutral",
+            "c2_mood": "suspicious",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Keep your candy. Let’s see what this wooden stick is hiding.",
+            "c1_mood": "neutral",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Wait... the scouter says your power level is five? That's impossible!",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "typing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Perhaps you should recalibrate your toy, or perhaps... it's just telling the truth.",
+            "c1_mood": "smug",
+            "c2_mood": "angry",
+            "c1_gesture": "shrug",
+            "c2_gesture": "idle",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: The Prince of Saiyans inspects a school headmaster's wooden stick\n\nEpisode 3 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
+        "total_words": 45,
+        "ep_num": 3,
+        "scheduled_for": "2026-11-07 09:00",
+        "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #prince #saiyans #inspects #school #headmaster #wooden #stick #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "heyltu",
+        "video_file": "/root/gow/out/ep03_1793877214.mp4"
+      },
+      "video_file": "/root/gow/out/ep03_1793877214.mp4",
+      "caption": "⚡ POV: The Prince of Saiyans inspects a school headmaster's wooden stick\n\nEpisode 3 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #prince #saiyans #inspects #school #headmaster #wooden #stick #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T15:02:34.565073+05:30",
       "posted_at": null,
