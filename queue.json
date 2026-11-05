@@ -2861,11 +2861,80 @@
       "title": "POV: An Angel breaks down the math of incantation speed vs nanoseconds",
       "scene_synopsis": "Whis gracefully sips tea with Professor McGonagall, politely explaining that a wizard taking 1.5 seconds to speak an incantation allows Goku to punch them 40 million times before the first syllable leaves their mouth.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: An Angel breaks down the math of incantation speed vs nanoseconds\n\nEpisode 6 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @heyltu for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervsgokutheultimatemismatch #angel #breaks #down #math #incantation #speed #nanoseconds #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: An Angel breaks down the math of incantation speed vs nanoseconds",
+        "language": "en",
+        "sfx_type": "lofi_lounge",
+        "bg_prompt": "2D cartoon comic illustration of a high-end celestial tea room overlooking Hogwarts castle, vertical 9:16, empty room without people, atmospheric cinematic lighting, clean line art",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a shattered teacup vibrating in mid-air, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "none",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c2",
+            "text": "Professor, you really think a flick of a wand beats a Saiyan?",
+            "c1_mood": "droopy_eyes",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "My dear, it takes you 1.5 seconds just to finish your incantation.",
+            "c1_mood": "neutral",
+            "c2_mood": "neutral",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "In that time, Goku has already landed forty million punches.",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Wait—so the spell doesn't even finish before the skull caves in?",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: An Angel breaks down the math of incantation speed vs nanoseconds\n\nEpisode 6 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+        "total_words": 45,
+        "ep_num": 6,
+        "scheduled_for": "2026-11-08 19:30",
+        "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #angel #breaks #down #math #incantation #speed #nanoseconds #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
+        "account": "heyltu",
+        "video_file": "/root/gow/out/ep06_1793882668.mp4"
+      },
+      "video_file": "/root/gow/out/ep06_1793882668.mp4",
+      "caption": "⚡ POV: An Angel breaks down the math of incantation speed vs nanoseconds\n\nEpisode 6 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #angel #breaks #down #math #incantation #speed #nanoseconds #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
       "first_comment_id": null,
       "created_at": "2026-11-05T15:02:34.565985+05:30",
       "posted_at": null,
