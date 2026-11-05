@@ -2611,11 +2611,80 @@
       "title": "POV: The Angry Saiyan Wife Arrives At Hogwarts",
       "scene_synopsis": "Chi-Chi marches into Hogwarts swinging a frying pan, scolding Dumbledore and Goku for delaying Goku's home chores. Dumbledore cowers in fear, admitting she is scarier than Voldemort.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: The Angry Saiyan Wife Arrives At Hogwarts\n\nEpisode 11 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #angry #saiyan #wife #arrives #hogwarts #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: The Angry Saiyan Wife Arrives At Hogwarts",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of the Hogwarts Great Hall, vertical 9:16 composition, clean line art, high-contrast cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a dented frying pan smoking on the floor, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "black_bun",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "Albus, she's not just a witch. She's a Saiyan housewife with a frying pan.",
+            "c1_mood": "shocked",
+            "c2_mood": "angry",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Goku! You promised to weed the garden before the Triwizard Tournament!",
+            "c1_mood": "shocked",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "I've faced dark lords and dragons, but her aura? It's definitely stronger than Voldemort's.",
+            "c1_mood": "shocked",
+            "c2_mood": "angry",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Forget the wand, Dumbledore—start running before she realizes you're the one who taught him Instant Transmission to get out of chores!",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: The Angry Saiyan Wife Arrives At Hogwarts\n\nEpisode 11 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+        "total_words": 60,
+        "ep_num": 11,
+        "scheduled_for": "2026-11-11 09:00",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #angry #saiyan #wife #arrives #hogwarts #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep11_1793902639.mp4"
+      },
+      "video_file": "/root/gow/out/ep11_1793902639.mp4",
+      "caption": "⚡ POV: The Angry Saiyan Wife Arrives At Hogwarts\n\nEpisode 11 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #angry #saiyan #wife #arrives #hogwarts #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.801752+05:30",
       "posted_at": null,
