@@ -2801,11 +2801,80 @@
       "title": "POV: Magic Meets Spirit Bomb In The Ultimate Clash",
       "scene_synopsis": "Voldemort unleashes a dark magical orb. Goku decides to form a Spirit Bomb, asking all Hogwarts wizards to raise their wands and lend him their magical energy.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: Magic Meets Spirit Bomb In The Ultimate Clash\n\nEpisode 13 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #magic #meets #spirit #bomb #ultimate #clash #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: Magic Meets Spirit Bomb In The Ultimate Clash",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of the Great Hall at Hogwarts with a massive glowing blue energy orb hovering in the center, vertical 9:16, empty room without people, atmospheric cinematic lighting, dark fantasy aesthetic",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a wand sparking with intense golden energy, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "bobby_cap",
+            "hair": "black_bun",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c2",
+            "text": "Your little stick won't save you from the dark arts, Potter!",
+            "c1_mood": "neutral",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Maybe not, but let's see how you handle a little spirit energy.",
+            "c1_mood": "neutral",
+            "c2_mood": "suspicious",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "What is that? Why is the whole school glowing blue?",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Everyone, raise your wands! Lend me your mana for the ultimate bomb!",
+            "c1_mood": "happy",
+            "c2_mood": "shocked",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: Magic Meets Spirit Bomb In The Ultimate Clash\n\nEpisode 13 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+        "total_words": 45,
+        "ep_num": 13,
+        "scheduled_for": "2026-11-12 09:00",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #magic #meets #spirit #bomb #ultimate #clash #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep13_1793903145.mp4"
+      },
+      "video_file": "/root/gow/out/ep13_1793903145.mp4",
+      "caption": "⚡ POV: Magic Meets Spirit Bomb In The Ultimate Clash\n\nEpisode 13 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #magic #meets #spirit #bomb #ultimate #clash #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.801992+05:30",
       "posted_at": null,
