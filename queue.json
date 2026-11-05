@@ -2231,11 +2231,80 @@
       "title": "POV: The Dark Lord Tries To Avada Kedavra A Saiyan",
       "scene_synopsis": "Lord Voldemort casts the Unforgivable Killing Curse directly at Goku's chest. Goku dodges at light speed, appears behind Voldemort, and slaps him on the back in a friendly greeting.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: The Dark Lord Tries To Avada Kedavra A Saiyan\n\nEpisode 7 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #dark #lord #tries #avada #kedavra #saiyan #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: The Dark Lord Tries To Avada Kedavra A Saiyan",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a dark, crumbling stone dungeon with flickering torchlight, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing green spell dissipating into thin air, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "none",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c2",
+            "text": "Your magic ends here, Saiyan. Avada Kedavra!",
+            "c1_mood": "neutral",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Is that supposed to be a tickle? You're way too slow.",
+            "c1_mood": "smug",
+            "c2_mood": "shocked",
+            "c1_gesture": "shrug",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Impossible! Where did you—",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Right behind you, pal. Nice wand, though. Does it vibrate?",
+            "c1_mood": "happy",
+            "c2_mood": "suspicious",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: The Dark Lord Tries To Avada Kedavra A Saiyan\n\nEpisode 7 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+        "total_words": 32,
+        "ep_num": 7,
+        "scheduled_for": "2026-11-09 09:00",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #dark #lord #tries #avada #kedavra #saiyan #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep07_1793883778.mp4"
+      },
+      "video_file": "/root/gow/out/ep07_1793883778.mp4",
+      "caption": "⚡ POV: The Dark Lord Tries To Avada Kedavra A Saiyan\n\nEpisode 7 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #dark #lord #tries #avada #kedavra #saiyan #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.801463+05:30",
       "posted_at": null,
