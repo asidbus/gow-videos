@@ -2427,11 +2427,80 @@
       "title": "POV: Lord Voldemort meets a target who dodges light speed spells",
       "scene_synopsis": "Voldemort intercepts Goku in the woods, launching a lethal 'Avada Kedavra'. Goku sideways-steps at faster-than-light speed, catching the green jet of killing curse energy behind his back and flipping it like a coin.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: Lord Voldemort meets a target who dodges light speed spells\n\nEpisode 4 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @heyltu for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervsgokutheultimatemismatch #lord #voldemort #meets #target #dodges #light #speed #spells #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: Lord Voldemort meets a target who dodges light speed spells",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a dark, dense Forbidden Forest at twilight, vertical 9:16 composition, clean line art, atmospheric cinematic lighting with glowing green embers in the air, empty clearing without people",
+        "punchline_prompt": "Extreme close-up 2D cartoon comic shot of a glowing green Avada Kedavra bolt being held between two fingers like a spinning coin, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "none",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "Your magic is impressive, but you're playing with forces you don't understand.",
+            "c1_mood": "neutral",
+            "c2_mood": "neutral",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Magic? I thought that was just a glow-stick. Is it supposed to be fast?",
+            "c1_mood": "suspicious",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "That bolt moves at the speed of light. Nothing can outrun it.",
+            "c1_mood": "angry",
+            "c2_mood": "neutral",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Speed of light? Weird... it feels more like a fidget spinner to me.",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: Lord Voldemort meets a target who dodges light speed spells\n\nEpisode 4 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+        "total_words": 51,
+        "ep_num": 4,
+        "scheduled_for": "2026-11-07 19:30",
+        "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #lord #voldemort #meets #target #dodges #light #speed #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
+        "account": "heyltu",
+        "video_file": "/root/gow/out/ep04_1793877908.mp4"
+      },
+      "video_file": "/root/gow/out/ep04_1793877908.mp4",
+      "caption": "⚡ POV: Lord Voldemort meets a target who dodges light speed spells\n\nEpisode 4 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #lord #voldemort #meets #target #dodges #light #speed #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
       "first_comment_id": null,
       "created_at": "2026-11-05T15:02:34.565426+05:30",
       "posted_at": null,
