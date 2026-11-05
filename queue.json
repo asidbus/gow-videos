@@ -2326,11 +2326,80 @@
       "title": "POV: Your Ultimate Dark Magic Just Annoyed A Saiyan",
       "scene_synopsis": "A massive wave of combined dark curses scorches Goku's gi shirt. Thinking Voldemort is actually trying to start a serious martial arts sparring match, Goku turns Super Saiyan Blue.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: Your Ultimate Dark Magic Just Annoyed A Saiyan\n\nEpisode 8 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #your #ultimate #dark #magic #just #annoyed #saiyan #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: Your Ultimate Dark Magic Just Annoyed A Saiyan",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a desolate, rocky wasteland at twilight, vertical 9:16 composition, clean line art, dramatic purple and orange atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing blue aura surrounding a tattered orange gi, vertical 9:16, intense energy sparks",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "none",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c2",
+            "text": "Avada Kedavra! Did that finally wipe the smirk off your face?",
+            "c1_mood": "neutral",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Oh, nice! A little static electricity? You want to spar for real?",
+            "c1_mood": "happy",
+            "c2_mood": "shocked",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Spar? I just tried to end your bloodline with a forbidden curse!",
+            "c1_mood": "neutral",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Right... well, my turn. Hope you brought a spare gi, because this is blue.",
+            "c1_mood": "angry",
+            "c2_mood": "shocked",
+            "c1_gesture": "talking",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: Your Ultimate Dark Magic Just Annoyed A Saiyan\n\nEpisode 8 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+        "total_words": 49,
+        "ep_num": 8,
+        "scheduled_for": "2026-11-09 19:30",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #your #ultimate #dark #magic #just #annoyed #saiyan #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep08_1793885507.mp4"
+      },
+      "video_file": "/root/gow/out/ep08_1793885507.mp4",
+      "caption": "⚡ POV: Your Ultimate Dark Magic Just Annoyed A Saiyan\n\nEpisode 8 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #your #ultimate #dark #magic #just #annoyed #saiyan #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.801544+05:30",
       "posted_at": null,
