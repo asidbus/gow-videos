@@ -1445,31 +1445,93 @@
       "c1_name": "Aiden Pearce",
       "c2_name": "Damien Brenks",
       "language": "hi",
-      "status": "scheduled",
+      "status": "ready",
       "account": "lucknowlostboy",
       "cta_handle": "@lucknowlostboy",
       "scene_synopsis": "POV: Red Alert! ctOS Counter-Hack In Progress",
-      "caption": "⚡ POV: Red Alert! ctOS Counter-Hack In Progress\n\nEpisode 3 of the #WatchDogs saga! In a connected city, nobody can hide for long... 🎬💻\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #aidenpearce #ctos #dedsec #gamingreels #viralreels #explorepage #fyp",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "caption": "⚡ POV: Red Alert! ctOS Counter-Hack In Progress\n\nEpisode 3 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
+      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "created_at": "2026-11-05T07:53:26.401891+05:30",
       "script_data": {
         "title": "POV: Red Alert! ctOS Counter-Hack In Progress",
-        "ep_num": 3,
         "language": "hi",
-        "scheduled_for": "2026-11-06 09:00",
-        "visual_prompt": "Cinematic 8k, Merlaut hotel suite. Red flashing alarm glow. Aiden Pearce violently grabbing Damien Brenks by his navy blazer collar. Damien's face pale with panic. Screens in background displaying RED ALERT intrusion warnings and security traces.",
-        "bg_prompt": "Cinematic 8k, Merlaut hotel suite. Red flashing alarm glow. Aiden Pearce violently grabbing Damien Brenks by his navy blazer collar. Damien's face pale with panic. Screens in background displaying RED ALERT intrusion warnings and security traces.",
-        "camera_lighting": "Handheld dynamic tracking, high kinetic tension",
-        "dialogue_text": "एडेन: कोई हमें ट्रैक कर रहा है डेमियन! कनेक्शन काटो, अभी के अभी! डेमियन: रुको एडेन, बस कुछ सेकंड और!",
-        "sfx_description": "तीव्र चेतावनी सायरन, कुर्सियों के गिरने की आवाज़, कपड़े के खिंचने की सरसराहट।",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of dark high-tech control room with red flashing emergency lights and glowing server racks inspired by Watch Dogs, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a futuristic smartphone showing a complete citywide blackout command success icon with glowing glitch effects, vertical 9:16 composition",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "hacker",
+            "hat": "cap",
+            "hair": "none",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
         "lines": [
           {
             "speaker": "c1",
-            "text": "एडेन: कोई हमें ट्रैक कर रहा है डेमियन! कनेक्शन काटो, अभी के अभी! डेमियन: रुको एडेन, बस कुछ सेकंड और!"
+            "text": "मुख्य सर्वर अब पूरी तरह से मेरे नियंत्रण में है।",
+            "c1_mood": "neutral",
+            "c2_mood": "suspicious",
+            "c1_gesture": "typing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "रुको! लाल चेतावनी बज रही है! काउंटर-हैक शुरू हो चुका है!",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "तुम्हारी सुरक्षा प्रणाली मेरे सामने बहुत धीमी है, दोस्त।",
+            "c1_mood": "smug",
+            "c2_mood": "angry",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "गलतफहमी में मत रहो! तुम्हारा सिग्नल पूरी तरह ट्रैप हो चुका है!",
+            "c1_mood": "smug",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "hands_on_hips",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "सिग्नल नहीं, मैंने तो तुम्हारे पूरे शहर का ही ब्लैकआउट कर दिया!",
+            "c1_mood": "smug",
+            "c2_mood": "shocked",
+            "c1_gesture": "pointing",
+            "c2_gesture": "shrug",
+            "is_punchline": true
           }
         ],
-        "account": "lucknowlostboy"
+        "caption": "⚡ POV: Red Alert! ctOS Counter-Hack In Progress\n\nEpisode 3 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
+        "total_words": 54,
+        "ep_num": 3,
+        "scheduled_for": "2026-11-06 09:00",
+        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep03_1793870442.mp4"
       },
+      "video_file": "/root/gow/out/ep03_1793870442.mp4",
       "video_filename": "watchdogs_ep03.mp4"
     },
     {
