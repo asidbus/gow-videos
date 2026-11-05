@@ -3570,11 +3570,80 @@
       "title": "POV: Wizards combine 10,000 spells to challenge one Saiyan warrior",
       "scene_synopsis": "Hermione channels telepathic communication with King Kai to negotiate special non-lethal rules for an upcoming exhibition match, agreeing that if wizards can land ONE touch using food magic, Goku surrenders.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: Wizards combine 10,000 spells to challenge one Saiyan warrior\n\nEpisode 10 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @heyltu for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervsgokutheultimatemismatch #wizards #combine #spells #challenge #saiyan #warrior #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: Wizards combine 10,000 spells to challenge one Saiyan warrior",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a high-tech wizardry chamber merged with a Saiyan training arena, vertical 9:16, empty room without people, atmospheric cinematic lighting, glowing magical runes on stone floors",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a single, glowing enchanted pumpkin pie hovering in mid-air, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "bobby_cap",
+            "hair": "none",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "King Kai confirmed the terms: one touch with food magic, and you forfeit the match.",
+            "c1_mood": "neutral",
+            "c2_mood": "neutral",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Food magic? You're betting the fate of the wizarding world on a snack?",
+            "c1_mood": "neutral",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Ten thousand spells are currently binding that single pastry to your aura.",
+            "c1_mood": "suspicious",
+            "c2_mood": "shocked",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Wait, why is my stomach suddenly growling for pumpkin pie?",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: Wizards combine 10,000 spells to challenge one Saiyan warrior\n\nEpisode 10 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+        "total_words": 50,
+        "ep_num": 10,
+        "scheduled_for": "2026-11-10 19:30",
+        "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #wizards #combine #spells #challenge #saiyan #warrior #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "heyltu",
+        "video_file": "/root/gow/out/ep10_1793898051.mp4"
+      },
+      "video_file": "/root/gow/out/ep10_1793898051.mp4",
+      "caption": "⚡ POV: Wizards combine 10,000 spells to challenge one Saiyan warrior\n\nEpisode 10 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #wizards #combine #spells #challenge #saiyan #warrior #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T15:02:34.567042+05:30",
       "posted_at": null,
