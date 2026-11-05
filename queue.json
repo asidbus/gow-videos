@@ -1553,31 +1553,102 @@
       "c1_name": "Aiden Pearce",
       "c2_name": "Lena Pearce",
       "language": "hi",
-      "status": "scheduled",
+      "status": "ready",
       "account": "lucknowlostboy",
       "cta_handle": "@lucknowlostboy",
       "scene_synopsis": "POV: Aiden Pearce In The Getaway Car Controlling Chicago",
-      "caption": "⚡ POV: Aiden Pearce In The Getaway Car Controlling Chicago\n\nEpisode 4 of the #WatchDogs saga! In a connected city, nobody can hide for long... 🎬💻\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #aidenpearce #ctos #dedsec #gamingreels #viralreels #explorepage #fyp",
-      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #gamerlife #pcgaming #gamingcommunity #gamersofinstagram #gamingreels #gameplay #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "caption": "⚡ POV: Aiden Pearce In The Getaway Car Controlling Chicago\n\nEpisode 4 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
+      "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "created_at": "2026-11-05T07:53:26.401957+05:30",
       "script_data": {
         "title": "POV: Aiden Pearce In The Getaway Car Controlling Chicago",
-        "ep_num": 4,
         "language": "hi",
-        "scheduled_for": "2026-11-06 19:30",
-        "visual_prompt": "Cinematic 8k, interior black station wagon SUV driving through rainy Chicago streets at night. Aiden at the wheel, looking back warmly at little niece Lena in yellow coat clutching her toy bunny. Neon city lights reflecting on rain-soaked windshield.",
-        "bg_prompt": "Cinematic 8k, interior black station wagon SUV driving through rainy Chicago streets at night. Aiden at the wheel, looking back warmly at little niece Lena in yellow coat clutching her toy bunny. Neon city lights reflecting on rain-soaked windshield.",
-        "camera_lighting": "Interior front windshield angle, warm cabin ambient glow",
-        "dialogue_text": "एडेन: घबराओ मत लीना, हम बस घर पहुँचने वाले हैं। लीना: अंकल एडेन, क्या वो बुरे लोग अब चले गए?",
-        "sfx_description": "कार इंजन की धीमी घरघराहट, वाइपर की आवाज़, बाहर मूसलाधार बारिश की थपथपाहट।",
+        "sfx_type": "traffic_siren",
+        "bg_prompt": "2D cartoon comic illustration of inside a getaway sports car during rainy night in Chicago with glowing green digital grid signals on futuristic windshield, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing smartphone screen displaying city infrastructure access granted in red, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "hacker",
+            "hat": "cap",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "police",
+            "hat": "police_cap",
+            "hair": "none",
+            "position": "right"
+          }
+        },
         "lines": [
           {
+            "speaker": "c2",
+            "text": "तुम चारों तरफ से घिरे हुए हो! अपनी गाड़ी तुरंत रोको!",
+            "c1_mood": "neutral",
+            "c2_mood": "angry",
+            "c1_gesture": "typing",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
             "speaker": "c1",
-            "text": "एडेन: घबराओ मत लीना, हम बस घर पहुँचने वाले हैं। लीना: अंकल एडेन, क्या वो बुरे लोग अब चले गए?"
+            "text": "यह पूरा शहर मेरी उंगलियों पर चलता है, अफ़सर।",
+            "c1_mood": "smug",
+            "c2_mood": "suspicious",
+            "c1_gesture": "typing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "क्या बकवास है! सामने का सिग्नल लाल है, तुम कहीं नहीं जाओगे!",
+            "c1_mood": "neutral",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "सिग्नल अब हरा हो चुका है... और तुम्हारी सड़क बंद होने वाली है।",
+            "c1_mood": "smug",
+            "c2_mood": "shocked",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "क्या? तुमने पूरे शिकागो का कंट्रोल हैक कर लिया?!",
+            "c1_mood": "neutral",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "पूरा शहर नहीं... सिर्फ तुम्हारा रास्ता।",
+            "c1_mood": "smug",
+            "c2_mood": "angry",
+            "c1_gesture": "typing",
+            "c2_gesture": "idle",
+            "is_punchline": true
           }
         ],
-        "account": "lucknowlostboy"
+        "caption": "⚡ POV: Aiden Pearce In The Getaway Car Controlling Chicago\n\nEpisode 4 of the #WatchDogs saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#watchdogs #book #reels #explorepage #viralreels",
+        "total_words": 60,
+        "ep_num": 4,
+        "scheduled_for": "2026-11-06 19:30",
+        "first_comment": "#watchdogs #aidenpearce #ctos #dedsec #ubisoft #ubisoftgames #openworld #cyberpunk #chicago #booktok #bookstagram #novelreaders #storytime #darkromance #fantasybooks #lore #epicstory #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep04_1793870703.mp4"
       },
+      "video_file": "/root/gow/out/ep04_1793870703.mp4",
       "video_filename": "watchdogs_ep04.mp4"
     },
     {
