@@ -2083,11 +2083,80 @@
       "title": "POV: You Try To Teach A Saiyan Defense Against The Dark Arts",
       "scene_synopsis": "Ron tries to demonstrate how terrifying Boggarts are, but when the monster transforms into Chi-Chi yelling about homework, Goku casually pops a Senzu bean and offers one to the Boggart.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: You Try To Teach A Saiyan Defense Against The Dark Arts\n\nEpisode 6 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #teach #saiyan #defense #against #dark #arts #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: You Try To Teach A Saiyan Defense Against The Dark Arts",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a dusty Hogwarts classroom with magical artifacts, vertical 9:16, clean line art, atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing green Senzu bean in a hand, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "Focus, Goku. The Boggart turns into your deepest fear. Don't let it win.",
+            "c1_mood": "neutral",
+            "c2_mood": "neutral",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "My deepest fear? Is it a stronger fighter? Or a lack of food?",
+            "c1_mood": "neutral",
+            "c2_mood": "suspicious",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "It's... wait, why is it screaming about your unfinished algebra homework?",
+            "c1_mood": "shocked",
+            "c2_mood": "neutral",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Oh, Chi-Chi's hangry. Here, give her this bean, it usually calms her down.",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: You Try To Teach A Saiyan Defense Against The Dark Arts\n\nEpisode 6 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+        "total_words": 50,
+        "ep_num": 6,
+        "scheduled_for": "2026-11-08 19:30",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #teach #saiyan #defense #against #dark #arts #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep06_1793881679.mp4"
+      },
+      "video_file": "/root/gow/out/ep06_1793881679.mp4",
+      "caption": "⚡ POV: You Try To Teach A Saiyan Defense Against The Dark Arts\n\nEpisode 6 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #teach #saiyan #defense #against #dark #arts #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.801392+05:30",
       "posted_at": null,
