@@ -3406,11 +3406,80 @@
       "title": "POV: You calculate that the whole Ministry of Magic equals 0.0001 Power Level",
       "scene_synopsis": "Draco and Harry sit side-by-side in complete despair after reviewing Arithmancy calculations comparing magical energy output to Saiyan ki. Draco proposes an unthinkable alliance: using dark forbidden artifacts to hack Goku's stomach.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: You calculate that the whole Ministry of Magic equals 0.0001 Power Level\n\nEpisode 9 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @heyltu for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervsgokutheultimatemismatch #calculate #that #whole #ministry #magic #equals #power #level #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: You calculate that the whole Ministry of Magic equals 0.0001 Power Level",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a dimly lit, dusty Hogwarts library archive at night, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, stacks of ancient scrolls and glowing magical artifacts, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing, forbidden dark artifact pulsating with purple energy, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "bobby_cap",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "The math is final. The entire Ministry of Magic doesn't even hit a fraction of a single Saiyan unit.",
+            "c1_mood": "droopy_eyes",
+            "c2_mood": "shocked",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "So we're just... bugs? A rounding error in his training session?",
+            "c1_mood": "droopy_eyes",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Worse. He's currently hungry. And we are the only snack on this planet.",
+            "c1_mood": "neutral",
+            "c2_mood": "suspicious",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Forget the wands. We use the Forbidden Cursed Relics to poison his dinner.",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: You calculate that the whole Ministry of Magic equals 0.0001 Power Level\n\nEpisode 9 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+        "total_words": 56,
+        "ep_num": 9,
+        "scheduled_for": "2026-11-10 09:00",
+        "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #calculate #that #whole #ministry #magic #equals #power #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
+        "account": "heyltu",
+        "video_file": "/root/gow/out/ep09_1793894966.mp4"
+      },
+      "video_file": "/root/gow/out/ep09_1793894966.mp4",
+      "caption": "⚡ POV: You calculate that the whole Ministry of Magic equals 0.0001 Power Level\n\nEpisode 9 of the #HarryPotterVsGokuTheUltimateMismatch saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervsgokutheultimatemismatch #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervsgokutheultimatemismatch #hero #antagonist #calculate #that #whole #ministry #magic #equals #power #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
       "first_comment_id": null,
       "created_at": "2026-11-05T15:02:34.566820+05:30",
       "posted_at": null,
