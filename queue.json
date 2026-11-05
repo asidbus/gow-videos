@@ -2706,11 +2706,80 @@
       "title": "POV: Infiltrating The Dark Lord's Base With Instant Transmission",
       "scene_synopsis": "Harry tries to explain stealth magic, but Goku just grabs Harry's shoulder and Instant-Transmissions them directly onto Voldemort's lap while eating a waffle.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "⚡ POV: Infiltrating The Dark Lord's Base With Instant Transmission\n\nEpisode 12 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #infiltrating #dark #lord #base #with #instant #transmission #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: Infiltrating The Dark Lord's Base With Instant Transmission",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a dark, ominous stone corridor in Voldemort's base, vertical 9:16 composition, clean line art, atmospheric cinematic lighting, empty room without people",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of Voldemort looking extremely confused while holding a half-eaten waffle, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "bobby_hoodie",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c1",
+            "text": "Stay quiet, Goku. We need to use stealth to reach the inner sanctum.",
+            "c1_mood": "neutral",
+            "c2_mood": "neutral",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Stealth is too slow, Harry! I can just sense his energy right there.",
+            "c1_mood": "suspicious",
+            "c2_mood": "happy",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "No, don't you dare—that's not how magic works!",
+            "c1_mood": "angry",
+            "c2_mood": "neutral",
+            "c1_gesture": "pointing",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "Too late! Say hi to the Dark Lord for me!",
+            "c1_mood": "shocked",
+            "c2_mood": "smug",
+            "c1_gesture": "idle",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: Infiltrating The Dark Lord's Base With Instant Transmission\n\nEpisode 12 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+        "total_words": 44,
+        "ep_num": 12,
+        "scheduled_for": "2026-11-11 19:30",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #infiltrating #dark #lord #base #with #instant #transmission #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep12_1793902914.mp4"
+      },
+      "video_file": "/root/gow/out/ep12_1793902914.mp4",
+      "caption": "⚡ POV: Infiltrating The Dark Lord's Base With Instant Transmission\n\nEpisode 12 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #movie #reels #explorepage #viralreels",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #infiltrating #dark #lord #base #with #instant #transmission #cinematic #filmtok #cinematicreels #moviebuff #hollywood #films #scenes #storytelling #reels #viralreels #explorepage #trendingreels #instareels #reelsindia",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.801871+05:30",
       "posted_at": null,
