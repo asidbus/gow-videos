@@ -2147,11 +2147,98 @@
       "title": "POV: Your Magic Wand Can't Hurt A Guy Who Catches Lasers",
       "scene_synopsis": "Panicking, Harry fires 'Expelliarmus' straight at the intruder. Goku catches the red beam of magic in his bare palm, complaining that the light beam feels like a warm hand-warmer massage.",
       "language": "en",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
+      "status": "ready",
+      "script_data": {
+        "title": "POV: Your Magic Wand Can't Hurt A Guy Who Catches Lasers",
+        "language": "en",
+        "sfx_type": "room_ambience",
+        "bg_prompt": "2D cartoon comic illustration of a cozy magical castle room with stone walls, floating candles, and arched gothic windows, vertical 9:16, empty room without people, atmospheric lighting",
+        "punchline_prompt": "Close-up 2D cartoon comic shot of a glowing wooden magic wand fizzling out with harmless red sparks, vertical 9:16",
+        "characters": {
+          "c1": {
+            "role": "Hero",
+            "gender": "m",
+            "outfit": "casual_polo",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "left"
+          },
+          "c2": {
+            "role": "Antagonist",
+            "gender": "m",
+            "outfit": "suit",
+            "hat": "none",
+            "hair": "shaggy_brown",
+            "position": "right"
+          }
+        },
+        "lines": [
+          {
+            "speaker": "c2",
+            "text": "Expelliarmus! Stay back, you orange-suited maniac!",
+            "c1_mood": "neutral",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Ooh, nice red lightbeam! Wait... is this supposed to disarm me or massage my palm?",
+            "c1_mood": "happy",
+            "c2_mood": "shocked",
+            "c1_gesture": "talking",
+            "c2_gesture": "idle",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "That's a lethal disarming spell! Why are you rubbing it into your skin?!",
+            "c1_mood": "happy",
+            "c2_mood": "angry",
+            "c1_gesture": "idle",
+            "c2_gesture": "pointing",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "It feels like a cozy hand-warmer. Got any extra beams for my lower back?",
+            "c1_mood": "smug",
+            "c2_mood": "shocked",
+            "c1_gesture": "shrug",
+            "c2_gesture": "hands_on_hips",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c2",
+            "text": "I am a trained wizard! What kind of monster treats high magic like a spa day?!",
+            "c1_mood": "smug",
+            "c2_mood": "shocked",
+            "c1_gesture": "idle",
+            "c2_gesture": "talking",
+            "is_punchline": false
+          },
+          {
+            "speaker": "c1",
+            "text": "Magic? Buddy, I catch planet-destroying lasers barehanded before my morning workout!",
+            "c1_mood": "smug",
+            "c2_mood": "droopy_eyes",
+            "c1_gesture": "talking",
+            "c2_gesture": "shrug",
+            "is_punchline": true
+          }
+        ],
+        "caption": "⚡ POV: Your Magic Wand Can't Hurt A Guy Who Catches Lasers\n\nEpisode 2 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
+        "total_words": 75,
+        "ep_num": 2,
+        "scheduled_for": "2026-11-06 19:30",
+        "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #your #magic #wand #hurt #catches #lasers #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+        "account": "lucknowlostboy",
+        "video_file": "/root/gow/out/ep02_1793870848.mp4"
+      },
+      "video_file": "/root/gow/out/ep02_1793870848.mp4",
       "caption": "⚡ POV: Your Magic Wand Can't Hurt A Guy Who Catches Lasers\n\nEpisode 2 of the #HarryPotterVsSonGokuHumorousCrossover saga! The journey intensifies... 🎬🔥\n\n👉 Follow @lucknowlostboy for daily episodes at 09:00 AM & 07:30 PM IST!\n💬 What do you think happens next? Drop your thoughts below! 👇\n\n#harrypottervssongokuhumorouscrossover #web #reels #explorepage #viralreels",
-      "first_comment": "#harrypottervssongokuhumorouscrossover #your #magic #wand #hurt #catches #lasers #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
+      "first_comment": "#harrypottervssongokuhumorouscrossover #hero #antagonist #your #magic #wand #hurt #catches #lasers #storytime #cinematic #viralvideos #dailyshorts #animation #entertainment #shortfilm #reels #viralreels #explorepage #trendingreels #instareels #reelsindia #fyp",
       "first_comment_id": null,
       "created_at": "2026-11-05T14:56:59.800857+05:30",
       "posted_at": null,
