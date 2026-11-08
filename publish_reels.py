@@ -225,6 +225,15 @@ def process_due_items(queue_path: str, force_id: str = None) -> list:
         with open(queue_path, "w", encoding="utf-8") as f:
             json.dump(queue_data, f, indent=2, ensure_ascii=False)
         log(f"Queue updated with {len(published_items)} newly published reels.")
+        try:
+            subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
+            subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
+            subprocess.run(["git", "add", "queue.json"], check=True)
+            subprocess.run(["git", "commit", "-m", "Automated reel publish: update queue.json [skip ci]"], check=True)
+            subprocess.run(["git", "push", "origin", "main"], check=True)
+            log("Pushed updated queue.json back to GitHub")
+        except Exception as e:
+            log(f"Git commit/push in action: {e}")
 
     return published_items
 
