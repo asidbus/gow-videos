@@ -1,14 +1,14 @@
 name: Publish
-    on:
+on:
       schedule:
         - cron: '*/15 * * * *'
       push:
         paths:
           - 'queue.json'
       workflow_dispatch:
-    permissions:
+permissions:
       contents: write
-    jobs:
+jobs:
       publish:
         runs-on: ubuntu-latest
         steps:
@@ -19,9 +19,9 @@ name: Publish
           - run: pip install requests
           - run: python publish_reels.py
             env:
-              ACCOUNTS_JSON: ${{
-              secrets.ACCOUNTS_JSON }}
-              TELEGRAM_BOT_TOKEN: ${{
-              secrets.TELEGRAM_BOT_TOKEN }}
-              TELEGRAM_CHAT_ID: ${{
-              secrets.TELEGRAM_CHAT_ID }}
+              ACCOUNTS_JSON:
+              ${{secrets.ACCOUNTS_JSON}}
+              TELEGRAM_BOT_TOKEN:
+              ${{secrets.TELEGRAM_BOT_TOKEN}}
+              TELEGRAM_CHAT_ID:
+              ${{secrets.TELEGRAM_CHAT_ID}}
