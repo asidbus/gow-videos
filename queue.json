@@ -5517,9 +5517,102 @@
       "language": "en",
       "song_name": null,
       "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
+      "status": "ready",
+      "script_data": {
+        "title": "POV: You fight off elite assassins in the midnight monsoon rainfall",
+        "language": "en",
+        "song_name": null,
+        "music": "epic",
+        "characters": [
+          {
+            "id": "c1",
+            "name": "Hero",
+            "gender": "m",
+            "pitch": 0,
+            "look_en": "Cinematic realistic portrait of Hero, authentic live-action film cinematography, athletic heroic build, expressive determined eyes, detailed natural attire."
+          },
+          {
+            "id": "c2",
+            "name": "Antagonist",
+            "gender": "m",
+            "pitch": -2,
+            "look_en": "Cinematic realistic portrait of Antagonist, authentic live-action film cinematography, sharp angular features, cunning intense gaze, stylish attire."
+          }
+        ],
+        "scenes": [
+          {
+            "shot": "wide",
+            "place": "Cinematic atmospheric vista of Bairan, dramatic rim lighting, 8k volumetric fog.",
+            "desc": "Hero stands watchful amidst the brooding landscape, preparing for impending conflict.",
+            "extras_en": "",
+            "chars": [
+              "c1"
+            ],
+            "lines": [
+              {
+                "speaker": "c1",
+                "text": "Everything changed in an instant. In Bairan, nobody is safe anymore.",
+                "mood": "dramatic"
+              }
+            ]
+          },
+          {
+            "shot": "medium",
+            "place": "Tense confrontation corridor inside Bairan, neon backlighting, high contrast reflections.",
+            "desc": "Hero turns sharply to confront Antagonist, intensity rising between them.",
+            "extras_en": "",
+            "chars": [
+              "c1",
+              "c2"
+            ],
+            "lines": [
+              {
+                "speaker": "c2",
+                "text": "Did you really believe we walked into this without a plan?",
+                "mood": "neutral"
+              }
+            ]
+          },
+          {
+            "shot": "close",
+            "place": "Intense dramatic close-up setting with dynamic shadows, cinema lens depth of field.",
+            "desc": "Tight camera angle capturing Hero's resolute expression and piercing focus.",
+            "extras_en": "",
+            "chars": [
+              "c1"
+            ],
+            "lines": [
+              {
+                "speaker": "c1",
+                "text": "The truth is far more dangerous than anything you could imagine!",
+                "mood": "angry"
+              }
+            ]
+          },
+          {
+            "shot": "medium",
+            "place": "Climactic master wide shot, rainstorm sparks flying, epic cinematic composition.",
+            "desc": "Dramatic showdown as the stakes reach their peak, setting up the ultimate turning point.",
+            "extras_en": "",
+            "chars": [
+              "c1",
+              "c2"
+            ],
+            "lines": [
+              {
+                "speaker": "c2",
+                "text": "Now destiny makes the call. Are you ready for what comes next?",
+                "mood": "neutral"
+              }
+            ]
+          }
+        ],
+        "caption": "POV: You fight off elite assassins in the midnight monsoon rainfall 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 4 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
+        "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
+        "account": "gaonkawifi",
+        "video_file": "/root/gow/out/ep03_1794299754.mp4"
+      },
+      "video_file": "/root/gow/out/ep03_1794299754.mp4",
       "caption": "POV: You fight off elite assassins in the midnight monsoon rainfall 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 4 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
       "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
       "first_comment_id": null,
