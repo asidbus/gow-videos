@@ -5387,137 +5387,6 @@
       "video_filename": "series_drifter_1794014570_part131.mp4"
     },
     {
-      "id": "series_1794299342_ep01",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 1,
-      "day_num": 1,
-      "slot": "morning",
-      "scheduled_for": "2026-11-11 14:00",
-      "date_str": "11 Nov (Wed)",
-      "title": "POV: You return to a burning home and find a fatal symbol left behind",
-      "scene_synopsis": "Dev stands amidst the smoldering remains of his ancestral village. Kaka pulls him away from the wreckage, showing him a blood-red insignia carved into the central pillar—the mark of the ruthless warlord Vikram, known to all as Bairan.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "ready",
-      "script_data": {
-        "title": "POV: You return to a burning home and find a fatal symbol left behind",
-        "language": "en",
-        "song_name": null,
-        "music": "epic",
-        "characters": [
-          {
-            "id": "c1",
-            "name": "Dev",
-            "gender": "m",
-            "look_en": "25-year-old South Asian warrior, lean athletic build, wearing torn dark leather tunic covered in ash, soot on face, intense grieving expression."
-          },
-          {
-            "id": "c2",
-            "name": "Kaka",
-            "gender": "m",
-            "look_en": "55-year-old grey-bearded elder villager, weathered features, wearing torn traditional robes stained with dirt and soot, desperate and terrified expression."
-          }
-        ],
-        "scenes": [
-          {
-            "shot": "wide",
-            "place": "Smoldering ruins of an ancient village at dusk, ash falling like snow, orange flames flickering against charcoal ground.",
-            "desc": "Dev walks slowly through the smoke and burning timber, staring in horror at the total destruction around him.",
-            "chars": [
-              "c1"
-            ],
-            "lines": [
-              {
-                "speaker": "c1",
-                "text": "It is all gone. Every home, every life... burned to ash in a single night.",
-                "mood": "dramatic"
-              }
-            ]
-          },
-          {
-            "shot": "medium",
-            "place": "Blackened courtyard of the village shrine, thick white smoke swirling in the night air.",
-            "desc": "Kaka rushes out from behind crumbling stone pillars, frantically pulling Dev behind a stone wall away from falling embers.",
-            "chars": [
-              "c1",
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c2",
-                "text": "Dev, stop! Get into the shadows before they return!",
-                "mood": "angry"
-              },
-              {
-                "speaker": "c1",
-                "text": "Who did this, Kaka? Tell me who destroyed our home!",
-                "mood": "angry"
-              }
-            ]
-          },
-          {
-            "shot": "close",
-            "place": "The charred central wooden pillar of the village hall, lit by dying glowing coals.",
-            "desc": "Kaka points a trembling, soot-stained hand toward a freshly carved crest dripping with thick red dye.",
-            "chars": [
-              "c1",
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c2",
-                "text": "Look at the central pillar. They wanted us to see this.",
-                "mood": "neutral"
-              },
-              {
-                "speaker": "c1",
-                "text": "A horned serpent carved into the wood...",
-                "mood": "dramatic"
-              }
-            ]
-          },
-          {
-            "shot": "close",
-            "place": "Close-up of Dev's soot-covered face illuminated by warm firelight.",
-            "desc": "Dev turns his head from the mark, eyes narrowing with deadly conviction as ash swirls past his face.",
-            "chars": [
-              "c1",
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c2",
-                "text": "It is the mark of Warlord Vikram. The ruthless one they call Bairan.",
-                "mood": "dramatic"
-              },
-              {
-                "speaker": "c1",
-                "text": "Then Bairan has just signed his own death warrant.",
-                "mood": "angry"
-              }
-            ]
-          }
-        ],
-        "caption": "He thought he destroyed everything... but he left the wrong survivor alive. ⚔️🔥 Bairan Episode 1 out now! #Bairan #CinematicReel #FantasySeries #Action #POV",
-        "first_comment": "#Bairan #OriginalSeries #WebSeries #FantasyAction #ViralReels #ReelsIndia #Cinematic #DarkFantasy #Warlord #Episode1",
-        "account": "gaonkawifi",
-        "video_file": "/root/gow/out/ep01_1794299170.mp4"
-      },
-      "video_file": "/root/gow/out/ep01_1794299170.mp4",
-      "caption": "He thought he destroyed everything... but he left the wrong survivor alive. ⚔️🔥 Bairan Episode 1 out now! #Bairan #CinematicReel #FantasySeries #Action #POV",
-      "first_comment": "#Bairan #OriginalSeries #WebSeries #FantasyAction #ViralReels #ReelsIndia #Cinematic #DarkFantasy #Warlord #Episode1",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.271938+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep01.mp4"
-    },
-    {
       "id": "series_1794299342_ep02",
       "series_id": "series_1794299342",
       "series_title": "Bairan: Echoes of Betrayal",
@@ -5545,83 +5414,89 @@
             "id": "c1",
             "name": "Dev",
             "gender": "m",
-            "look_en": "Cinematic 30-year-old warrior with battle-worn silver armor, dark leather cloak, intense determined eyes, faint scars across his cheek, holding a gleaming steel broadsword."
+            "look_en": "A battle-worn 25-year-old male warrior with rugged dark hair, wearing battered leather armor with silver trim, holding a glowing steel longsword, with an intense expression of grief and resolve."
           },
           {
             "id": "c2",
             "name": "Vikram",
             "gender": "m",
-            "look_en": "Tall 32-year-old dark overlord seated on an obsidian throne, wearing ornate black armor with glowing crimson runes, sinister glowing eyes, cruel arrogant smile."
+            "look_en": "A formidable 30-year-old ruler in heavy obsidian armor with subtle red glowing runes, slicked-back raven hair, piercing icy eyes, sitting arrogantly on a dark carved throne."
           }
         ],
         "scenes": [
           {
             "shot": "wide",
-            "place": "Massive obsidian hall of the Bairan Fortress, misty air illuminated by floating blue embers and dramatic torch light",
-            "desc": "Dev steps heavily into the hall, sword drawn, glaring up at the throne steps with burning resolve.",
+            "place": "A massive, dimly lit cavernous fortress hall made of dark stone, illuminated by burning braziers and moonlight filtering through high narrow windows.",
+            "desc": "Dev slowly steps through the heavy broken doors into the fortress hall, pointing his sword toward the throne.",
             "chars": [
-              "c1"
+              "c1",
+              "c2"
             ],
             "lines": [
               {
                 "speaker": "c1",
-                "text": "Is this what our blood was worth to you, Vikram? A cold throne built on the ashes of everything we swore to protect?",
+                "text": "You traded your own blood for a throne of shadows, Vikram. Look at what you have become.",
                 "mood": "dramatic"
+              },
+              {
+                "speaker": "c2",
+                "text": "I became what was necessary, little brother.",
+                "mood": "neutral"
+              }
+            ]
+          },
+          {
+            "shot": "close",
+            "place": "Close-up on the obsidian throne room elevated above the stone steps, surrounded by swirling dark smoke.",
+            "desc": "Vikram leans forward on his throne, resting his chin on his hand, scoffing at Dev's presence.",
+            "chars": [
+              "c2"
+            ],
+            "lines": [
+              {
+                "speaker": "c2",
+                "text": "You still speak of brotherhood as if that fragile bond could ever survive the song of Bairan.",
+                "mood": "angry"
               }
             ]
           },
           {
             "shot": "medium",
-            "place": "Elevated obsidian throne platform covered in dark swirling shadow smoke",
-            "desc": "Vikram leans back on his throne, resting his jaw on his fist with a mocking laugh as glowing black veins spread up his neck.",
-            "chars": [
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c2",
-                "text": "Brotherhood was a leash, Dev. A pathetic illusion for the weak. I didnt break our oath, I evolved past it.",
-                "mood": "angry"
-              }
-            ]
-          },
-          {
-            "shot": "close",
-            "place": "Center of the shadowy fortress hall, close-up on Dev's intense, grieving expression",
-            "desc": "Dev tightens his grip on his sword, stepping forward as dark lightning flickers around them.",
+            "place": "Center of the fortress chamber, framed tightly on Dev moving steadily closer to the steps.",
+            "desc": "Dev grips his sword tighter, his knuckles turning white as dark energy crackles in the air around them.",
             "chars": [
               "c1"
             ],
             "lines": [
               {
                 "speaker": "c1",
-                "text": "You traded your humanity for dark shadows! The Song of Bairan was meant to bring balance, not total tyranny!",
+                "text": "The song was meant to protect our people, not enslave them! You sacrificed your soul out of pure fear!",
                 "mood": "angry"
               }
             ]
           },
           {
-            "shot": "close",
-            "place": "Throne room illuminated by sudden violent bursts of crimson energy",
-            "desc": "Vikram stands up slowly, dark ancient energy erupting from his outstretched hand as he stares down coldly.",
+            "shot": "medium",
+            "place": "Low angle shot looking up at the high throne as dark shadowy aura pulses behind it.",
+            "desc": "Vikram stands up slowly from his throne, towering over the hall as red runes ignite across his black armor.",
             "chars": [
               "c2"
             ],
             "lines": [
               {
                 "speaker": "c2",
-                "text": "The Song demands absolute submission! Kneel before the dark, brother, or burn with the rest of this world.",
+                "text": "Humanity is a weakness. The song demands total submission, and today, you will bow just like the rest.",
                 "mood": "dramatic"
               }
             ]
           }
         ],
-        "caption": "Brotherhood turned to dark ashes... ⚔️ Will Dev survive the power of Bairan? Episode 2 is live! 🔥 #Bairan #FantasyReels #DarkFantasy #POV #Cinematic",
-        "first_comment": "#BairanSeries #ActionReels #DarkOverlord #ReelsViral #FantasyStory #CinematicDialogue",
+        "caption": "When brotherhood dies, darkness reigns. ⚔️ Will Dev survive the song of Bairan? Episode 2 is live! 🔥 #Bairan #FantasyReels #DarkFantasy #Reels #POV",
+        "first_comment": "#BairanSeries #Fantasy #Cinematic #VerticalCinema #DevVsVikram #Brotherhood #EpicConfrontation",
         "account": "gaonkawifi",
-        "video_file": "/root/gow/out/ep02_1794299421.mp4"
+        "video_file": "/root/gow/out/ep02_1794299395.mp4"
       },
-      "video_file": "/root/gow/out/ep02_1794299421.mp4",
+      "video_file": "/root/gow/out/ep02_1794299395.mp4",
       "caption": "Brotherhood turned to dark ashes... ⚔️ Will Dev survive the power of Bairan? Episode 2 is live! 🔥 #Bairan #FantasyReels #DarkFantasy #POV #Cinematic",
       "first_comment": "#BairanSeries #ActionReels #DarkOverlord #ReelsViral #FantasyStory #CinematicDialogue",
       "first_comment_id": null,
