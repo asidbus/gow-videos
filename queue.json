@@ -5526,74 +5526,43 @@
         "characters": [
           {
             "id": "c1",
-            "name": "Hero",
+            "name": "Dev",
             "gender": "m",
-            "pitch": 0,
-            "look_en": "Cinematic realistic portrait of Hero, authentic live-action film cinematography, athletic heroic build, expressive determined eyes, detailed natural attire."
+            "look_en": "Cinematic 20s South Asian warrior, athletic build, drenched in heavy rain, wearing battle-worn dark leather armor with ornate steel spaulders, razor-sharp jawline, intense fiercely determined expression, holding a gleaming curved sword."
           },
           {
             "id": "c2",
-            "name": "Antagonist",
-            "gender": "m",
-            "pitch": -2,
-            "look_en": "Cinematic realistic portrait of Antagonist, authentic live-action film cinematography, sharp angular features, cunning intense gaze, stylish attire."
+            "name": "Maya",
+            "gender": "f",
+            "look_en": "Cinematic late-20s assassin, sleek hooded shadow armor dripping wet, metallic half-mask over nose and mouth, lethal piercing eyes, wielding dual glowing curved steel daggers."
           }
         ],
         "scenes": [
           {
-            "shot": "wide",
-            "place": "Cinematic atmospheric vista of Bairan, dramatic rim lighting, 8k volumetric fog.",
-            "desc": "Hero stands watchful amidst the brooding landscape, preparing for impending conflict.",
-            "extras_en": "",
-            "chars": [
-              "c1"
-            ],
-            "lines": [
-              {
-                "speaker": "c1",
-                "text": "Everything changed in an instant. In Bairan, nobody is safe anymore.",
-                "mood": "dramatic"
-              }
-            ]
-          },
-          {
             "shot": "medium",
-            "place": "Tense confrontation corridor inside Bairan, neon backlighting, high contrast reflections.",
-            "desc": "Hero turns sharply to confront Antagonist, intensity rising between them.",
-            "extras_en": "",
+            "place": "An ancient stone fortress courtyard during a violent midnight monsoon storm, backlit by blue lighting flashes",
+            "desc": "Dev stumbles backward out of the broken fortress doors into the torrential rain. Lightning flashes, revealing Maya dropping silently from the fortress wall onto the flooded cobblestones.",
             "chars": [
               "c1",
               "c2"
             ],
             "lines": [
               {
-                "speaker": "c2",
-                "text": "Did you really believe we walked into this without a plan?",
-                "mood": "neutral"
-              }
-            ]
-          },
-          {
-            "shot": "close",
-            "place": "Intense dramatic close-up setting with dynamic shadows, cinema lens depth of field.",
-            "desc": "Tight camera angle capturing Hero's resolute expression and piercing focus.",
-            "extras_en": "",
-            "chars": [
-              "c1"
-            ],
-            "lines": [
-              {
                 "speaker": "c1",
-                "text": "The truth is far more dangerous than anything you could imagine!",
+                "text": "I thought Vikrams top hound would be faster.",
+                "mood": "dramatic"
+              },
+              {
+                "speaker": "c2",
+                "text": "Fast enough to watch you bleed, Dev.",
                 "mood": "angry"
               }
             ]
           },
           {
-            "shot": "medium",
-            "place": "Climactic master wide shot, rainstorm sparks flying, epic cinematic composition.",
-            "desc": "Dramatic showdown as the stakes reach their peak, setting up the ultimate turning point.",
-            "extras_en": "",
+            "shot": "close",
+            "place": "Flooded courtyard surrounded by carved stone pillars, torrents of rain pouring down",
+            "desc": "Maya lunges forward with incredible speed. Sparks fly instantly in slow motion as her dual blades strike against Dev's sword in the middle of the downpour.",
             "chars": [
               "c1",
               "c2"
@@ -5601,18 +5570,65 @@
             "lines": [
               {
                 "speaker": "c2",
-                "text": "Now destiny makes the call. Are you ready for what comes next?",
-                "mood": "neutral"
+                "text": "Your little crusade ends tonight in the mud.",
+                "mood": "angry"
+              },
+              {
+                "speaker": "c1",
+                "text": "Not while I still draw breath.",
+                "mood": "dramatic"
+              }
+            ]
+          },
+          {
+            "shot": "close",
+            "place": "Stormy courtyard, harsh shadows illuminated by rapid flashes of blue thunderbolts",
+            "desc": "Maya parries his heavy strike, blade-locking their weapons right between their faces. Rain cascades off their armor while thunder rumbles.",
+            "chars": [
+              "c1",
+              "c2"
+            ],
+            "lines": [
+              {
+                "speaker": "c2",
+                "text": "Look around you! Nobody is coming to save your broken world.",
+                "mood": "angry"
+              },
+              {
+                "speaker": "c1",
+                "text": "I dont need saving, Maya. I am the storm.",
+                "mood": "dramatic"
+              }
+            ]
+          },
+          {
+            "shot": "wide",
+            "place": "High-angle dramatic view of the rain-drenched courtyard as monsoon wind howls",
+            "desc": "Dev violently shoves Maya back, sending water splashing across the frame, then spins his sword into a high combat stance.",
+            "chars": [
+              "c1",
+              "c2"
+            ],
+            "lines": [
+              {
+                "speaker": "c1",
+                "text": "Tell Vikram to send the rest of his army!",
+                "mood": "angry"
+              },
+              {
+                "speaker": "c2",
+                "text": "You wont survive until sunrise!",
+                "mood": "angry"
               }
             ]
           }
         ],
-        "caption": "POV: You fight off elite assassins in the midnight monsoon rainfall 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 4 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-        "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
+        "caption": "The crusade continues in the storm ⚡️⚔️ Will Dev survive Maya's blades? Episode 3 of BAIRAN is out now! #Bairan #CinematicReel #FantasyAction #MonsoonBattle",
+        "first_comment": "#BairanSeries #ActionReels #POV #WarriorMindset #CinematicUniverse #ReelsIndia #EpicFantasy",
         "account": "gaonkawifi",
-        "video_file": "/root/gow/out/ep03_1794299754.mp4"
+        "video_file": "/root/gow/out/ep03_1794299708.mp4"
       },
-      "video_file": "/root/gow/out/ep03_1794299754.mp4",
+      "video_file": "/root/gow/out/ep03_1794299708.mp4",
       "caption": "POV: You fight off elite assassins in the midnight monsoon rainfall 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 4 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
       "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
       "first_comment_id": null,
