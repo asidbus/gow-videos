@@ -5534,11 +5534,96 @@
       "language": "en",
       "song_name": null,
       "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: You confront your former brother who traded his humanity for absolute power 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 3 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
+      "status": "ready",
+      "script_data": {
+        "title": "POV: You confront your former brother who traded his humanity for absolute power",
+        "language": "en",
+        "song_name": null,
+        "music": "epic",
+        "characters": [
+          {
+            "id": "c1",
+            "name": "Dev",
+            "gender": "m",
+            "look_en": "Cinematic 30-year-old warrior with battle-worn silver armor, dark leather cloak, intense determined eyes, faint scars across his cheek, holding a gleaming steel broadsword."
+          },
+          {
+            "id": "c2",
+            "name": "Vikram",
+            "gender": "m",
+            "look_en": "Tall 32-year-old dark overlord seated on an obsidian throne, wearing ornate black armor with glowing crimson runes, sinister glowing eyes, cruel arrogant smile."
+          }
+        ],
+        "scenes": [
+          {
+            "shot": "wide",
+            "place": "Massive obsidian hall of the Bairan Fortress, misty air illuminated by floating blue embers and dramatic torch light",
+            "desc": "Dev steps heavily into the hall, sword drawn, glaring up at the throne steps with burning resolve.",
+            "chars": [
+              "c1"
+            ],
+            "lines": [
+              {
+                "speaker": "c1",
+                "text": "Is this what our blood was worth to you, Vikram? A cold throne built on the ashes of everything we swore to protect?",
+                "mood": "dramatic"
+              }
+            ]
+          },
+          {
+            "shot": "medium",
+            "place": "Elevated obsidian throne platform covered in dark swirling shadow smoke",
+            "desc": "Vikram leans back on his throne, resting his jaw on his fist with a mocking laugh as glowing black veins spread up his neck.",
+            "chars": [
+              "c2"
+            ],
+            "lines": [
+              {
+                "speaker": "c2",
+                "text": "Brotherhood was a leash, Dev. A pathetic illusion for the weak. I didnt break our oath, I evolved past it.",
+                "mood": "angry"
+              }
+            ]
+          },
+          {
+            "shot": "close",
+            "place": "Center of the shadowy fortress hall, close-up on Dev's intense, grieving expression",
+            "desc": "Dev tightens his grip on his sword, stepping forward as dark lightning flickers around them.",
+            "chars": [
+              "c1"
+            ],
+            "lines": [
+              {
+                "speaker": "c1",
+                "text": "You traded your humanity for dark shadows! The Song of Bairan was meant to bring balance, not total tyranny!",
+                "mood": "angry"
+              }
+            ]
+          },
+          {
+            "shot": "close",
+            "place": "Throne room illuminated by sudden violent bursts of crimson energy",
+            "desc": "Vikram stands up slowly, dark ancient energy erupting from his outstretched hand as he stares down coldly.",
+            "chars": [
+              "c2"
+            ],
+            "lines": [
+              {
+                "speaker": "c2",
+                "text": "The Song demands absolute submission! Kneel before the dark, brother, or burn with the rest of this world.",
+                "mood": "dramatic"
+              }
+            ]
+          }
+        ],
+        "caption": "Brotherhood turned to dark ashes... ⚔️ Will Dev survive the power of Bairan? Episode 2 is live! 🔥 #Bairan #FantasyReels #DarkFantasy #POV #Cinematic",
+        "first_comment": "#BairanSeries #ActionReels #DarkOverlord #ReelsViral #FantasyStory #CinematicDialogue",
+        "account": "gaonkawifi",
+        "video_file": "/root/gow/out/ep02_1794299421.mp4"
+      },
+      "video_file": "/root/gow/out/ep02_1794299421.mp4",
+      "caption": "Brotherhood turned to dark ashes... ⚔️ Will Dev survive the power of Bairan? Episode 2 is live! 🔥 #Bairan #FantasyReels #DarkFantasy #POV #Cinematic",
+      "first_comment": "#BairanSeries #ActionReels #DarkOverlord #ReelsViral #FantasyStory #CinematicDialogue",
       "first_comment_id": null,
       "created_at": "2026-11-10T13:59:02.272625+05:30",
       "posted_at": null,
