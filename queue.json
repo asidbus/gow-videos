@@ -5414,20 +5414,20 @@
             "id": "c1",
             "name": "Dev",
             "gender": "m",
-            "look_en": "A battle-worn 25-year-old male warrior with rugged dark hair, wearing battered leather armor with silver trim, holding a glowing steel longsword, with an intense expression of grief and resolve."
+            "look_en": "A battle-worn warrior around 28 years old, wearing battered silver plate armor over dark leather tunics, holding a glowing steel broadsword. He has a scarred brow, fierce brown eyes, and a determined, heartbroken expression."
           },
           {
             "id": "c2",
             "name": "Vikram",
             "gender": "m",
-            "look_en": "A formidable 30-year-old ruler in heavy obsidian armor with subtle red glowing runes, slicked-back raven hair, piercing icy eyes, sitting arrogantly on a dark carved throne."
+            "look_en": "An imposing tyrant in his early 30s, draped in jagged black obsidian armor with red glowing runes. He has sharp features, pale skin, glowing crimson eyes, and a cold, ruthless smirk while seated on a monolithic spike throne."
           }
         ],
         "scenes": [
           {
             "shot": "wide",
-            "place": "A massive, dimly lit cavernous fortress hall made of dark stone, illuminated by burning braziers and moonlight filtering through high narrow windows.",
-            "desc": "Dev slowly steps through the heavy broken doors into the fortress hall, pointing his sword toward the throne.",
+            "place": "A massive, dimly lit obsidian fortress hall with towering gothic pillars and flickering blue brazier flames.",
+            "desc": "Dev breaches the heavy iron doors, stepping into the misty throne room while drawing his sword, staring at Vikram in disbelief.",
             "chars": [
               "c1",
               "c2"
@@ -5435,70 +5435,65 @@
             "lines": [
               {
                 "speaker": "c1",
-                "text": "You traded your own blood for a throne of shadows, Vikram. Look at what you have become.",
-                "mood": "dramatic"
-              },
-              {
-                "speaker": "c2",
-                "text": "I became what was necessary, little brother.",
-                "mood": "neutral"
-              }
-            ]
-          },
-          {
-            "shot": "close",
-            "place": "Close-up on the obsidian throne room elevated above the stone steps, surrounded by swirling dark smoke.",
-            "desc": "Vikram leans forward on his throne, resting his chin on his hand, scoffing at Dev's presence.",
-            "chars": [
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c2",
-                "text": "You still speak of brotherhood as if that fragile bond could ever survive the song of Bairan.",
+                "text": "Look at what you have become, Vikram. You traded our blood and our family for an empty obsidian tomb.",
                 "mood": "angry"
               }
             ]
           },
           {
             "shot": "medium",
-            "place": "Center of the fortress chamber, framed tightly on Dev moving steadily closer to the steps.",
-            "desc": "Dev grips his sword tighter, his knuckles turning white as dark energy crackles in the air around them.",
+            "place": "Close to the colossal obsidian throne, dark smoke curling around the stone steps.",
+            "desc": "Vikram leans forward slowly on his throne, resting his chin on a gauntleted fist, looking down with icy disdain.",
+            "chars": [
+              "c2"
+            ],
+            "lines": [
+              {
+                "speaker": "c2",
+                "text": "Brotherhood is a weak mans refuge, Dev. The crown of Bairan demands ultimate power, not pathetic sentiment.",
+                "mood": "dramatic"
+              }
+            ]
+          },
+          {
+            "shot": "close",
+            "place": "Center aisle of the dark hall, illuminated by the cold blue flames.",
+            "desc": "Dev raises his weapon, his knuckles white around the hilt as tears of rage glisten in his eyes.",
             "chars": [
               "c1"
             ],
             "lines": [
               {
                 "speaker": "c1",
-                "text": "The song was meant to protect our people, not enslave them! You sacrificed your soul out of pure fear!",
+                "text": "You destroyed your own soul! You twisted the legendary song of Bairan into a curse of endless slaughter!",
                 "mood": "angry"
               }
             ]
           },
           {
-            "shot": "medium",
-            "place": "Low angle shot looking up at the high throne as dark shadowy aura pulses behind it.",
-            "desc": "Vikram stands up slowly from his throne, towering over the hall as red runes ignite across his black armor.",
+            "shot": "close",
+            "place": "The edge of the throne dais, surrounded by swirling dark shadow aura.",
+            "desc": "Vikram stands up, drawing a dark dark-energy blade as shadowy mist swirls violently around him.",
             "chars": [
               "c2"
             ],
             "lines": [
               {
                 "speaker": "c2",
-                "text": "Humanity is a weakness. The song demands total submission, and today, you will bow just like the rest.",
+                "text": "The song never sought mercy, little brother. It demands total submission. And today, you will bow or break!",
                 "mood": "dramatic"
               }
             ]
           }
         ],
-        "caption": "When brotherhood dies, darkness reigns. ⚔️ Will Dev survive the song of Bairan? Episode 2 is live! 🔥 #Bairan #FantasyReels #DarkFantasy #Reels #POV",
-        "first_comment": "#BairanSeries #Fantasy #Cinematic #VerticalCinema #DevVsVikram #Brotherhood #EpicConfrontation",
+        "caption": "When power corrupts even the deepest bond... ⚔️ Bairan Episode 2 is live! Would you fight your own blood? 👇 #Bairan #Fantasy #POV #EpicShowdown #CinematicReels",
+        "first_comment": "#BairanUniverse #Reels #DarkFantasy #BrothersToEnemies #StoryDriven #FantasySeries #Action",
         "account": "gaonkawifi",
-        "video_file": "/root/gow/out/ep02_1794299395.mp4"
+        "video_file": "/root/gow/out/ep02_1794299417.mp4"
       },
-      "video_file": "/root/gow/out/ep02_1794299395.mp4",
-      "caption": "Brotherhood turned to dark ashes... ⚔️ Will Dev survive the power of Bairan? Episode 2 is live! 🔥 #Bairan #FantasyReels #DarkFantasy #POV #Cinematic",
-      "first_comment": "#BairanSeries #ActionReels #DarkOverlord #ReelsViral #FantasyStory #CinematicDialogue",
+      "video_file": "/root/gow/out/ep02_1794299417.mp4",
+      "caption": "When power corrupts even the deepest bond... ⚔️ Bairan Episode 2 is live! Would you fight your own blood? 👇 #Bairan #Fantasy #POV #EpicShowdown #CinematicReels",
+      "first_comment": "#BairanUniverse #Reels #DarkFantasy #BrothersToEnemies #StoryDriven #FantasySeries #Action",
       "first_comment_id": null,
       "created_at": "2026-11-10T13:59:02.272625+05:30",
       "posted_at": null,
