@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T05:09:51.567849",
+  "updated_at": "2026-11-11T05:43:45.666114",
   "schedule": [
     "09:00",
     "19:30"
@@ -32,120 +32,6 @@
       "video_filename": "series_drifter_1794014570_part07.mp4"
     },
     {
-      "id": "series_1794299342_ep02",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 2,
-      "day_num": 1,
-      "slot": "evening",
-      "scheduled_for": "2026-11-11 14:00",
-      "date_str": "11 Nov (Wed)",
-      "title": "POV: You confront your former brother who traded his humanity for absolute power",
-      "scene_synopsis": "Dev infiltrates the fortress hall and confronts Vikram on his throne. Vikram scoffs at their past brotherhood, claiming the legendary song of Bairan demands total submission, not mercy.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "ready",
-      "script_data": {
-        "title": "POV: You confront your former brother who traded his humanity for absolute power",
-        "language": "en",
-        "song_name": null,
-        "music": "epic",
-        "characters": [
-          {
-            "id": "c1",
-            "name": "Dev",
-            "gender": "m",
-            "look_en": "A battle-worn warrior around 28 years old, wearing battered silver plate armor over dark leather tunics, holding a glowing steel broadsword. He has a scarred brow, fierce brown eyes, and a determined, heartbroken expression."
-          },
-          {
-            "id": "c2",
-            "name": "Vikram",
-            "gender": "m",
-            "look_en": "An imposing tyrant in his early 30s, draped in jagged black obsidian armor with red glowing runes. He has sharp features, pale skin, glowing crimson eyes, and a cold, ruthless smirk while seated on a monolithic spike throne."
-          }
-        ],
-        "scenes": [
-          {
-            "shot": "wide",
-            "place": "A massive, dimly lit obsidian fortress hall with towering gothic pillars and flickering blue brazier flames.",
-            "desc": "Dev breaches the heavy iron doors, stepping into the misty throne room while drawing his sword, staring at Vikram in disbelief.",
-            "chars": [
-              "c1",
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c1",
-                "text": "Look at what you have become, Vikram. You traded our blood and our family for an empty obsidian tomb.",
-                "mood": "angry"
-              }
-            ]
-          },
-          {
-            "shot": "medium",
-            "place": "Close to the colossal obsidian throne, dark smoke curling around the stone steps.",
-            "desc": "Vikram leans forward slowly on his throne, resting his chin on a gauntleted fist, looking down with icy disdain.",
-            "chars": [
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c2",
-                "text": "Brotherhood is a weak mans refuge, Dev. The crown of Bairan demands ultimate power, not pathetic sentiment.",
-                "mood": "dramatic"
-              }
-            ]
-          },
-          {
-            "shot": "close",
-            "place": "Center aisle of the dark hall, illuminated by the cold blue flames.",
-            "desc": "Dev raises his weapon, his knuckles white around the hilt as tears of rage glisten in his eyes.",
-            "chars": [
-              "c1"
-            ],
-            "lines": [
-              {
-                "speaker": "c1",
-                "text": "You destroyed your own soul! You twisted the legendary song of Bairan into a curse of endless slaughter!",
-                "mood": "angry"
-              }
-            ]
-          },
-          {
-            "shot": "close",
-            "place": "The edge of the throne dais, surrounded by swirling dark shadow aura.",
-            "desc": "Vikram stands up, drawing a dark dark-energy blade as shadowy mist swirls violently around him.",
-            "chars": [
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c2",
-                "text": "The song never sought mercy, little brother. It demands total submission. And today, you will bow or break!",
-                "mood": "dramatic"
-              }
-            ]
-          }
-        ],
-        "caption": "When power corrupts even the deepest bond... ⚔️ Bairan Episode 2 is live! Would you fight your own blood? 👇 #Bairan #Fantasy #POV #EpicShowdown #CinematicReels",
-        "first_comment": "#BairanUniverse #Reels #DarkFantasy #BrothersToEnemies #StoryDriven #FantasySeries #Action",
-        "account": "gaonkawifi",
-        "video_file": "/root/gow/out/ep02_1794299417.mp4"
-      },
-      "video_file": "/root/gow/out/ep02_1794299417.mp4",
-      "caption": "When power corrupts even the deepest bond... ⚔️ Bairan Episode 2 is live! Would you fight your own blood? 👇 #Bairan #Fantasy #POV #EpicShowdown #CinematicReels",
-      "first_comment": "#BairanUniverse #Reels #DarkFantasy #BrothersToEnemies #StoryDriven #FantasySeries #Action",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272625+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep02.mp4"
-    },
-    {
       "id": "series_drifter_1794014570_part08",
       "series_id": "series_drifter_1794014570",
       "series_title": "The Drifter is Satan Saga",
@@ -169,143 +55,6 @@
       "posted_at": null,
       "instagram_media_id": null,
       "video_filename": "series_drifter_1794014570_part08.mp4"
-    },
-    {
-      "id": "series_1794299342_ep03",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 3,
-      "day_num": 2,
-      "slot": "morning",
-      "scheduled_for": "2026-11-12 09:00",
-      "date_str": "12 Nov (Morning)",
-      "title": "POV: You fight off elite assassins in the midnight monsoon rainfall",
-      "scene_synopsis": "Dev escapes the fortress courtyard into the surrounding storm, only to be ambushed by Maya, Vikram's top assassin. Sparks fly as their blades clash in the downpour while Maya mocks Dev's hopeless crusade.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "ready",
-      "script_data": {
-        "title": "POV: You fight off elite assassins in the midnight monsoon rainfall",
-        "language": "en",
-        "song_name": null,
-        "music": "epic",
-        "characters": [
-          {
-            "id": "c1",
-            "name": "Dev",
-            "gender": "m",
-            "look_en": "Cinematic 20s South Asian warrior, athletic build, drenched in heavy rain, wearing battle-worn dark leather armor with ornate steel spaulders, razor-sharp jawline, intense fiercely determined expression, holding a gleaming curved sword."
-          },
-          {
-            "id": "c2",
-            "name": "Maya",
-            "gender": "f",
-            "look_en": "Cinematic late-20s assassin, sleek hooded shadow armor dripping wet, metallic half-mask over nose and mouth, lethal piercing eyes, wielding dual glowing curved steel daggers."
-          }
-        ],
-        "scenes": [
-          {
-            "shot": "medium",
-            "place": "An ancient stone fortress courtyard during a violent midnight monsoon storm, backlit by blue lighting flashes",
-            "desc": "Dev stumbles backward out of the broken fortress doors into the torrential rain. Lightning flashes, revealing Maya dropping silently from the fortress wall onto the flooded cobblestones.",
-            "chars": [
-              "c1",
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c1",
-                "text": "I thought Vikrams top hound would be faster.",
-                "mood": "dramatic"
-              },
-              {
-                "speaker": "c2",
-                "text": "Fast enough to watch you bleed, Dev.",
-                "mood": "angry"
-              }
-            ]
-          },
-          {
-            "shot": "close",
-            "place": "Flooded courtyard surrounded by carved stone pillars, torrents of rain pouring down",
-            "desc": "Maya lunges forward with incredible speed. Sparks fly instantly in slow motion as her dual blades strike against Dev's sword in the middle of the downpour.",
-            "chars": [
-              "c1",
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c2",
-                "text": "Your little crusade ends tonight in the mud.",
-                "mood": "angry"
-              },
-              {
-                "speaker": "c1",
-                "text": "Not while I still draw breath.",
-                "mood": "dramatic"
-              }
-            ]
-          },
-          {
-            "shot": "close",
-            "place": "Stormy courtyard, harsh shadows illuminated by rapid flashes of blue thunderbolts",
-            "desc": "Maya parries his heavy strike, blade-locking their weapons right between their faces. Rain cascades off their armor while thunder rumbles.",
-            "chars": [
-              "c1",
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c2",
-                "text": "Look around you! Nobody is coming to save your broken world.",
-                "mood": "angry"
-              },
-              {
-                "speaker": "c1",
-                "text": "I dont need saving, Maya. I am the storm.",
-                "mood": "dramatic"
-              }
-            ]
-          },
-          {
-            "shot": "wide",
-            "place": "High-angle dramatic view of the rain-drenched courtyard as monsoon wind howls",
-            "desc": "Dev violently shoves Maya back, sending water splashing across the frame, then spins his sword into a high combat stance.",
-            "chars": [
-              "c1",
-              "c2"
-            ],
-            "lines": [
-              {
-                "speaker": "c1",
-                "text": "Tell Vikram to send the rest of his army!",
-                "mood": "angry"
-              },
-              {
-                "speaker": "c2",
-                "text": "You wont survive until sunrise!",
-                "mood": "angry"
-              }
-            ]
-          }
-        ],
-        "caption": "The crusade continues in the storm ⚡️⚔️ Will Dev survive Maya's blades? Episode 3 of BAIRAN is out now! #Bairan #CinematicReel #FantasyAction #MonsoonBattle",
-        "first_comment": "#BairanSeries #ActionReels #POV #WarriorMindset #CinematicUniverse #ReelsIndia #EpicFantasy",
-        "account": "gaonkawifi",
-        "video_file": "/root/gow/out/ep03_1794299708.mp4"
-      },
-      "video_file": "/root/gow/out/ep03_1794299708.mp4",
-      "caption": "POV: You fight off elite assassins in the midnight monsoon rainfall 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 4 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272750+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep03.mp4"
     },
     {
       "id": "series_drifter_1794014570_part09",
@@ -333,34 +82,6 @@
       "video_filename": "series_drifter_1794014570_part09.mp4"
     },
     {
-      "id": "series_1794299342_ep04",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 4,
-      "day_num": 2,
-      "slot": "evening",
-      "scheduled_for": "2026-11-12 19:30",
-      "date_str": "12 Nov (Evening)",
-      "title": "POV: You discover the dark ritual binding the tyrant's soul to the realm",
-      "scene_synopsis": "Maya reports Dev's supposed fall to Vikram, but notices Vikram sacrificing his own vitality to a dark relic that resonates with the haunting melody of 'Bairan'. She realizes Vikram is slowly losing his sanity.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: You discover the dark ritual binding the tyrant's soul to the realm 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 5 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272800+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep04.mp4"
-    },
-    {
       "id": "series_drifter_1794014570_part10",
       "series_id": "series_drifter_1794014570",
       "series_title": "The Drifter is Satan Saga",
@@ -384,34 +105,6 @@
       "posted_at": null,
       "instagram_media_id": null,
       "video_filename": "series_drifter_1794014570_part10.mp4"
-    },
-    {
-      "id": "series_1794299342_ep05",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 5,
-      "day_num": 3,
-      "slot": "morning",
-      "scheduled_for": "2026-11-13 09:00",
-      "date_str": "13 Nov (Morning)",
-      "title": "POV: The sage reveals the heartbreaking tragic origin of the Bairan curse",
-      "scene_synopsis": "Rescued from the ravine by Kaka, Dev learns that the title of 'Bairan' was never a choice—it is an ancient curse born of a broken vow that corrupts whoever holds the throne unless destroyed by true sacrifice.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: The sage reveals the heartbreaking tragic origin of the Bairan curse 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 6 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272834+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep05.mp4"
     },
     {
       "id": "series_drifter_1794014570_part11",
@@ -439,34 +132,6 @@
       "video_filename": "series_drifter_1794014570_part11.mp4"
     },
     {
-      "id": "series_1794299342_ep06",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 6,
-      "day_num": 3,
-      "slot": "evening",
-      "scheduled_for": "2026-11-13 19:30",
-      "date_str": "13 Nov (Evening)",
-      "title": "POV: You reach your captive love only to realize she doesn't recognize you",
-      "scene_synopsis": "Dev sneaks into the dungeons and finds Meera. Relief turns to horror as he reaches through the bars, only to find her eyes cold and her mind erased by Vikram's black magic.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: You reach your captive love only to realize she doesn't recognize you 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 7 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272862+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep06.mp4"
-    },
-    {
       "id": "series_drifter_1794014570_part12",
       "series_id": "series_drifter_1794014570",
       "series_title": "The Drifter is Satan Saga",
@@ -490,34 +155,6 @@
       "posted_at": null,
       "instagram_media_id": null,
       "video_filename": "series_drifter_1794014570_part12.mp4"
-    },
-    {
-      "id": "series_1794299342_ep07",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 7,
-      "day_num": 4,
-      "slot": "morning",
-      "scheduled_for": "2026-11-14 09:00",
-      "date_str": "14 Nov (Morning)",
-      "title": "POV: Your secret ally turns their blade on you at the moment of truth",
-      "scene_synopsis": "Maya suddenly steps between Dev and the approaching guards, offering to help him escape. But as soon as Dev turns his back, she draws her blade against his shoulder.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: Your secret ally turns their blade on you at the moment of truth 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 8 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272887+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep07.mp4"
     },
     {
       "id": "series_drifter_1794014570_part13",
@@ -545,34 +182,6 @@
       "video_filename": "series_drifter_1794014570_part13.mp4"
     },
     {
-      "id": "series_1794299342_ep08",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 8,
-      "day_num": 4,
-      "slot": "evening",
-      "scheduled_for": "2026-11-14 19:30",
-      "date_str": "14 Nov (Evening)",
-      "title": "POV: The tyrant forces an impossible ultimatum before the high court",
-      "scene_synopsis": "Dev is brought before Vikram in chains. Vikram places a sword in Dev's hands and commands him to execute Kaka to spare Meera's life, proving that no one escapes the ruthlessness of Bairan.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: The tyrant forces an impossible ultimatum before the high court 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 9 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272913+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep08.mp4"
-    },
-    {
       "id": "series_drifter_1794014570_part14",
       "series_id": "series_drifter_1794014570",
       "series_title": "The Drifter is Satan Saga",
@@ -596,34 +205,6 @@
       "posted_at": null,
       "instagram_media_id": null,
       "video_filename": "series_drifter_1794014570_part14.mp4"
-    },
-    {
-      "id": "series_1794299342_ep09",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 9,
-      "day_num": 5,
-      "slot": "morning",
-      "scheduled_for": "2026-11-15 09:00",
-      "date_str": "15 Nov (Morning)",
-      "title": "POV: You hit rock bottom in the desolate wastes after total devastation",
-      "scene_synopsis": "Having narrowly avoided the fatal blow through Kaka's sacrifice, Dev wanders the exile lands broken and hopeless. Kaka's spirit appears through the wind, reminding Dev of the melody of resistance.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: You hit rock bottom in the desolate wastes after total devastation 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 10 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272941+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep09.mp4"
     },
     {
       "id": "series_drifter_1794014570_part15",
@@ -650,34 +231,6 @@
       "video_filename": "series_drifter_1794014570_part15.mp4"
     },
     {
-      "id": "series_1794299342_ep10",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 10,
-      "day_num": 5,
-      "slot": "evening",
-      "scheduled_for": "2026-11-15 19:30",
-      "date_str": "15 Nov (Evening)",
-      "title": "POV: You rally the outcast survivors for a desperate final rebellion",
-      "scene_synopsis": "Dev returns to find Maya leading a faction of rebel soldiers. Maya reveals her past betrayal was a ruse to save Dev from Vikram's instant execution ritual. Together, they rally the rebels to strike back.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: You rally the outcast survivors for a desperate final rebellion 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 11 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272969+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep10.mp4"
-    },
-    {
       "id": "series_drifter_1794014570_part16",
       "series_id": "series_drifter_1794014570",
       "series_title": "The Drifter is Satan",
@@ -700,34 +253,6 @@
       "account": "citykahani",
       "cta_handle": "@citykahani",
       "video_filename": "series_drifter_1794014570_part16.mp4"
-    },
-    {
-      "id": "series_1794299342_ep11",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 11,
-      "day_num": 6,
-      "slot": "morning",
-      "scheduled_for": "2026-11-16 09:00",
-      "date_str": "16 Nov (Morning)",
-      "title": "POV: You breach the main fortress gates as the storm reaches its peak",
-      "scene_synopsis": "Dev leads the charge through the shattered gates of the fortress. Above on the battlements, Vikram looks down with cold amusement, holding the dark relic high as thunder shakes the sky.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: You breach the main fortress gates as the storm reaches its peak 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 12 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.272996+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep11.mp4"
     },
     {
       "id": "series_drifter_1794014570_part17",
@@ -754,34 +279,6 @@
       "video_filename": "series_drifter_1794014570_part17.mp4"
     },
     {
-      "id": "series_1794299342_ep12",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 12,
-      "day_num": 6,
-      "slot": "evening",
-      "scheduled_for": "2026-11-16 19:30",
-      "date_str": "16 Nov (Evening)",
-      "title": "POV: You infiltrate the high tower right before the final ritual finishes",
-      "scene_synopsis": "Maya sneaks into the spire to rescue Meera while the war rages below. Meera begins to regain her memories as the spell wavers, recognizing Maya's seal of protection.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: You infiltrate the high tower right before the final ritual finishes 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 13 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.273022+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep12.mp4"
-    },
-    {
       "id": "series_drifter_1794014570_part18",
       "series_id": "series_drifter_1794014570",
       "series_title": "The Drifter is Satan",
@@ -806,34 +303,6 @@
       "video_filename": "series_drifter_1794014570_part18.mp4"
     },
     {
-      "id": "series_1794299342_ep13",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 13,
-      "day_num": 7,
-      "slot": "morning",
-      "scheduled_for": "2026-11-17 09:00",
-      "date_str": "17 Nov (Morning)",
-      "title": "POV: You engage in the ultimate duel against Bairan amidst collapsing ruins",
-      "scene_synopsis": "Dev confronts Vikram for the final battle. Steel rings out as their memories of childhood brotherhood flash between vicious sword strikes. Dev shatters Vikram's dark blade, exposing the relic at his heart.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: You engage in the ultimate duel against Bairan amidst collapsing ruins 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 14 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.273048+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep13.mp4"
-    },
-    {
       "id": "series_drifter_1794014570_part19",
       "series_id": "series_drifter_1794014570",
       "series_title": "The Drifter is Satan",
@@ -856,34 +325,6 @@
       "account": "citykahani",
       "cta_handle": "@citykahani",
       "video_filename": "series_drifter_1794014570_part19.mp4"
-    },
-    {
-      "id": "series_1794299342_ep14",
-      "series_id": "series_1794299342",
-      "series_title": "Bairan: Echoes of Betrayal",
-      "universe": "Bairan",
-      "account": "gaonkawifi",
-      "cta_handle": "@gaonkawifi",
-      "ep_num": 14,
-      "day_num": 7,
-      "slot": "evening",
-      "scheduled_for": "2026-11-17 19:30",
-      "date_str": "17 Nov (Evening)",
-      "title": "POV: The war ends with a bittersweet victory and a legend carved in song",
-      "scene_synopsis": "Dev survives the blast by shattering the relic, freeing Vikram's soul in his final moments. Dev reunites with Meera on the overlook as the song of Bairan fades from a chant of terror into a ballad of hope.",
-      "language": "en",
-      "song_name": null,
-      "video_kind": "song",
-      "status": "scheduled",
-      "script_data": {},
-      "video_file": null,
-      "caption": "POV: The war ends with a bittersweet victory and a legend carved in song 👁️⚡\nWait for the ending... 💀\n\nFollow @gaonkawifi for Part 15 🔔\n\n#animereels #darkfantasy #reelsindia #trendingreels #viralreels #pov #badass",
-      "first_comment": "Drop a ⚡ if you knew what was coming! What should happen next? 👇 #animeedit #actionreels #hindireels #villainarc #fyp",
-      "first_comment_id": null,
-      "created_at": "2026-11-10T13:59:02.273073+05:30",
-      "posted_at": null,
-      "instagram_media_id": null,
-      "video_filename": "series_1794299342_ep14.mp4"
     },
     {
       "id": "series_drifter_1794014570_part20",
