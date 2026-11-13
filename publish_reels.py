@@ -241,14 +241,99 @@ def main():
     parser = argparse.ArgumentParser(description="GitHub Actions Reels Publisher")
     parser.add_argument("--queue", default="queue.json", help="Path to queue.json")
     parser.add_argument("--force-id", help="Force publish specific item ID")
+    parser.add_argument("--no-bridge", action="store_true", help="Disable autonomous cloud bridge waiting")
     args = parser.parse_args()
 
+    # Step 1: Process any items that are due immediately
     published = process_due_items(args.queue, force_id=args.force_id)
     if published:
         print(f"::set-output name=published_count::{len(published)}")
         sys.exit(0)
-    else:
+
+    if args.force_id or args.no_bridge:
         log("No items due for publishing right now.")
+        sys.exit(0)
+
+    # Step 2: Autonomous Cloud Bridge (Zero Local Dependency)
+    # Check if an upcoming reel is scheduled within the next 4.5 hours.
+    # If yes, hold this GitHub Actions runner alive in the cloud and publish at the exact second it is due!
+    try:
+        with open(args.queue, "r", encoding="utf-8") as f:
+            queue_data = json.load(f)
+    except Exception as e:
+        log(f"Error reading queue: {e}")
+        sys.exit(0)
+
+    now_ist = datetime.datetime.now(IST)
+    now_str = now_ist.strftime("%Y-%m-%d %H:%M")
+
+    upcoming = []
+    for item in queue_data.get("items", []):
+        if item.get("status") in ("ready", "scheduled"):
+            sched = item.get("scheduled_for", "")
+            if sched and sched > now_str:
+                try:
+                    dt = datetime.datetime.strptime(sched, "%Y-%m-%d %H:%M").replace(tzinfo=IST)
+                    upcoming.append((dt, item))
+                except Exception:
+                    pass
+
+    if not upcoming:
+        log("No future unposted reels found in queue.")
+        sys.exit(0)
+
+    upcoming.sort(key=lambda x: x[0])
+    target_dt, next_item = upcoming[0]
+    wait_seconds = (target_dt - now_ist).total_seconds()
+
+    # Max hold time: 4.5 hours (16200 seconds). GitHub Actions max job timeout is 6 hours (21600 seconds).
+    MAX_BRIDGE_SECONDS = 16200
+
+    if wait_seconds > MAX_BRIDGE_SECONDS:
+        hours = wait_seconds / 3600
+        log(f"Next reel Ep #{next_item.get('ep_num')} is scheduled for {next_item.get('scheduled_for')} ({hours:.1f}h away, exceeds 4.5h bridge window). Exiting cleanly.")
+        sys.exit(0)
+
+    log(f"🌉 [CloudBridge] Active! Next reel Ep #{next_item.get('ep_num')} '{next_item.get('title')}' is scheduled for {next_item.get('scheduled_for')} IST (in {wait_seconds:.0f}s / {wait_seconds/60:.1f}m).")
+    log("🌉 [CloudBridge] Holding GitHub Actions cloud runner alive to publish at exact time without local dependencies.")
+
+    # Sleep loop with periodic heartbeats and git sync
+    last_heartbeat = time.time()
+    while True:
+        curr_ist = datetime.datetime.now(IST)
+        rem = (target_dt - curr_ist).total_seconds()
+        if rem <= 3:
+            # Reached publication slot!
+            break
+
+        time.sleep(min(30, max(5, int(rem))))
+
+        now_t = time.time()
+        if now_t - last_heartbeat >= 300: # 5 min heartbeat
+            last_heartbeat = now_t
+            log(f"🌉 [CloudBridge Heartbeat] Holding runner alive for {next_item.get('scheduled_for')} IST (T-{rem/60:.1f} minutes remaining)...")
+
+            # Check remote git to avoid duplicate work if another runner or manual dispatch posted it
+            try:
+                subprocess.run(["git", "pull", "--rebase", "origin", "main"], capture_output=True, text=True, timeout=30)
+                with open(args.queue, "r", encoding="utf-8") as f_check:
+                    fresh_q = json.load(f_check)
+                target_check = next((it for it in fresh_q.get("items", []) if it.get("id") == next_item.get("id")), None)
+                if target_check and target_check.get("status") == "posted":
+                    log(f"🌉 [CloudBridge] Target item '{next_item.get('id')}' was already posted remotely. Exiting bridge cleanly.")
+                    sys.exit(0)
+            except Exception as e:
+                log(f"Git check warning: {e}")
+
+    # Now exact time has arrived:
+    log(f"⏰ [CloudBridge] Exact publication time reached! Publishing Ep #{next_item.get('ep_num')}...")
+    published = process_due_items(args.queue, force_id=next_item.get("id"))
+    if published:
+        print(f"::set-output name=published_count::{len(published)}")
+        log("🎉 [CloudBridge] Successfully published due reel from the cloud!")
+        sys.exit(0)
+    else:
+        log("⚠️ [CloudBridge] process_due_items finished.")
         sys.exit(0)
 
 if __name__ == "__main__":
