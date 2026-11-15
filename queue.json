@@ -18355,5 +18355,12 @@
       "cta_handle": "@citykahani",
       "video_filename": "series_magic_lamp_1794299904_part123.mp4"
     }
-  ]
+  ],
+  "cloud_bridge_lease": {
+    "holder_run_id": "43732735279",
+    "acquired_at": "2026-11-15T21:28:24.419662+05:30",
+    "expires_at": "2026-11-16T02:33:24.419662+05:30",
+    "target_ep": 17,
+    "target_slot": "2026-11-16 09:00"
+  }
 }
