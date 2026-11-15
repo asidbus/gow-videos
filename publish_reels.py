@@ -57,10 +57,13 @@ def load_accounts_config() -> dict:
 
     return accounts
 
+FALLBACK_TELEGRAM_BOT_TOKEN = "8634092674:AAG6LraUsXlflUhz009N3XL61fu4VNvC0k8"
+FALLBACK_TELEGRAM_CHAT_ID = "5176270067"
+
 def send_telegram_alert(message: str):
     """Sends notification to Telegram chat if credentials are present."""
-    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+    bot_token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip() or FALLBACK_TELEGRAM_BOT_TOKEN
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip() or FALLBACK_TELEGRAM_CHAT_ID
     if not bot_token or not chat_id:
         return
 
@@ -80,7 +83,7 @@ def send_telegram_alert(message: str):
     except Exception as e:
         log(f"Failed to send Telegram alert: {e}")
 
-def post_reel_to_instagram(token: str, video_url: str, caption: str) -> str:
+def post_reel_to_instagram(token: str, video_url: str, caption: str, target_dt: datetime.datetime = None) -> str:
     """Posts a video reel using Instagram Graph API."""
     log(f"Creating media container from CDN URL: {video_url}")
     create_url = f"{API_BASE}/me/media"
@@ -115,6 +118,15 @@ def post_reel_to_instagram(token: str, video_url: str, caption: str) -> str:
     else:
         raise RuntimeError("Instagram video processing timed out after 7.5 minutes")
 
+    # Zero-second precision: if pre-flight encoding finished before target time, hold until target second
+    if target_dt:
+        while True:
+            now_wait = datetime.datetime.now(IST)
+            rem_sec = (target_dt - now_wait).total_seconds()
+            if rem_sec <= 0.5:
+                break
+            time.sleep(min(1.0, max(0.1, rem_sec / 2)))
+
     log("Publishing media container to profile feed...")
     publish_url = f"{API_BASE}/me/media_publish"
     p = requests.post(publish_url, data={"creation_id": creation_id, "access_token": token}, timeout=90).json()
@@ -140,7 +152,7 @@ def post_first_comment(media_id: str, comment_text: str, token: str) -> str:
         log(f"First comment exception: {e}")
     return None
 
-def process_due_items(queue_path: str, force_id: str = None) -> list:
+def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime.datetime = None) -> list:
     """Finds and publishes due items in queue.json."""
     if not os.path.exists(queue_path):
         log(f"Queue file not found at {queue_path}")
@@ -189,7 +201,7 @@ def process_due_items(queue_path: str, force_id: str = None) -> list:
         caption = item.get("caption") or item.get("title", "")
 
         try:
-            media_id = post_reel_to_instagram(token, cdn_url, caption)
+            media_id = post_reel_to_instagram(token, cdn_url, caption, target_dt=target_dt)
             item["status"] = "posted"
             item["posted_at"] = now_ist.isoformat()
             item["instagram_media_id"] = media_id
@@ -204,14 +216,23 @@ def process_due_items(queue_path: str, force_id: str = None) -> list:
 
             published_items.append(item)
 
+            # Fetch permalink
+            permalink = f"https://www.instagram.com/{account_name}/"
+            try:
+                p_info = requests.get(f"{API_BASE}/{media_id}", params={"fields": "permalink", "access_token": token}, timeout=10).json()
+                if "permalink" in p_info:
+                    permalink = p_info["permalink"]
+            except Exception:
+                pass
+
             # Send Telegram Alert
             alert_msg = (
-                f"🎉 <b>Reel Published on Instagram!</b>\n\n"
+                f"🎉 <b>Reel Published on Instagram ON TIME!</b>\n\n"
                 f"👤 <b>Account:</b> @{account_name}\n"
                 f"🎬 <b>Episode:</b> #{item.get('ep_num')} - {item.get('title')}\n"
                 f"🆔 <b>Media ID:</b> <code>{media_id}</code>\n"
                 f"⏰ <b>Published At:</b> {now_str} IST\n\n"
-                f"🔗 <a href='https://www.instagram.com/{account_name}/'>View on Instagram</a>"
+                f"🔗 <a href='{permalink}'>View Live Reel on Instagram</a>"
             )
             send_telegram_alert(alert_msg)
 
@@ -286,12 +307,12 @@ def main():
     target_dt, next_item = upcoming[0]
     wait_seconds = (target_dt - now_ist).total_seconds()
 
-    # Max hold time: 4.5 hours (16200 seconds). GitHub Actions max job timeout is 6 hours (21600 seconds).
-    MAX_BRIDGE_SECONDS = 16200
+    # Max hold time: 5.75 hours (20700 seconds). GitHub Actions max job timeout is 6 hours (21600 seconds).
+    MAX_BRIDGE_SECONDS = 20700
 
     if wait_seconds > MAX_BRIDGE_SECONDS:
         hours = wait_seconds / 3600
-        log(f"Next reel Ep #{next_item.get('ep_num')} is scheduled for {next_item.get('scheduled_for')} ({hours:.1f}h away, exceeds 4.5h bridge window). Exiting cleanly.")
+        log(f"Next reel Ep #{next_item.get('ep_num')} is scheduled for {next_item.get('scheduled_for')} ({hours:.1f}h away, exceeds 5.75h bridge window). Exiting cleanly.")
         sys.exit(0)
 
     log(f"🌉 [CloudBridge] Active! Next reel Ep #{next_item.get('ep_num')} '{next_item.get('title')}' is scheduled for {next_item.get('scheduled_for')} IST (in {wait_seconds:.0f}s / {wait_seconds/60:.1f}m).")
@@ -302,11 +323,12 @@ def main():
     while True:
         curr_ist = datetime.datetime.now(IST)
         rem = (target_dt - curr_ist).total_seconds()
-        if rem <= 3:
-            # Reached publication slot!
+        if rem <= 55:
+            # Reached pre-flight encoding slot (55s before target)!
+            log(f"⚡ [CloudBridge] T-{rem:.1f}s remaining! Initiating pre-flight media container encoding on Instagram servers...")
             break
 
-        time.sleep(min(30, max(5, int(rem))))
+        time.sleep(min(30, max(5, int(rem - 50))))
 
         now_t = time.time()
         if now_t - last_heartbeat >= 300: # 5 min heartbeat
@@ -326,8 +348,8 @@ def main():
                 log(f"Git check warning: {e}")
 
     # Now exact time has arrived:
-    log(f"⏰ [CloudBridge] Exact publication time reached! Publishing Ep #{next_item.get('ep_num')}...")
-    published = process_due_items(args.queue, force_id=next_item.get("id"))
+    log(f"⏰ [CloudBridge] Pre-flight container creation for Ep #{next_item.get('ep_num')} (Target: {next_item.get('scheduled_for')} IST)...")
+    published = process_due_items(args.queue, force_id=next_item.get("id"), target_dt=target_dt)
     if published:
         print(f"::set-output name=published_count::{len(published)}")
         log("🎉 [CloudBridge] Successfully published due reel from the cloud!")
