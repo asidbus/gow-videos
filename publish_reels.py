@@ -324,8 +324,8 @@ def git_commit_and_push(filepath: str, commit_message: str, trigger_ci: bool = F
     repo = os.environ.get("GITHUB_REPOSITORY", f"{gh_user}/gow-videos")
 
     try:
-        subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
-        subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
+        subprocess.run(["git", "config", "user.name", gh_user], check=True)
+        subprocess.run(["git", "config", "user.email", f"{gh_user}@users.noreply.github.com"], check=True)
         
         subprocess.run(["git", "pull", "--rebase", "origin", "main"], capture_output=True, text=True, timeout=30)
         subprocess.run(["git", "add", filepath], check=True)
