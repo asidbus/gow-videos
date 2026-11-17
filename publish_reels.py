@@ -135,6 +135,25 @@ def load_youtube_config() -> Dict[str, str]:
 
     return creds
 
+def load_threads_config() -> Dict[str, str]:
+    """Loads Meta Threads credentials from env or config.json."""
+    creds = {
+        "threads_token": os.environ.get("THREADS_TOKEN", "").strip(),
+        "threads_user_id": os.environ.get("THREADS_USER_ID", "me").strip()
+    }
+    if not creds["threads_token"]:
+        cfg_path = "/root/gow/config.json"
+        if os.path.exists(cfg_path):
+            try:
+                with open(cfg_path, "r", encoding="utf-8") as f:
+                    cfg = json.load(f)
+                th_cfg = cfg.get("THREADS", {})
+                creds["threads_token"] = th_cfg.get("threads_token") or cfg.get("THREADS_TOKEN", "")
+                creds["threads_user_id"] = th_cfg.get("threads_user_id") or cfg.get("THREADS_USER_ID", "me")
+            except Exception:
+                pass
+    return creds
+
 def get_youtube_access_token(client_id: str, client_secret: str, refresh_token: str) -> str:
     """Refreshes and returns Google OAuth 2.0 access token for YouTube."""
     global _cached_yt_token
@@ -585,8 +604,38 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
             else:
                 log("ℹ️ YouTube credentials not configured. Skipping YouTube upload.")
 
-            # 3. Telegram Alert
+            # 3. Meta Threads Publish (if configured)
+            th_url = None
+            th_cfg = load_threads_config()
+            acc_th_token = acc_info.get("threads_token") or th_cfg.get("threads_token")
+            acc_th_user = acc_info.get("threads_user_id") or th_cfg.get("threads_user_id") or "me"
+
+            if acc_th_token:
+                try:
+                    log(f"🧵 Publishing Ep #{item.get('ep_num')} to Meta Threads...")
+                    from threads_publisher import post_to_threads
+                    th_res = post_to_threads(
+                        threads_token=acc_th_token,
+                        video_url=cdn_url,
+                        text=caption,
+                        threads_user_id=acc_th_user
+                    )
+                    th_id = th_res.get("id")
+                    th_url = th_res.get("permalink")
+                    item["threads_post_id"] = th_id
+                    item["threads_url"] = th_url
+                    item["threads_status"] = "posted"
+                    log(f"✅ Threads post live: {th_url}")
+                except Exception as th_err:
+                    log(f"⚠️ Threads publish error: {th_err}")
+                    item["threads_status"] = "failed"
+                    item["threads_error"] = str(th_err)
+            else:
+                log("ℹ️ Threads credentials not configured. Skipping Threads post.")
+
+            # 4. Telegram Alert
             yt_line = f"\n▶️ <b>YouTube Short:</b> <a href='{yt_url}'>View on YouTube</a>" if yt_url else ""
+            th_line = f"\n🧵 <b>Threads:</b> <a href='{th_url}'>View on Threads</a>" if th_url else ""
             alert_msg = (
                 f"🎉 <b>Reel Published ON TIME!</b>\n\n"
                 f"👤 <b>Account:</b> @{account_name}\n"
@@ -595,6 +644,7 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
                 f"⏰ <b>Published At:</b> {now_str} IST\n\n"
                 f"📸 <b>Instagram:</b> <a href='{permalink}'>View Reel</a>"
                 f"{yt_line}"
+                f"{th_line}"
             )
             send_telegram_alert(alert_msg)
 
