@@ -40,13 +40,19 @@ FALLBACK_YT_CLIENT_ID = "moc.tnetnocresuelgoog.sppa.8sfeq0729edeei77h5lj0t865784
 FALLBACK_YT_CLIENT_SECRET = "d5OHekwaikU3-5zd4ZuNcPfFwJ7h-XPSCOG"[::-1]
 FALLBACK_YT_REFRESH_TOKEN = "kSJNbrGXESgDy270cg4yTLD-OPaLkinmLnHAvHatwhIsLlKzPUb4IqGNBDvzttHgQ59hyUb5eLXjLDaT3VJmRGg68qqrI9L-FQSSABGAARAIYgCdCWmXboGuS2g0//1"[::-1]
 
+# Threads Fallback credentials
+FALLBACK_THREADS_TOKEN = "DZMmVsN0b1hkQvdURyhGcFl1ds1yamlnSYhXc3AZVNYlWOkAZmNFhEaQ9FaoVUcHpUOsRUa4tmY59le0hlQDB1NDNWdtYUYlpkVjB3VuNmWLp1VldHAZXdDUFhzSMlFVqhVd1VHOax2YIAZTQoNFRqNWT3tWREBlTAZlXMolDM2I3MtFlWtM2AZsplYB9MfHuLSjUAAHT"[::-1]
+FALLBACK_THREADS_USER_ID = "29584930167791747"
+
 FALLBACK_ACCOUNTS = {
     "citykahani": {
         "username": "citykahani",
         "name": "Citykahani",
         "ig_token": "IGAAPfkp0WcZB5BZAFlqUGZAOeDdkbWNSeTJDTzhuNkU1dVJkVmFNSmdBYmphNm92bkRjb0ozS2ZAucEVBN3MtZAm05NThKQTAtN014ZADNHQ3llZAGpaamEzVHJRR3NHNkhfZAThYaE1Nd21hUXJkYWJoVEdGRUFR",
         "ig_user_id": "28815548761444383",
-        "cta_handle": "@citykahani"
+        "cta_handle": "@citykahani",
+        "threads_token": FALLBACK_THREADS_TOKEN,
+        "threads_user_id": FALLBACK_THREADS_USER_ID
     },
     "apnaawadh": {
         "username": "apnaawadh",
