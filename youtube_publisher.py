@@ -81,11 +81,12 @@ def upload_short(
     client_secret: str,
     refresh_token: str,
     tags: Optional[list] = None,
-    privacy_status: str = "public"
+    privacy_status: str = "public",
+    publish_at: Optional[str] = None
 ) -> Dict[str, str]:
     """
     Uploads a vertical video as a YouTube Short via resumable upload.
-    Returns dict with 'id' and 'url'.
+    If publish_at (ISO 8601 string in UTC) is provided, schedules publication at that time.
     """
     access_token = get_access_token(client_id, client_secret, refresh_token)
 
@@ -124,6 +125,15 @@ def upload_short(
         if tags is None:
             tags = ["Shorts", "Anime", "DarkFantasy", "Story", "Trending"]
 
+        status_obj = {
+            "selfDeclaredMadeForKids": False
+        }
+        if publish_at:
+            status_obj["privacyStatus"] = "private"
+            status_obj["publishAt"] = publish_at
+        else:
+            status_obj["privacyStatus"] = privacy_status
+
         metadata = {
             "snippet": {
                 "title": yt_title,
@@ -131,10 +141,7 @@ def upload_short(
                 "tags": tags,
                 "categoryId": "24" # Entertainment
             },
-            "status": {
-                "privacyStatus": privacy_status,
-                "selfDeclaredMadeForKids": False
-            }
+            "status": status_obj
         }
 
         # Step A: Initiate resumable session
