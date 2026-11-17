@@ -581,32 +581,37 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
                 pass
 
             # 2. YouTube Shorts Publish (if configured)
+            # YouTube synchronizes with Instagram starting tomorrow evening (Ep 22 onwards).
+            # Earlier episodes (Parts 1-21) are managed by the YouTube backfill engine.
             yt_url = None
             if yt_cfg.get("client_id") and yt_cfg.get("client_secret") and yt_cfg.get("refresh_token"):
-                try:
-                    log(f"🎬 Uploading Ep #{item.get('ep_num')} to YouTube Shorts...")
-                    vid_source = local_repo_video if os.path.exists(local_repo_video) else cdn_url
-                    yt_res = post_short_to_youtube(
-                        video_path_or_url=vid_source,
-                        title=item.get("title", f"Episode {item.get('ep_num')}"),
-                        description=caption,
-                        client_id=yt_cfg["client_id"],
-                        client_secret=yt_cfg["client_secret"],
-                        refresh_token=yt_cfg["refresh_token"]
-                    )
-                    yt_id = yt_res.get("id")
-                    yt_url = yt_res.get("url")
-                    item["youtube_video_id"] = yt_id
-                    item["youtube_url"] = yt_url
-                    item["youtube_status"] = "posted"
+                if item.get("ep_num", 0) < 22:
+                    log(f"ℹ️ Ep #{item.get('ep_num')} is in the YouTube backfill window (prior to Ep 22 sync). Skipping direct upload.")
+                else:
+                    try:
+                        log(f"🎬 Uploading Ep #{item.get('ep_num')} to YouTube Shorts...")
+                        vid_source = local_repo_video if os.path.exists(local_repo_video) else cdn_url
+                        yt_res = post_short_to_youtube(
+                            video_path_or_url=vid_source,
+                            title=item.get("title", f"Episode {item.get('ep_num')}"),
+                            description=caption,
+                            client_id=yt_cfg["client_id"],
+                            client_secret=yt_cfg["client_secret"],
+                            refresh_token=yt_cfg["refresh_token"]
+                        )
+                        yt_id = yt_res.get("id")
+                        yt_url = yt_res.get("url")
+                        item["youtube_video_id"] = yt_id
+                        item["youtube_url"] = yt_url
+                        item["youtube_status"] = "posted"
 
-                    if first_comment and yt_id:
-                        time.sleep(3)
-                        post_youtube_comment(yt_id, first_comment, yt_cfg["client_id"], yt_cfg["client_secret"], yt_cfg["refresh_token"])
-                except Exception as yt_err:
-                    log(f"⚠️ YouTube upload error: {yt_err}")
-                    item["youtube_status"] = "failed"
-                    item["youtube_error"] = str(yt_err)
+                        if first_comment and yt_id:
+                            time.sleep(3)
+                            post_youtube_comment(yt_id, first_comment, yt_cfg["client_id"], yt_cfg["client_secret"], yt_cfg["refresh_token"])
+                    except Exception as yt_err:
+                        log(f"⚠️ YouTube upload error: {yt_err}")
+                        item["youtube_status"] = "failed"
+                        item["youtube_error"] = str(yt_err)
             else:
                 log("ℹ️ YouTube credentials not configured. Skipping YouTube upload.")
 
