@@ -1,0 +1,121 @@
+{
+  "series_drifter_1794014570_part01": {
+    "ep_num": 1,
+    "status": "scheduled",
+    "youtube_video_id": "qMZcAd8TcEU",
+    "youtube_url": "https://youtube.com/shorts/qMZcAd8TcEU",
+    "publish_at_ist": "2026-11-17 18:30",
+    "publish_at_utc": "2026-11-17T13:00:00.000Z",
+    "uploaded_at": "2026-11-17T18:16:56.503945+05:30"
+  },
+  "series_drifter_1794014570_part02": {
+    "ep_num": 2,
+    "status": "scheduled",
+    "youtube_video_id": "78vKainnuzE",
+    "youtube_url": "https://youtube.com/shorts/78vKainnuzE",
+    "publish_at_ist": "2026-11-17 19:30",
+    "publish_at_utc": "2026-11-17T14:00:00.000Z",
+    "uploaded_at": "2026-11-17T18:17:53.202111+05:30"
+  },
+  "series_drifter_1794014570_part03": {
+    "ep_num": 3,
+    "status": "scheduled",
+    "youtube_video_id": "ftgGwQiSoh0",
+    "youtube_url": "https://youtube.com/shorts/ftgGwQiSoh0",
+    "publish_at_ist": "2026-11-17 20:30",
+    "publish_at_utc": "2026-11-17T15:00:00.000Z",
+    "uploaded_at": "2026-11-17T18:18:45.741327+05:30"
+  },
+  "series_drifter_1794014570_part04": {
+    "ep_num": 4,
+    "status": "scheduled",
+    "youtube_video_id": "YW0G6CByr1I",
+    "youtube_url": "https://youtube.com/shorts/YW0G6CByr1I",
+    "publish_at_ist": "2026-11-17 21:30",
+    "publish_at_utc": "2026-11-17T16:00:00.000Z",
+    "uploaded_at": "2026-11-17T18:26:28.074554+05:30"
+  },
+  "series_drifter_1794014570_part05": {
+    "ep_num": 5,
+    "status": "scheduled",
+    "youtube_video_id": "6KRddsSZBrY",
+    "youtube_url": "https://youtube.com/shorts/6KRddsSZBrY",
+    "publish_at_ist": "2026-11-17 22:30",
+    "publish_at_utc": "2026-11-17T17:00:00.000Z",
+    "uploaded_at": "2026-11-17T18:26:56.382685+05:30"
+  },
+  "series_drifter_1794014570_part06": {
+    "ep_num": 6,
+    "status": "scheduled",
+    "youtube_video_id": "vQMfNBjlwmA",
+    "youtube_url": "https://youtube.com/shorts/vQMfNBjlwmA",
+    "publish_at_ist": "2026-11-17 23:30",
+    "publish_at_utc": "2026-11-17T18:00:00.000Z",
+    "uploaded_at": "2026-11-17T18:27:34.736485+05:30"
+  },
+  "series_drifter_1794014570_part07": {
+    "ep_num": 7,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part08": {
+    "ep_num": 8,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part09": {
+    "ep_num": 9,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part10": {
+    "ep_num": 10,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part11": {
+    "ep_num": 11,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part12": {
+    "ep_num": 12,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part13": {
+    "ep_num": 13,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part14": {
+    "ep_num": 14,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part15": {
+    "ep_num": 15,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part16": {
+    "ep_num": 16,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part17": {
+    "ep_num": 17,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part18": {
+    "ep_num": 18,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  },
+  "series_drifter_1794014570_part19": {
+    "ep_num": 19,
+    "status": "failed",
+    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+  }
+}
