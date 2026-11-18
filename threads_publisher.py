@@ -47,9 +47,19 @@ def post_to_threads(
         "access_token": threads_token
     }
 
-    r = requests.post(create_url, data=payload, timeout=60)
-    res = r.json()
-    if "id" not in res:
+    # Step 1: Create media container with retry
+    res = {}
+    for attempt in range(3):
+        try:
+            r = requests.post(create_url, data=payload, timeout=60)
+            res = r.json()
+            if "id" in res:
+                break
+            log(f"Container creation retry ({attempt+1}/3): {res}")
+        except Exception as net_err:
+            log(f"Network glitch on container create ({attempt+1}/3): {net_err}")
+        time.sleep(3)
+    else:
         raise RuntimeError(f"Threads container creation failed: {res}")
 
     container_id = res["id"]
@@ -78,16 +88,25 @@ def post_to_threads(
     else:
         raise TimeoutError(f"Threads container {container_id} timed out waiting for encoding")
 
-    # Step 3: Publish container
+    # Step 3: Publish container with retry
     log(f"Publishing Threads container {container_id}...")
     pub_url = f"{THREADS_API_BASE}/{threads_user_id}/threads_publish"
     pub_payload = {
         "creation_id": container_id,
         "access_token": threads_token
     }
-    pr = requests.post(pub_url, data=pub_payload, timeout=30)
-    pres = pr.json()
-    if "id" not in pres:
+    pres = {}
+    for attempt in range(3):
+        try:
+            pr = requests.post(pub_url, data=pub_payload, timeout=45)
+            pres = pr.json()
+            if "id" in pres:
+                break
+            log(f"Publish retry ({attempt+1}/3): {pres}")
+        except Exception as pub_net_err:
+            log(f"Network glitch on publish ({attempt+1}/3): {pub_net_err}")
+        time.sleep(3)
+    else:
         raise RuntimeError(f"Threads publish failed: {pres}")
 
     threads_post_id = pres["id"]

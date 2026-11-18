@@ -95,7 +95,11 @@ def load_accounts_config() -> dict:
     if accs_json_str:
         try:
             parsed = json.loads(accs_json_str)
-            accounts.update(parsed)
+            for acc, details in parsed.items():
+                if acc in accounts and isinstance(accounts[acc], dict) and isinstance(details, dict):
+                    accounts[acc].update(details)
+                else:
+                    accounts[acc] = details
             log(f"Loaded {len(parsed)} accounts from ACCOUNTS_JSON")
         except Exception as e:
             log(f"Error parsing ACCOUNTS_JSON: {e}")
@@ -142,10 +146,10 @@ def load_youtube_config() -> Dict[str, str]:
     return creds
 
 def load_threads_config() -> Dict[str, str]:
-    """Loads Meta Threads credentials from env or config.json."""
+    """Loads Meta Threads credentials from env, config.json, or fallbacks."""
     creds = {
-        "threads_token": os.environ.get("THREADS_TOKEN", "").strip(),
-        "threads_user_id": os.environ.get("THREADS_USER_ID", "me").strip()
+        "threads_token": os.environ.get("THREADS_TOKEN", "").strip() or FALLBACK_THREADS_TOKEN,
+        "threads_user_id": os.environ.get("THREADS_USER_ID", "me").strip() or FALLBACK_THREADS_USER_ID
     }
     if not creds["threads_token"]:
         cfg_path = "/root/gow/config.json"
