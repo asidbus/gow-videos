@@ -1,121 +1,156 @@
 {
   "series_drifter_1794014570_part01": {
     "ep_num": 1,
-    "status": "scheduled",
+    "status": "posted",
     "youtube_video_id": "qMZcAd8TcEU",
     "youtube_url": "https://youtube.com/shorts/qMZcAd8TcEU",
-    "publish_at_ist": "2026-11-17 18:30",
-    "publish_at_utc": "2026-11-17T13:00:00.000Z",
-    "uploaded_at": "2026-11-17T18:16:56.503945+05:30"
+    "uploaded_at": "2026-11-19T06:21:40.963805"
   },
   "series_drifter_1794014570_part02": {
     "ep_num": 2,
-    "status": "scheduled",
+    "status": "posted",
     "youtube_video_id": "78vKainnuzE",
     "youtube_url": "https://youtube.com/shorts/78vKainnuzE",
-    "publish_at_ist": "2026-11-17 21:00",
-    "publish_at_utc": "2026-11-17T15:30:00.000Z",
-    "uploaded_at": "2026-11-17T18:17:53.202111+05:30"
+    "uploaded_at": "2026-11-19T06:21:40.965718"
   },
   "series_drifter_1794014570_part03": {
     "ep_num": 3,
-    "status": "scheduled",
+    "status": "posted",
     "youtube_video_id": "ftgGwQiSoh0",
     "youtube_url": "https://youtube.com/shorts/ftgGwQiSoh0",
-    "publish_at_ist": "2026-11-17 22:30",
-    "publish_at_utc": "2026-11-17T17:00:00.000Z",
-    "uploaded_at": "2026-11-17T18:18:45.741327+05:30"
+    "uploaded_at": "2026-11-19T06:21:40.965755"
   },
   "series_drifter_1794014570_part04": {
     "ep_num": 4,
-    "status": "scheduled",
+    "status": "posted",
     "youtube_video_id": "YW0G6CByr1I",
     "youtube_url": "https://youtube.com/shorts/YW0G6CByr1I",
-    "publish_at_ist": "2026-11-18 08:00",
-    "publish_at_utc": "2026-11-18T02:30:00.000Z",
-    "uploaded_at": "2026-11-17T18:26:28.074554+05:30"
+    "uploaded_at": "2026-11-19T06:21:40.965763"
   },
   "series_drifter_1794014570_part05": {
     "ep_num": 5,
-    "status": "scheduled",
+    "status": "posted",
     "youtube_video_id": "6KRddsSZBrY",
     "youtube_url": "https://youtube.com/shorts/6KRddsSZBrY",
-    "publish_at_ist": "2026-11-18 09:00",
-    "publish_at_utc": "2026-11-18T03:30:00.000Z",
-    "uploaded_at": "2026-11-17T18:26:56.382685+05:30"
+    "uploaded_at": "2026-11-19T06:21:40.965768"
   },
   "series_drifter_1794014570_part06": {
     "ep_num": 6,
-    "status": "scheduled",
+    "status": "posted",
     "youtube_video_id": "vQMfNBjlwmA",
     "youtube_url": "https://youtube.com/shorts/vQMfNBjlwmA",
-    "publish_at_ist": "2026-11-18 10:30",
-    "publish_at_utc": "2026-11-18T05:00:00.000Z",
-    "uploaded_at": "2026-11-17T18:27:34.736485+05:30"
+    "uploaded_at": "2026-11-19T06:21:40.965773"
   },
   "series_drifter_1794014570_part07": {
     "ep_num": 7,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "_zmdK7jgSfU",
+    "youtube_url": "https://youtube.com/shorts/_zmdK7jgSfU",
+    "uploaded_at": "2026-11-19T06:21:40.965777"
   },
   "series_drifter_1794014570_part08": {
     "ep_num": 8,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "mQlK0vFGUw0",
+    "youtube_url": "https://youtube.com/shorts/mQlK0vFGUw0",
+    "uploaded_at": "2026-11-19T06:21:40.965784"
   },
   "series_drifter_1794014570_part09": {
     "ep_num": 9,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "RMXYNZ1j4wE",
+    "youtube_url": "https://youtube.com/shorts/RMXYNZ1j4wE",
+    "uploaded_at": "2026-11-19T06:21:40.965788"
   },
   "series_drifter_1794014570_part10": {
     "ep_num": 10,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "3up5fuJvLfM",
+    "youtube_url": "https://youtube.com/shorts/3up5fuJvLfM",
+    "uploaded_at": "2026-11-19T06:21:40.965792"
   },
   "series_drifter_1794014570_part11": {
     "ep_num": 11,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "24GhTVqMBgo",
+    "youtube_url": "https://youtube.com/shorts/24GhTVqMBgo",
+    "uploaded_at": "2026-11-19T06:21:40.965808"
   },
   "series_drifter_1794014570_part12": {
     "ep_num": 12,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "gI_yQ8WEck4",
+    "youtube_url": "https://youtube.com/shorts/gI_yQ8WEck4",
+    "uploaded_at": "2026-11-19T06:21:40.965814"
   },
   "series_drifter_1794014570_part13": {
     "ep_num": 13,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "-kfjVwE0MMw",
+    "youtube_url": "https://youtube.com/shorts/-kfjVwE0MMw",
+    "uploaded_at": "2026-11-19T06:21:40.965818"
   },
   "series_drifter_1794014570_part14": {
     "ep_num": 14,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "onDJWbtgti0",
+    "youtube_url": "https://youtube.com/shorts/onDJWbtgti0",
+    "uploaded_at": "2026-11-19T06:21:40.965823"
   },
   "series_drifter_1794014570_part15": {
     "ep_num": 15,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "rRR0ILdpNUc",
+    "youtube_url": "https://youtube.com/shorts/rRR0ILdpNUc",
+    "uploaded_at": "2026-11-19T06:21:40.965826"
   },
   "series_drifter_1794014570_part16": {
     "ep_num": 16,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "-1EYAKsHsmE",
+    "youtube_url": "https://youtube.com/shorts/-1EYAKsHsmE",
+    "uploaded_at": "2026-11-19T06:21:40.965830"
   },
   "series_drifter_1794014570_part17": {
     "ep_num": 17,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "z48DjaLYuHc",
+    "youtube_url": "https://youtube.com/shorts/z48DjaLYuHc",
+    "uploaded_at": "2026-11-19T06:21:40.965834"
   },
   "series_drifter_1794014570_part18": {
     "ep_num": 18,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "ynBtT70lMzI",
+    "youtube_url": "https://youtube.com/shorts/ynBtT70lMzI",
+    "uploaded_at": "2026-11-19T06:21:40.965837"
   },
   "series_drifter_1794014570_part19": {
     "ep_num": 19,
-    "status": "failed",
-    "error": "YouTube upload initialization failed (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
+    "status": "posted",
+    "youtube_video_id": "8iTcHZR0H5I",
+    "youtube_url": "https://youtube.com/shorts/8iTcHZR0H5I",
+    "uploaded_at": "2026-11-19T06:21:40.965841"
+  },
+  "series_drifter_1794014570_part20": {
+    "ep_num": 20,
+    "status": "posted",
+    "youtube_video_id": "ClXJ7FVsV_8",
+    "youtube_url": "https://youtube.com/shorts/ClXJ7FVsV_8",
+    "uploaded_at": "2026-11-19T06:21:40.965845"
+  },
+  "series_drifter_1794014570_part21": {
+    "ep_num": 21,
+    "status": "posted",
+    "youtube_video_id": "nK52yNvQuqU",
+    "youtube_url": "https://youtube.com/shorts/nK52yNvQuqU",
+    "uploaded_at": "2026-11-19T06:21:40.965849"
+  },
+  "series_drifter_1794014570_part22": {
+    "ep_num": 22,
+    "status": "posted",
+    "youtube_video_id": "8WdwciDzzL0",
+    "youtube_url": "https://youtube.com/shorts/8WdwciDzzL0",
+    "uploaded_at": "2026-11-19T06:21:40.965853"
   }
 }

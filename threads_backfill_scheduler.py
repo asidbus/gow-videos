@@ -97,6 +97,24 @@ def load_state() -> dict:
 def save_state(state: dict):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
+    queue_file = os.path.join(SCRIPT_DIR, "queue.json")
+    if os.path.exists(queue_file):
+        try:
+            with open(queue_file, "r", encoding="utf-8") as f:
+                q = json.load(f)
+            updated = False
+            for it in q.get("items", []):
+                iid = it.get("id")
+                if iid in state and state[iid].get("status") == "posted" and not it.get("threads_post_id"):
+                    it["threads_post_id"] = state[iid]["threads_post_id"]
+                    it["threads_url"] = state[iid]["threads_url"]
+                    it["threads_status"] = "posted"
+                    updated = True
+            if updated:
+                with open(queue_file, "w", encoding="utf-8") as f:
+                    json.dump(q, f, indent=2, ensure_ascii=False)
+        except Exception as q_err:
+            log(f"Queue sync warning: {q_err}")
 
 def post_episode_to_threads(item: dict, creds: dict) -> dict:
     from threads_publisher import post_to_threads

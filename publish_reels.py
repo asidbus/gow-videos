@@ -585,12 +585,10 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
                 pass
 
             # 2. YouTube Shorts Publish (if configured)
-            # YouTube synchronizes with Instagram starting tomorrow evening (Ep 22 onwards).
-            # Earlier episodes (Parts 1-21) are managed by the YouTube backfill engine.
             yt_url = None
             if yt_cfg.get("client_id") and yt_cfg.get("client_secret") and yt_cfg.get("refresh_token"):
-                if item.get("ep_num", 0) < 22:
-                    log(f"ℹ️ Ep #{item.get('ep_num')} is in the YouTube backfill window (prior to Ep 22 sync). Skipping direct upload.")
+                if item.get("youtube_status") == "posted":
+                    log(f"ℹ️ Ep #{item.get('ep_num')} already posted to YouTube: {item.get('youtube_url')}. Skipping.")
                 else:
                     try:
                         log(f"🎬 Uploading Ep #{item.get('ep_num')} to YouTube Shorts...")
@@ -691,12 +689,8 @@ def main():
     parser.add_argument("--no-bridge", action="store_true", help="Disable cloud bridge waiting")
     args = parser.parse_args()
 
-    # Autonomous YouTube Shorts Backfill Check
-    try:
-        from backfill_youtube_shorts import main as run_yt_backfill
-        run_yt_backfill()
-    except Exception as e:
-        log(f"YouTube backfill notice: {e}")
+    # Autonomous YouTube Shorts Backfill Check (Complete: Parts 1-22 uploaded & deduplicated)
+    # Disabled automatic unverified backfill trigger to avoid duplicate uploads on ephemeral GitHub runners
 
     published = process_due_items(args.queue, force_id=args.force_id)
     if published:
