@@ -225,23 +225,43 @@ def post_short_to_youtube(
 
     try:
         yt_title = title.strip()
-        if "#shorts" not in yt_title.lower() and len(yt_title) <= 90:
+        for t in ["#Shorts", "#shorts", "#Anime", "#anime"]:
+            yt_title = yt_title.replace(t, "").strip()
+        if len(yt_title) <= 85:
+            yt_title = f"{yt_title} #Shorts #Anime"
+        elif len(yt_title) <= 92:
             yt_title = f"{yt_title} #Shorts"
         yt_title = yt_title[:100]
 
         yt_desc = description.strip()
+        for ig_tag in ["#animereels", "#reelsindia", "#trendingreels", "#viralreels", "#explorepage"]:
+            yt_desc = yt_desc.replace(ig_tag, "").strip()
+
         if "#shorts" not in yt_desc.lower():
-            yt_desc = f"{yt_desc}\n\n#Shorts #Viral"
+            yt_desc = (
+                f"{yt_desc}\n\n"
+                f"🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n"
+                f"🔔 Subscribe to @citykahani for daily episodes!\n\n"
+                f"#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts"
+            )
 
         if tags is None:
-            tags = ["Shorts", "Anime", "DarkFantasy", "Story", "Trending"]
+            tags = [
+                "Shorts", "YouTube Shorts", "The Drifter is Satan", "CityKahani",
+                "Anime", "Anime Edit", "Dark Fantasy", "Solo Leveling", "Manhwa",
+                "Webtoon", "Sung Jin Woo", "Shadow Monarch", "OP MC", "Villain Arc",
+                "Hindi Anime Story", "Anime Shorts", "Overpowered MC", "Anime Recap Hindi",
+                "Trending Shorts", "Viral Shorts", "Hindi Kahaniya", "Dark Anime", "Badass Anime"
+            ]
 
         metadata = {
             "snippet": {
                 "title": yt_title,
                 "description": yt_desc,
                 "tags": tags,
-                "categoryId": "24"
+                "categoryId": "24",
+                "defaultLanguage": "en",
+                "defaultAudioLanguage": "hi"
             },
             "status": {
                 "privacyStatus": "public",
@@ -595,11 +615,12 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
                         vid_source = local_repo_video if os.path.exists(local_repo_video) else cdn_url
                         yt_res = post_short_to_youtube(
                             video_path_or_url=vid_source,
-                            title=item.get("title", f"Episode {item.get('ep_num')}"),
-                            description=caption,
+                            title=item.get("youtube_title") or item.get("title", f"Episode {item.get('ep_num')}"),
+                            description=item.get("youtube_description") or caption,
                             client_id=yt_cfg["client_id"],
                             client_secret=yt_cfg["client_secret"],
-                            refresh_token=yt_cfg["refresh_token"]
+                            refresh_token=yt_cfg["refresh_token"],
+                            tags=item.get("youtube_tags")
                         )
                         yt_id = yt_res.get("id")
                         yt_url = yt_res.get("url")
