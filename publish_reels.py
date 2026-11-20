@@ -164,6 +164,26 @@ def load_threads_config() -> Dict[str, str]:
                 pass
     return creds
 
+def load_facebook_config() -> Dict[str, str]:
+    """Loads Facebook Page ID and Page Access Token from env, config.json, or fallbacks."""
+    page_id = os.environ.get("FB_PAGE_ID") or os.environ.get("FACEBOOK_PAGE_ID") or ""
+    page_token = os.environ.get("FB_PAGE_ACCESS_TOKEN") or os.environ.get("FACEBOOK_PAGE_ACCESS_TOKEN") or ""
+
+    if not page_id or not page_token:
+        for path in ["/root/gow/config.json", "config.json"]:
+            if os.path.exists(path):
+                try:
+                    with open(path, "r", encoding="utf-8") as f:
+                        cfg = json.load(f)
+                    fb_sec = cfg.get("FACEBOOK", {})
+                    if not page_id:
+                        page_id = str(fb_sec.get("page_id") or cfg.get("FB_PAGE_ID", ""))
+                    if not page_token:
+                        page_token = str(fb_sec.get("page_access_token") or cfg.get("FB_PAGE_ACCESS_TOKEN", ""))
+                except Exception:
+                    pass
+    return {"page_id": page_id.strip(), "page_access_token": page_token.strip()}
+
 def get_youtube_access_token(client_id: str, client_secret: str, refresh_token: str) -> str:
     """Refreshes and returns Google OAuth 2.0 access token for YouTube."""
     global _cached_yt_token
@@ -667,9 +687,49 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
             else:
                 log("ℹ️ Threads credentials not configured. Skipping Threads post.")
 
-            # 4. Telegram Alert
+            # 4. Facebook Page Reel Publish (if configured)
+            fb_url = None
+            fb_cfg = load_facebook_config()
+            acc_fb_page_id = acc_info.get("fb_page_id") or fb_cfg.get("page_id")
+            acc_fb_token = acc_info.get("fb_page_access_token") or fb_cfg.get("page_access_token")
+
+            if acc_fb_page_id and acc_fb_token:
+                if item.get("facebook_status") == "posted":
+                    log(f"ℹ️ Ep #{item.get('ep_num')} already posted to Facebook: {item.get('facebook_url')}. Skipping.")
+                    fb_url = item.get("facebook_url")
+                else:
+                    try:
+                        log(f"📘 Publishing Ep #{item.get('ep_num')} to Facebook Page Reels...")
+                        from facebook_publisher import post_reel_to_facebook, post_facebook_comment
+                        vid_source = local_repo_video if os.path.exists(local_repo_video) else cdn_url
+                        fb_res = post_reel_to_facebook(
+                            video_path_or_url=vid_source,
+                            title=item.get("title", f"Part {item.get('ep_num')}"),
+                            description=caption,
+                            page_id=acc_fb_page_id,
+                            page_access_token=acc_fb_token
+                        )
+                        fb_id = fb_res.get("id")
+                        fb_url = fb_res.get("url")
+                        item["facebook_post_id"] = fb_id
+                        item["facebook_url"] = fb_url
+                        item["facebook_status"] = "posted"
+                        log(f"✅ Facebook Reel live: {fb_url}")
+
+                        if first_comment and fb_id:
+                            time.sleep(3)
+                            post_facebook_comment(fb_id, first_comment, acc_fb_token)
+                    except Exception as fb_err:
+                        log(f"⚠️ Facebook upload error: {fb_err}")
+                        item["facebook_status"] = "failed"
+                        item["facebook_error"] = str(fb_err)
+            else:
+                log("ℹ️ Facebook credentials not configured. Skipping Facebook post.")
+
+            # 5. Telegram Alert
             yt_line = f"\n▶️ <b>YouTube Short:</b> <a href='{yt_url}'>View on YouTube</a>" if yt_url else ""
             th_line = f"\n🧵 <b>Threads:</b> <a href='{th_url}'>View on Threads</a>" if th_url else ""
+            fb_line = f"\n📘 <b>Facebook:</b> <a href='{fb_url}'>View Reel</a>" if fb_url else ""
             alert_msg = (
                 f"🎉 <b>Reel Published ON TIME!</b>\n\n"
                 f"👤 <b>Account:</b> @{account_name}\n"
@@ -679,6 +739,7 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
                 f"📸 <b>Instagram:</b> <a href='{permalink}'>View Reel</a>"
                 f"{yt_line}"
                 f"{th_line}"
+                f"{fb_line}"
             )
             send_telegram_alert(alert_msg)
 
