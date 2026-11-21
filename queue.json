@@ -1330,8 +1330,10 @@
       "threads_post_id": "18027402494718254",
       "threads_url": "https://www.threads.com/@citykahani/post/DgAZTO0i0j6",
       "threads_status": "posted",
-      "facebook_status": "failed",
-      "facebook_error": "Facebook Reels Phase 1 (init) failed: {'error': {'message': 'Malformed access token', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AFIxU4SWvkH_cfOZNRygMaF'}}"
+      "facebook_status": "posted",
+      "facebook_error": "Facebook Reels Phase 1 (init) failed: {'error': {'message': 'Malformed access token', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AFIxU4SWvkH_cfOZNRygMaF'}}",
+      "facebook_post_id": "1172060428578213",
+      "facebook_url": "https://www.facebook.com/reel/1172060428578213"
     },
     {
       "id": "series_drifter_1794014570_part29",
