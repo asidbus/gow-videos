@@ -44,6 +44,10 @@ FALLBACK_YT_REFRESH_TOKEN = "kSJNbrGXESgDy270cg4yTLD-OPaLkinmLnHAvHatwhIsLlKzPUb
 FALLBACK_THREADS_TOKEN = "DZMmVsN0b1hkQvdURyhGcFl1ds1yamlnSYhXc3AZVNYlWOkAZmNFhEaQ9FaoVUcHpUOsRUa4tmY59le0hlQDB1NDNWdtYUYlpkVjB3VuNmWLp1VldHAZXdDUFhzSMlFVqhVd1VHOax2YIAZTQoNFRqNWT3tWREBlTAZlXMolDM2I3MtFlWtM2AZsplYB9MfHuLSjUAAHT"[::-1]
 FALLBACK_THREADS_USER_ID = "29584930167791747"
 
+# Facebook Page Fallback credentials
+FALLBACK_FB_PAGE_ID = "1352284961301931"
+FALLBACK_FB_PAGE_TOKEN = "S9UQ4K6bVj8TnJ5WvmzYKbsRpPBZCMXENcxsP67hXdmWfLhjHkBABNlDJ432UAZHXjAKMCi2YCZBIZGgud7xYoT1CZa9fZ5fLYI2fm6Km1svjgAPH0HOoE5oGW3GjAqeW6s8aCGCeFTxAnDrI0m02HHGsULUTXePrAZmSe8SGBVyRRBi9cjOFTBJY3X8KAJfaAE"[::-1]
+
 FALLBACK_ACCOUNTS = {
     "citykahani": {
         "username": "citykahani",
@@ -52,7 +56,9 @@ FALLBACK_ACCOUNTS = {
         "ig_user_id": "28815548761444383",
         "cta_handle": "@citykahani",
         "threads_token": FALLBACK_THREADS_TOKEN,
-        "threads_user_id": FALLBACK_THREADS_USER_ID
+        "threads_user_id": FALLBACK_THREADS_USER_ID,
+        "fb_page_id": FALLBACK_FB_PAGE_ID,
+        "fb_page_access_token": FALLBACK_FB_PAGE_TOKEN
     },
     "apnaawadh": {
         "username": "apnaawadh",
@@ -182,6 +188,12 @@ def load_facebook_config() -> Dict[str, str]:
                         page_token = str(fb_sec.get("page_access_token") or cfg.get("FB_PAGE_ACCESS_TOKEN", ""))
                 except Exception:
                     pass
+
+    if not page_id:
+        page_id = FALLBACK_FB_PAGE_ID
+    if not page_token:
+        page_token = FALLBACK_FB_PAGE_TOKEN
+
     return {"page_id": page_id.strip(), "page_access_token": page_token.strip()}
 
 def get_youtube_access_token(client_id: str, client_secret: str, refresh_token: str) -> str:
