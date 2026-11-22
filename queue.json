@@ -1406,14 +1406,14 @@
       "date_str": "22 Nov (Evening)",
       "title": "Part 30: POV: 99% Thought The Drifter Was Defeated... Big Mistake ⚡👑",
       "video_file": "/root/gow/out/drifter_part30.mp4",
-      "status": "ready",
+      "status": "posted",
       "language": "hi",
       "caption": "Part 30: POV: 99% Thought The Drifter Was Defeated... Big Mistake ⚡👑\n\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\nBookmark & Save this reel before the grand clash concludes! 🔖\n\nFollow @citykahani for Part 31 tomorrow at 09:00 AM 🔔\n\n#animereels #darkfantasy #sololeveling #manhwa #manhwaedit #godmode #superpower #villainarc #opmc #animeedit #animelovers #reelsindia #trendingreels #viralreels #explorepage",
       "created_at": "2026-11-10T10:56:19.772356",
-      "posted_at": null,
-      "instagram_media_id": null,
+      "posted_at": "2026-11-22T19:29:09.053489+05:30",
+      "instagram_media_id": "17980489782156169",
       "first_comment": "Look closely at the blade at 0:08... Did you see why it broke? Pinning the sharpest eye below! 👇🗡️📌",
-      "first_comment_id": null,
+      "first_comment_id": "18099578837558363",
       "account": "citykahani",
       "cta_handle": "@citykahani",
       "video_filename": "series_drifter_1794014570_part30.mp4",
@@ -1443,7 +1443,15 @@
         "Dark Anime",
         "Badass Anime"
       ],
-      "youtube_description": "Part 30: POV: 99% Thought The Drifter Was Defeated... Big Mistake ⚡👑\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 31!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts"
+      "youtube_description": "Part 30: POV: 99% Thought The Drifter Was Defeated... Big Mistake ⚡👑\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 31!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts",
+      "youtube_video_id": "kFCI0NF7R14",
+      "youtube_url": "https://youtube.com/shorts/kFCI0NF7R14",
+      "youtube_status": "posted",
+      "threads_post_id": "18038129210852730",
+      "threads_url": "https://www.threads.com/@citykahani/post/DgC-GGBhq3_",
+      "threads_status": "posted",
+      "facebook_status": "failed",
+      "facebook_error": "Facebook Reels Phase 1 (init) failed: {'error': {'message': 'Malformed access token', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ab8FLGrm6xhzwYsooeIVEur'}}"
     },
     {
       "id": "series_drifter_1794014570_part31",
@@ -21943,12 +21951,5 @@
     "target_ep": 29,
     "target_slot": "2026-11-22 09:00"
   },
-  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30",
-  "cloud_bridge_lease": {
-    "holder_run_id": "45019013749",
-    "acquired_at": "2026-11-22T17:17:36.734151+05:30",
-    "expires_at": "2026-11-22T19:34:59.734151+05:30",
-    "target_ep": 30,
-    "target_slot": "2026-11-22 19:30"
-  }
+  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30"
 }
