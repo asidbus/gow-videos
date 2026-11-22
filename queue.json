@@ -1347,14 +1347,14 @@
       "date_str": "22 Nov (Morning)",
       "title": "Part 29: POV: When An Ancient Lord Decides To Stop Playing Nice 💀⚡",
       "video_file": "/root/gow/out/drifter_part29.mp4",
-      "status": "ready",
+      "status": "posted",
       "language": "hi",
       "caption": "Part 29: POV: When An Ancient Lord Decides To Stop Playing Nice 💀⚡\n\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\nBookmark & Save this reel before the grand clash concludes! 🔖\n\nFollow @citykahani for Part 30 tonight at 07:30 PM 🔔\n\n#animereels #darkfantasy #sololeveling #manhwa #manhwaedit #godmode #superpower #villainarc #opmc #animeedit #animelovers #reelsindia #trendingreels #viralreels #explorepage",
       "created_at": "2026-11-10T10:56:19.771531",
-      "posted_at": null,
-      "instagram_media_id": null,
+      "posted_at": "2026-11-22T08:59:09.836237+05:30",
+      "instagram_media_id": "17989098674892148",
       "first_comment": "Who falls next? The Royal High Priest or the Grand Commander? Drop PRIEST or COMMANDER — Pinning the first correct bet! 👇💀📌",
-      "first_comment_id": null,
+      "first_comment_id": "18158316508478791",
       "account": "citykahani",
       "cta_handle": "@citykahani",
       "video_filename": "series_drifter_1794014570_part29.mp4",
@@ -1384,7 +1384,15 @@
         "Dark Anime",
         "Badass Anime"
       ],
-      "youtube_description": "Part 29: POV: When An Ancient Lord Decides To Stop Playing Nice 💀⚡\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 30!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts"
+      "youtube_description": "Part 29: POV: When An Ancient Lord Decides To Stop Playing Nice 💀⚡\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 30!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts",
+      "youtube_video_id": "jR2EBL3W0jQ",
+      "youtube_url": "https://youtube.com/shorts/jR2EBL3W0jQ",
+      "youtube_status": "posted",
+      "threads_post_id": "17917217445560559",
+      "threads_url": "https://www.threads.com/@citykahani/post/DgB1_kBhDMW",
+      "threads_status": "posted",
+      "facebook_status": "failed",
+      "facebook_error": "Facebook Reels Phase 1 (init) failed: {'error': {'message': 'Malformed access token', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AFpDLCaky0GdBjml3c38C3x'}}"
     },
     {
       "id": "series_drifter_1794014570_part30",
@@ -21935,12 +21943,5 @@
     "target_ep": 29,
     "target_slot": "2026-11-22 09:00"
   },
-  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30",
-  "cloud_bridge_lease": {
-    "holder_run_id": "44962605351",
-    "acquired_at": "2026-11-22T05:06:33.463119+05:30",
-    "expires_at": "2026-11-22T09:04:59.463119+05:30",
-    "target_ep": 29,
-    "target_slot": "2026-11-22 09:00"
-  }
+  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30"
 }
