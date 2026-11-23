@@ -1465,14 +1465,14 @@
       "date_str": "23 Nov (Morning)",
       "title": "Part 31: POV: They Tried To Execute Him, But The Blade Shattered 🗡️⚡",
       "video_file": "/root/gow/out/drifter_part31.mp4",
-      "status": "ready",
+      "status": "posted",
       "language": "hi",
       "caption": "Part 31: POV: They Tried To Execute Him, But The Blade Shattered 🗡️⚡\n\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\nBookmark & Save this reel before the grand clash concludes! 🔖\n\nFollow @citykahani for Part 32 tonight at 07:30 PM 🔔\n\n#animereels #darkfantasy #sololeveling #manhwa #manhwaedit #godmode #superpower #villainarc #opmc #animeedit #animelovers #reelsindia #trendingreels #viralreels #explorepage",
       "created_at": "2026-11-10T10:56:19.772454",
-      "posted_at": null,
-      "instagram_media_id": null,
+      "posted_at": "2026-11-23T08:59:09.146148+05:30",
+      "instagram_media_id": "18147329569680593",
       "first_comment": "Would you kneel before the Drifter or fight to the death? Type KNEEL or FIGHT — Pinning the bravest response! 👇⚔️📌",
-      "first_comment_id": null,
+      "first_comment_id": "17974699095192662",
       "account": "citykahani",
       "cta_handle": "@citykahani",
       "video_filename": "series_drifter_1794014570_part31.mp4",
@@ -1502,7 +1502,15 @@
         "Dark Anime",
         "Badass Anime"
       ],
-      "youtube_description": "Part 31: POV: They Tried To Execute Him, But The Blade Shattered 🗡️⚡\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 32!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts"
+      "youtube_description": "Part 31: POV: They Tried To Execute Him, But The Blade Shattered 🗡️⚡\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 32!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts",
+      "youtube_video_id": "Dwa1UGOX7f4",
+      "youtube_url": "https://youtube.com/shorts/Dwa1UGOX7f4",
+      "youtube_status": "posted",
+      "threads_post_id": "17990813520095660",
+      "threads_url": "https://www.threads.com/@citykahani/post/DgEayoNgp0N",
+      "threads_status": "posted",
+      "facebook_status": "failed",
+      "facebook_error": "Facebook Reels Phase 1 (init) failed: {'error': {'message': 'Malformed access token', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A-gbXGFWYT79h2dcyvzFv51'}}"
     },
     {
       "id": "series_drifter_1794014570_part32",
@@ -21951,12 +21959,5 @@
     "target_ep": 31,
     "target_slot": "2026-11-23 09:00"
   },
-  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30",
-  "cloud_bridge_lease": {
-    "holder_run_id": "45085848825",
-    "acquired_at": "2026-11-23T05:25:57.640555+05:30",
-    "expires_at": "2026-11-23T09:04:59.640555+05:30",
-    "target_ep": 31,
-    "target_slot": "2026-11-23 09:00"
-  }
+  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30"
 }
