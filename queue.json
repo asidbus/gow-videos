@@ -1642,14 +1642,14 @@
       "date_str": "24 Nov (Evening)",
       "title": "Part 34: POV: The Moment His Dark Demon Aura Cracked The Citadel 🌪️🔥",
       "video_file": "/root/gow/out/drifter_part34.mp4",
-      "status": "ready",
+      "status": "posted",
       "language": "hi",
       "caption": "Part 34: POV: The Moment His Dark Demon Aura Cracked The Citadel 🌪️🔥\n\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\nBookmark & Save this reel before the grand clash concludes! 🔖\n\nFollow @citykahani for Part 35 tomorrow at 09:00 AM 🔔\n\n#animereels #darkfantasy #sololeveling #manhwa #manhwaedit #godmode #superpower #villainarc #opmc #animeedit #animelovers #reelsindia #trendingreels #viralreels #explorepage",
       "created_at": "2026-11-10T10:56:19.772666",
-      "posted_at": null,
-      "instagram_media_id": null,
+      "posted_at": "2026-11-24T19:29:09.127363+05:30",
+      "instagram_media_id": "18102918032409003",
       "first_comment": "Spot the lethal mistake the royal general made in the first 10 seconds! 99% missed it. What was it? Pinning the sharpest observer! 👇🔍📌",
-      "first_comment_id": null,
+      "first_comment_id": "18092179709275450",
       "account": "citykahani",
       "cta_handle": "@citykahani",
       "video_filename": "series_drifter_1794014570_part34.mp4",
@@ -1679,7 +1679,14 @@
         "Dark Anime",
         "Badass Anime"
       ],
-      "youtube_description": "Part 34: POV: The Moment His Dark Demon Aura Cracked The Citadel 🌪️🔥\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 35!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts"
+      "youtube_description": "Part 34: POV: The Moment His Dark Demon Aura Cracked The Citadel 🌪️🔥\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 35!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts",
+      "youtube_status": "failed",
+      "youtube_error": "Failed to refresh YouTube access token: {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}",
+      "threads_post_id": "17912543667563863",
+      "threads_url": "https://www.threads.com/@citykahani/post/DgIHrKYIN6U",
+      "threads_status": "posted",
+      "facebook_status": "failed",
+      "facebook_error": "Facebook Reels Phase 1 (init) failed: {'error': {'message': 'Malformed access token', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AWB51aUSoizAxnMKtHajG4R'}}"
     },
     {
       "id": "series_drifter_1794014570_part35",
@@ -21975,12 +21982,5 @@
     "target_ep": 32,
     "target_slot": "2026-11-23 19:30"
   },
-  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30",
-  "cloud_bridge_lease": {
-    "holder_run_id": "45396268099",
-    "acquired_at": "2026-11-24T18:13:48.083117+05:30",
-    "expires_at": "2026-11-24T19:34:59.083117+05:30",
-    "target_ep": 34,
-    "target_slot": "2026-11-24 19:30"
-  }
+  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30"
 }
