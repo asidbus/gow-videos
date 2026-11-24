@@ -548,6 +548,63 @@ def post_reel_to_instagram(token: str, video_url: str, caption: str, target_dt: 
     log(f"Reel successfully published! Media ID: {media_id}")
     return media_id
 
+def publish_story_to_instagram(video_url: str, token: str) -> Optional[Dict[str, str]]:
+    """Posts a video reel as an Instagram Story via Instagram Graph API."""
+    try:
+        log(f"📱 Creating Instagram Story container from: {video_url}")
+        create_url = f"{API_BASE}/me/media"
+        payload = {
+            "media_type": "STORIES",
+            "video_url": video_url,
+            "access_token": token
+        }
+        r = requests.post(create_url, data=payload, timeout=90)
+        res = r.json()
+        if "id" not in res:
+            log(f"⚠️ Instagram Story container creation failed: {res}")
+            return None
+
+        creation_id = res["id"]
+        log(f"Story container created (ID: {creation_id}). Polling for encoding completion...")
+
+        for attempt in range(45):
+            time.sleep(6)
+            status_url = f"{API_BASE}/{creation_id}"
+            s = requests.get(status_url, params={"fields": "status_code,status", "access_token": token}, timeout=45).json()
+            code = s.get("status_code")
+            if code == "FINISHED":
+                log("Instagram Story video processing FINISHED")
+                break
+            if code in ("ERROR", "EXPIRED"):
+                log(f"⚠️ Instagram Story encoding error: {s}")
+                return None
+            if attempt % 3 == 0:
+                log(f"Story still encoding... (attempt {attempt+1}/45, status: {code})")
+        else:
+            log("⚠️ Instagram Story encoding timed out after 4.5 minutes")
+            return None
+
+        log("Publishing media container to Instagram Story...")
+        publish_url = f"{API_BASE}/me/media_publish"
+        p = requests.post(publish_url, data={"creation_id": creation_id, "access_token": token}, timeout=90).json()
+        if "id" not in p:
+            log(f"⚠️ Instagram Story publish failed: {p}")
+            return None
+
+        story_id = p["id"]
+        permalink = None
+        try:
+            st_info = requests.get(f"{API_BASE}/{story_id}", params={"fields": "permalink", "access_token": token}, timeout=15).json()
+            permalink = st_info.get("permalink")
+        except Exception:
+            pass
+
+        log(f"🎉 Instagram Story successfully published! Story ID: {story_id} ({permalink or 'live'})")
+        return {"id": story_id, "permalink": permalink}
+    except Exception as e:
+        log(f"⚠️ Exception publishing Instagram Story: {e}")
+        return None
+
 def post_first_comment(media_id: str, comment_text: str, token: str) -> str:
     """Posts hashtag block as the first comment on the reel."""
     try:
@@ -636,6 +693,20 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
             except Exception:
                 pass
 
+            # 1b. Instagram Story Publish (Auto cross-post Reel as Story)
+            story_url = None
+            try:
+                story_res = publish_story_to_instagram(cdn_url, token)
+                if story_res:
+                    item["instagram_story_id"] = story_res.get("id")
+                    item["instagram_story_url"] = story_res.get("permalink")
+                    item["instagram_story_status"] = "posted"
+                    story_url = story_res.get("permalink")
+            except Exception as st_err:
+                log(f"⚠️ Instagram Story post error: {st_err}")
+                item["instagram_story_status"] = "failed"
+                item["instagram_story_error"] = str(st_err)
+
             # 2. YouTube Shorts Publish (if configured)
             yt_url = None
             if yt_cfg.get("client_id") and yt_cfg.get("client_secret") and yt_cfg.get("refresh_token"):
@@ -714,6 +785,7 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
                 log("ℹ️ Facebook credentials not configured. Skipping Facebook post.")
 
             # 5. Telegram Alert
+            st_line = f"\n📱 <b>Instagram Story:</b> <a href='{story_url}'>View Story</a>" if story_url else ""
             yt_line = f"\n▶️ <b>YouTube Short:</b> <a href='{yt_url}'>View on YouTube</a>" if yt_url else ""
             th_line = f"\n🧵 <b>Threads:</b> <a href='{th_url}'>View on Threads</a>" if th_url else ""
             fb_line = f"\n📘 <b>Facebook:</b> <a href='{fb_url}'>View Reel</a>" if fb_url else ""
@@ -723,7 +795,8 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
                 f"🎬 <b>Episode:</b> #{item.get('ep_num')} - {item.get('title')}\n"
                 f"🆔 <b>IG Media ID:</b> <code>{media_id}</code>\n"
                 f"⏰ <b>Published At:</b> {now_str} IST\n\n"
-                f"📸 <b>Instagram:</b> <a href='{permalink}'>View Reel</a>"
+                f"📸 <b>Instagram Reel:</b> <a href='{permalink}'>View Reel</a>"
+                f"{st_line}"
                 f"{yt_line}"
                 f"{th_line}"
                 f"{fb_line}"
