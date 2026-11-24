@@ -670,34 +670,9 @@ def process_due_items(queue_path: str, force_id: str = None, target_dt: datetime
             else:
                 log("ℹ️ YouTube credentials not configured. Skipping YouTube upload.")
 
-            # 3. Meta Threads Publish (if configured)
+            # 3. Meta Threads Publish (Disabled as per user schedule removal)
             th_url = None
-            th_cfg = load_threads_config()
-            acc_th_token = acc_info.get("threads_token") or th_cfg.get("threads_token")
-            acc_th_user = acc_info.get("threads_user_id") or th_cfg.get("threads_user_id") or "me"
-
-            if acc_th_token:
-                try:
-                    log(f"🧵 Publishing Ep #{item.get('ep_num')} to Meta Threads...")
-                    from threads_publisher import post_to_threads
-                    th_res = post_to_threads(
-                        threads_token=acc_th_token,
-                        video_url=cdn_url,
-                        text=caption,
-                        threads_user_id=acc_th_user
-                    )
-                    th_id = th_res.get("id")
-                    th_url = th_res.get("permalink")
-                    item["threads_post_id"] = th_id
-                    item["threads_url"] = th_url
-                    item["threads_status"] = "posted"
-                    log(f"✅ Threads post live: {th_url}")
-                except Exception as th_err:
-                    log(f"⚠️ Threads publish error: {th_err}")
-                    item["threads_status"] = "failed"
-                    item["threads_error"] = str(th_err)
-            else:
-                log("ℹ️ Threads credentials not configured. Skipping Threads post.")
+            log("ℹ️ Threads publishing is disabled. Skipping Threads post.")
 
             # 4. Facebook Page Reel Publish (if configured)
             fb_url = None
