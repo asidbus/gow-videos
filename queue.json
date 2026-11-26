@@ -1816,14 +1816,14 @@
       "date_str": "26 Nov (Morning)",
       "title": "Part 37: POV: When The King Realizes The Beggar Is An Ancient God 🏛️💀",
       "video_file": "/root/gow/out/drifter_part37.mp4",
-      "status": "ready",
+      "status": "posted",
       "language": "hi",
       "caption": "Part 37: POV: When The King Realizes The Beggar Is An Ancient God 🏛️💀\n\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\nBookmark & Save this reel before the grand clash concludes! 🔖\n\nFollow @citykahani for Part 38 tonight at 07:30 PM 🔔\n\n#animereels #darkfantasy #sololeveling #manhwa #manhwaedit #godmode #superpower #villainarc #opmc #animeedit #animelovers #reelsindia #trendingreels #viralreels #explorepage",
       "created_at": "2026-11-10T10:56:19.772821",
-      "posted_at": null,
-      "instagram_media_id": null,
+      "posted_at": "2026-11-26T08:59:09.305497+05:30",
+      "instagram_media_id": "17918212335558320",
       "first_comment": "Who falls next? The Royal High Priest or the Grand Commander? Drop PRIEST or COMMANDER — Pinning the first correct bet! 👇💀📌",
-      "first_comment_id": null,
+      "first_comment_id": "18030657863872521",
       "account": "citykahani",
       "cta_handle": "@citykahani",
       "video_filename": "series_drifter_1794014570_part37.mp4",
@@ -1853,7 +1853,14 @@
         "Dark Anime",
         "Badass Anime"
       ],
-      "youtube_description": "Part 37: POV: When The King Realizes The Beggar Is An Ancient God 🏛️💀\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 38!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts"
+      "youtube_description": "Part 37: POV: When The King Realizes The Beggar Is An Ancient God 🏛️💀\nMortals cannot comprehend what has awakened. Watch their arrogant smirks turn to pure dread.\n\n🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n🔔 Subscribe to @citykahani for Part 38!\n\n#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts",
+      "instagram_story_id": "18016234616763286",
+      "instagram_story_url": "https://www.instagram.com/stories/citykahani/4038643436629575319",
+      "instagram_story_status": "posted",
+      "youtube_status": "failed",
+      "youtube_error": "Failed to refresh YouTube access token: {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}",
+      "facebook_status": "failed",
+      "facebook_error": "Facebook Reels Phase 1 (init) failed: {'error': {'message': 'Malformed access token', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ag46MoH6g3unxFgLXgYxEFK'}}"
     },
     {
       "id": "series_drifter_1794014570_part38",
@@ -21996,12 +22003,5 @@
     "target_ep": 36,
     "target_slot": "2026-11-25 19:30"
   },
-  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30",
-  "cloud_bridge_lease": {
-    "holder_run_id": "45723867214",
-    "acquired_at": "2026-11-26T05:16:41.638701+05:30",
-    "expires_at": "2026-11-26T09:04:59.638701+05:30",
-    "target_ep": 37,
-    "target_slot": "2026-11-26 09:00"
-  }
+  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30"
 }
