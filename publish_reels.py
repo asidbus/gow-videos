@@ -257,12 +257,9 @@ def post_short_to_youtube(
 
     try:
         yt_title = title.strip()
-        for t in ["#Shorts", "#shorts", "#Anime", "#anime"]:
-            yt_title = yt_title.replace(t, "").strip()
-        if len(yt_title) <= 85:
-            yt_title = f"{yt_title} #Shorts #Anime"
-        elif len(yt_title) <= 92:
-            yt_title = f"{yt_title} #Shorts"
+        if "#shorts" not in yt_title.lower():
+            if len(yt_title) <= 92:
+                yt_title = f"{yt_title} #Shorts"
         yt_title = yt_title[:100]
 
         yt_desc = description.strip()
@@ -272,18 +269,15 @@ def post_short_to_youtube(
         if "#shorts" not in yt_desc.lower():
             yt_desc = (
                 f"{yt_desc}\n\n"
-                f"🔥 Series: The Drifter is Satan (Dark Fantasy Anime Story)\n"
                 f"🔔 Subscribe to @citykahani for daily episodes!\n\n"
-                f"#Shorts #Anime #SoloLeveling #Manhwa #DarkFantasy #AnimeEdit #Webtoon #ShadowMonarch #AnimeStories #ViralShorts"
+                f"#Shorts #ShortDrama #PlotTwist #StoryTime #ThrillerShorts #MiniSeries"
             )
 
         if tags is None:
             tags = [
-                "Shorts", "YouTube Shorts", "The Drifter is Satan", "CityKahani",
-                "Anime", "Anime Edit", "Dark Fantasy", "Solo Leveling", "Manhwa",
-                "Webtoon", "Sung Jin Woo", "Shadow Monarch", "OP MC", "Villain Arc",
-                "Hindi Anime Story", "Anime Shorts", "Overpowered MC", "Anime Recap Hindi",
-                "Trending Shorts", "Viral Shorts", "Hindi Kahaniya", "Dark Anime", "Badass Anime"
+                "Shorts", "YouTube Shorts", "CityKahani", "Short Drama",
+                "Hidden Identity", "Plot Twist", "Thriller Shorts", "Mini Series",
+                "Crime Drama", "Family Secrets", "Billionaire Drama", "Story Time"
             ]
 
         metadata = {
@@ -293,7 +287,7 @@ def post_short_to_youtube(
                 "tags": tags,
                 "categoryId": "24",
                 "defaultLanguage": "en",
-                "defaultAudioLanguage": "hi"
+                "defaultAudioLanguage": "en"
             },
             "status": {
                 "privacyStatus": "public",
