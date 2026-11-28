@@ -1968,14 +1968,14 @@
       "date_str": "28 Nov (Evening)",
       "title": "Part 40: The Hunt Ends 👑",
       "video_file": "/root/gow/out/drifter_part40.mp4",
-      "status": "ready",
+      "status": "posted",
       "language": "hi",
       "caption": "Part 40: The Hunt Ends 👑\n\nAfter years in hiding, the fugitive crown prince has finally been located. Will they turn him in?\n\nFollow @citykahani for Part 41 tomorrow at 07:30 PM 🔔\n\n#mysterydrama #twistending #shortfilm #dramaclips #storytelling",
       "created_at": "2026-11-10T10:56:19.772958",
-      "posted_at": null,
-      "instagram_media_id": null,
+      "posted_at": "2026-11-28T19:29:09.488241+05:30",
+      "instagram_media_id": "18123959821743699",
       "first_comment": "Should they turn the prince in or let him go?",
-      "first_comment_id": null,
+      "first_comment_id": "18108853913347485",
       "account": "citykahani",
       "cta_handle": "@citykahani",
       "video_filename": "series_drifter_1794014570_part40.mp4",
@@ -1994,7 +1994,14 @@
         "Mini Series",
         "Story Time"
       ],
-      "youtube_description": "Part 40: The Hunt Ends 👑\nAfter years in hiding, the fugitive crown prince has finally been located. Will they turn him in?\n\n🔔 Subscribe to @citykahani for Part 41!\n\n#Shorts #ShortDrama #PlotTwist #CrimeDrama #HiddenIdentity #ThrillerShorts #MiniSeries"
+      "youtube_description": "Part 40: The Hunt Ends 👑\nAfter years in hiding, the fugitive crown prince has finally been located. Will they turn him in?\n\n🔔 Subscribe to @citykahani for Part 41!\n\n#Shorts #ShortDrama #PlotTwist #CrimeDrama #HiddenIdentity #ThrillerShorts #MiniSeries",
+      "instagram_story_id": "18109690037262852",
+      "instagram_story_url": "https://www.instagram.com/stories/citykahani/4040409890717662569",
+      "instagram_story_status": "posted",
+      "youtube_status": "failed",
+      "youtube_error": "Failed to refresh YouTube access token: {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'}",
+      "facebook_status": "failed",
+      "facebook_error": "Facebook Reels Phase 1 (init) failed: {'error': {'message': 'Malformed access token', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Aq4TNDW_6t5vp3ySBHLf10j'}}"
     },
     {
       "id": "series_drifter_1794014570_part41",
@@ -20983,12 +20990,5 @@
     "target_ep": 40,
     "target_slot": "2026-11-28 19:30"
   },
-  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30",
-  "cloud_bridge_lease": {
-    "holder_run_id": "46130421816",
-    "acquired_at": "2026-11-28T14:56:10.819843+05:30",
-    "expires_at": "2026-11-28T19:34:59.819843+05:30",
-    "target_ep": 40,
-    "target_slot": "2026-11-28 19:30"
-  }
+  "cloud_relay_ping": "2026-11-16T18:58:00.300805+05:30"
 }
